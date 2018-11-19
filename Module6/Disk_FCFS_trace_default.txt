@@ -1,0 +1,215 @@
+Psim3 project: Disk FCFS Sched (Normal)
+Simulation date: Thu Nov  9 12:21:05 2017
+
+Selecting cyl: 109 creating request
+Request1 seeking cyl 109 at 306.638
+Request1 Cylinders to move: 9
+Request1 starts at 306.638 duration: 143.733
+Request1 terminates at 450.371
+Selecting cyl: 130 creating request
+Request2 seeking cyl 130 at 468.242
+Request2 Cylinders to move: 21
+Request2 starts at 468.242 duration: 330.933
+Request2 terminates at 799.176
+Selecting cyl: 156 creating request
+Request3 seeking cyl 156 at 1549.74
+Request3 Cylinders to move: 26
+Request3 starts at 1549.74 duration: 408.933
+Selecting cyl: 126 creating request
+Request4 seeking cyl 126 at 1732.27
+Selecting cyl: 128 creating request
+Request5 seeking cyl 128 at 1787.54
+Request4 Cylinders to move: 30
+Request4 starts at 1958.67 duration: 471.333
+Request3 terminates at 1958.67
+Selecting cyl: 121 creating request
+Request6 seeking cyl 121 at 2243.29
+Request5 Cylinders to move: 2
+Request5 starts at 2430.01 duration: 34.5333
+Request4 terminates at 2430.01
+Request6 Cylinders to move: 7
+Request6 starts at 2464.54 duration: 112.533
+Request5 terminates at 2464.54
+Request6 terminates at 2577.07
+Selecting cyl: 128 creating request
+Request7 seeking cyl 128 at 2670.59
+Request7 Cylinders to move: 7
+Request7 starts at 2670.59 duration: 112.533
+Selecting cyl: 137 creating request
+Request8 seeking cyl 137 at 2671.49
+Request8 Cylinders to move: 9
+Request8 starts at 2783.12 duration: 143.733
+Request7 terminates at 2783.12
+Request8 terminates at 2926.85
+Selecting cyl: 145 creating request
+Request9 seeking cyl 145 at 5734.18
+Request9 Cylinders to move: 8
+Request9 starts at 5734.18 duration: 128.133
+Selecting cyl: 164 creating request
+Request10 seeking cyl 164 at 5822.23
+Request10 Cylinders to move: 19
+Request10 starts at 5862.31 duration: 299.733
+Request9 terminates at 5862.31
+Request10 terminates at 6162.04
+Selecting cyl: 189 creating request
+Request11 seeking cyl 189 at 6571.17
+Request11 Cylinders to move: 25
+Request11 starts at 6571.17 duration: 393.333
+Selecting cyl: 193 creating request
+Request12 seeking cyl 193 at 6899.42
+Request12 Cylinders to move: 4
+Request12 starts at 6964.5 duration: 65.7333
+Request11 terminates at 6964.5
+Request12 terminates at 7030.23
+Selecting cyl: 151 creating request
+Request13 seeking cyl 151 at 7414.99
+Request13 Cylinders to move: 42
+Request13 starts at 7414.99 duration: 658.533
+Selecting cyl: 205 creating request
+Request14 seeking cyl 205 at 7421.01
+Selecting cyl: 133 creating request
+Request15 seeking cyl 133 at 7507.54
+Request14 Cylinders to move: 54
+Request14 starts at 8073.53 duration: 845.733
+Request13 terminates at 8073.53
+Selecting cyl: 109 creating request
+Request16 seeking cyl 109 at 8335.84
+Request15 Cylinders to move: 72
+Request15 starts at 8919.26 duration: 1126.53
+Request14 terminates at 8919.26
+Selecting cyl: 117 creating request
+Request17 seeking cyl 117 at 9704.55
+Request16 Cylinders to move: 24
+Request16 starts at 10045.8 duration: 377.733
+Request15 terminates at 10045.8
+Request17 Cylinders to move: 8
+Request17 starts at 10423.5 duration: 128.133
+Request16 terminates at 10423.5
+Request17 terminates at 10551.7
+Selecting cyl: 183 creating request
+Request18 seeking cyl 183 at 10738.2
+Request18 Cylinders to move: 66
+Request18 starts at 10738.2 duration: 1032.93
+Selecting cyl: 207 creating request
+Request19 seeking cyl 207 at 10786.6
+Request19 Cylinders to move: 24
+Request19 starts at 11771.1 duration: 377.733
+Request18 terminates at 11771.1
+Selecting cyl: 92 creating request
+Request20 seeking cyl 92 at 12035.8
+Request20 Cylinders to move: 115
+Request20 starts at 12148.8 duration: 1797.33
+Request19 terminates at 12148.8
+Selecting cyl: 164 creating request
+Request21 seeking cyl 164 at 13854.9
+Request21 Cylinders to move: 72
+Request21 starts at 13946.2 duration: 1126.53
+Request20 terminates at 13946.2
+Selecting cyl: 127 creating request
+Request22 seeking cyl 127 at 14400.1
+Selecting cyl: 110 creating request
+Request23 seeking cyl 110 at 14480.9
+Selecting cyl: 85 creating request
+Request24 seeking cyl 85 at 14561.1
+Selecting cyl: 95 creating request
+Request25 seeking cyl 95 at 14713.5
+Selecting cyl: 185 creating request
+Request26 seeking cyl 185 at 14759.8
+Selecting cyl: 87 creating request
+Request27 seeking cyl 87 at 14771.4
+Request22 Cylinders to move: 37
+Request22 starts at 15072.7 duration: 580.533
+Request21 terminates at 15072.7
+Selecting cyl: 76 creating request
+Request28 seeking cyl 76 at 15324.7
+Selecting cyl: 109 creating request
+Request29 seeking cyl 109 at 15365.3
+Selecting cyl: 117 creating request
+Request30 seeking cyl 117 at 15501.5
+Request23 Cylinders to move: 17
+Request23 starts at 15653.2 duration: 268.533
+Request22 terminates at 15653.2
+Selecting cyl: 142 creating request
+Request31 seeking cyl 142 at 15748.7
+Request24 Cylinders to move: 25
+Request24 starts at 15921.8 duration: 393.333
+Request23 terminates at 15921.8
+Selecting cyl: 190 creating request
+Request32 seeking cyl 190 at 15960.1
+Selecting cyl: 190 creating request
+Request33 seeking cyl 190 at 16152.8
+Request25 Cylinders to move: 10
+Request25 starts at 16315.1 duration: 159.333
+Request24 terminates at 16315.1
+Selecting cyl: 204 creating request
+Request34 seeking cyl 204 at 16422
+Request26 Cylinders to move: 90
+Request26 starts at 16474.4 duration: 1407.33
+Request25 terminates at 16474.4
+Selecting cyl: 121 creating request
+Request35 seeking cyl 121 at 16932.2
+Selecting cyl: 157 creating request
+Request36 seeking cyl 157 at 17418.6
+Selecting cyl: 211 creating request
+Request37 seeking cyl 211 at 17518
+Selecting cyl: 188 creating request
+Request38 seeking cyl 188 at 17720.7
+Request27 Cylinders to move: 98
+Request27 starts at 17881.8 duration: 1532.13
+Request26 terminates at 17881.8
+Selecting cyl: 183 creating request
+Request39 seeking cyl 183 at 18789.2
+Selecting cyl: 148 creating request
+Request40 seeking cyl 148 at 18886.4
+Request28 Cylinders to move: 11
+Request28 starts at 19413.9 duration: 174.933
+Request27 terminates at 19413.9
+Request29 Cylinders to move: 33
+Request29 starts at 19588.8 duration: 518.133
+Request28 terminates at 19588.8
+Selecting cyl: 118 creating request
+Request41 seeking cyl 118 at 19641
+Request30 Cylinders to move: 8
+Request30 starts at 20107 duration: 128.133
+Request29 terminates at 20107
+Request31 Cylinders to move: 25
+Request31 starts at 20235.1 duration: 393.333
+Request30 terminates at 20235.1
+Selecting cyl: 168 creating request
+Request42 seeking cyl 168 at 20461.8
+Request32 Cylinders to move: 48
+Request32 starts at 20628.4 duration: 752.133
+Request31 terminates at 20628.4
+Request33 Cylinders to move: 0
+Request33 starts at 21380.6 duration: 3.33333
+Request32 terminates at 21380.6
+Request34 Cylinders to move: 14
+Request34 starts at 21383.9 duration: 221.733
+Request33 terminates at 21383.9
+Request35 Cylinders to move: 83
+Request35 starts at 21605.6 duration: 1298.13
+Request34 terminates at 21605.6
+Request36 Cylinders to move: 36
+Request36 starts at 22903.8 duration: 564.933
+Request35 terminates at 22903.8
+Request37 Cylinders to move: 54
+Request37 starts at 23468.7 duration: 845.733
+Request36 terminates at 23468.7
+Request38 Cylinders to move: 23
+Request38 starts at 24314.4 duration: 362.133
+Request37 terminates at 24314.4
+Request39 Cylinders to move: 5
+Request39 starts at 24676.6 duration: 81.3333
+Request38 terminates at 24676.6
+Request40 Cylinders to move: 35
+Request40 starts at 24757.9 duration: 549.333
+Request39 terminates at 24757.9
+Request41 Cylinders to move: 30
+Request41 starts at 25307.2 duration: 471.333
+Request40 terminates at 25307.2
+Request42 Cylinders to move: 50
+Request42 starts at 25778.6 duration: 783.333
+Request41 terminates at 25778.6
+Request42 terminates at 26561.9
+ ------------------------------------------------------------------
+End of simulation Disk FCFS Normal

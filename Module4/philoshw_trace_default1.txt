@@ -1,0 +1,238 @@
+Psim3 project: Concurrent Philosophers - Hold & Wait
+Simulation date: Tue Oct 10 11:16:50 2017
+
+Philosopher44 requesting left fork at: 8.17393
+Philosopher44 acquired left fork at 8.17393
+Philosopher44 requesting right fork at: 8.17393
+Philosopher44 acquired right fork at 8.17393
+Philosopher44 starts eating at 8.17393
+Philosopher00 does NOT find both forks available at: 15.3454
+Philosopher44 released forks at: 21.8886
+Philosopher00 requesting left fork at: 21.8886
+Philosopher00 acquired left fork at 21.8886
+Philosopher00 requesting right fork at: 21.8886
+Philosopher00 acquired right fork at 21.8886
+Philosopher00 starts eating at 21.8886
+Philosopher33 requesting left fork at: 22.4372
+Philosopher33 acquired left fork at 22.4372
+Philosopher33 requesting right fork at: 22.4372
+Philosopher33 acquired right fork at 22.4372
+Philosopher33 starts eating at 22.4372
+Philosopher11 does NOT find both forks available at: 25.2778
+Philosopher44 does NOT find both forks available at: 29.1516
+Philosopher00 released forks at: 29.3128
+Philosopher11 requesting left fork at: 29.3128
+Philosopher11 acquired left fork at 29.3128
+Philosopher11 requesting right fork at: 29.3128
+Philosopher11 acquired right fork at 29.3128
+Philosopher44 does NOT find both forks available at: 29.3128
+Philosopher11 starts eating at 29.3128
+Philosopher33 released forks at: 29.544
+Philosopher44 requesting left fork at: 29.544
+Philosopher44 acquired left fork at 29.544
+Philosopher44 requesting right fork at: 29.544
+Philosopher44 acquired right fork at 29.544
+Philosopher44 starts eating at 29.544
+Philosopher00 does NOT find both forks available at: 42.6234
+Philosopher44 released forks at: 44.058
+Philosopher00 does NOT find both forks available at: 44.058
+Philosopher22 does NOT find both forks available at: 45.1424
+Philosopher33 requesting left fork at: 51.1623
+Philosopher33 acquired left fork at 51.1623
+Philosopher33 requesting right fork at: 51.1623
+Philosopher33 acquired right fork at 51.1623
+Philosopher33 starts eating at 51.1623
+Philosopher44 does NOT find both forks available at: 51.532
+Philosopher11 released forks at: 52.4005
+Philosopher00 requesting left fork at: 52.4005
+Philosopher00 acquired left fork at 52.4005
+Philosopher00 requesting right fork at: 52.4005
+Philosopher00 acquired right fork at 52.4005
+Philosopher22 does NOT find both forks available at: 52.4005
+Philosopher44 does NOT find both forks available at: 52.4005
+Philosopher00 starts eating at 52.4005
+Philosopher33 released forks at: 57.0516
+Philosopher22 requesting left fork at: 57.0516
+Philosopher22 acquired left fork at 57.0516
+Philosopher22 requesting right fork at: 57.0516
+Philosopher22 acquired right fork at 57.0516
+Philosopher44 does NOT find both forks available at: 57.0516
+Philosopher22 starts eating at 57.0516
+Philosopher00 released forks at: 61.5194
+Philosopher44 requesting left fork at: 61.5194
+Philosopher44 acquired left fork at 61.5194
+Philosopher44 requesting right fork at: 61.5194
+Philosopher44 acquired right fork at 61.5194
+Philosopher44 starts eating at 61.5194
+Philosopher44 released forks at: 71.5645
+Philosopher11 does NOT find both forks available at: 75.1089
+Philosopher33 does NOT find both forks available at: 75.1755
+Philosopher00 requesting left fork at: 77.1132
+Philosopher00 acquired left fork at 77.1132
+Philosopher00 requesting right fork at: 77.1132
+Philosopher00 acquired right fork at 77.1132
+Philosopher00 starts eating at 77.1132
+Philosopher44 does NOT find both forks available at: 79.5649
+Philosopher22 released forks at: 83.0821
+Philosopher11 does NOT find both forks available at: 83.0821
+Philosopher33 requesting left fork at: 83.0821
+Philosopher33 acquired left fork at 83.0821
+Philosopher33 requesting right fork at: 83.0821
+Philosopher33 acquired right fork at 83.0821
+Philosopher44 does NOT find both forks available at: 83.0821
+Philosopher33 starts eating at 83.0821
+Philosopher00 released forks at: 84.6543
+Philosopher11 requesting left fork at: 84.6543
+Philosopher11 acquired left fork at 84.6543
+Philosopher11 requesting right fork at: 84.6543
+Philosopher11 acquired right fork at 84.6543
+Philosopher44 does NOT find both forks available at: 84.6543
+Philosopher11 starts eating at 84.6543
+Philosopher33 released forks at: 89.547
+Philosopher44 requesting left fork at: 89.547
+Philosopher44 acquired left fork at 89.547
+Philosopher44 requesting right fork at: 89.547
+Philosopher44 acquired right fork at 89.547
+Philosopher44 starts eating at 89.547
+Philosopher00 does NOT find both forks available at: 100.585
+Philosopher11 released forks at: 103.37
+Philosopher00 does NOT find both forks available at: 103.37
+Philosopher44 released forks at: 103.532
+Philosopher00 requesting left fork at: 103.532
+Philosopher00 acquired left fork at 103.532
+Philosopher00 requesting right fork at: 103.532
+Philosopher00 acquired right fork at 103.532
+Philosopher00 starts eating at 103.532
+Philosopher33 requesting left fork at: 109.646
+Philosopher33 acquired left fork at 109.646
+Philosopher33 requesting right fork at: 109.646
+Philosopher33 acquired right fork at 109.646
+Philosopher33 starts eating at 109.646
+Philosopher44 does NOT find both forks available at: 111.765
+Philosopher33 released forks at: 115.465
+Philosopher44 does NOT find both forks available at: 115.465
+Philosopher00 released forks at: 116.891
+Philosopher44 requesting left fork at: 116.891
+Philosopher44 acquired left fork at 116.891
+Philosopher44 requesting right fork at: 116.891
+Philosopher44 acquired right fork at 116.891
+Philosopher44 starts eating at 116.891
+Philosopher11 requesting left fork at: 128.936
+Philosopher11 acquired left fork at 128.936
+Philosopher11 requesting right fork at: 128.936
+Philosopher11 acquired right fork at 128.936
+Philosopher11 starts eating at 128.936
+Philosopher44 released forks at: 130.096
+Philosopher00 does NOT find both forks available at: 131.444
+Philosopher22 does NOT find both forks available at: 134.446
+Philosopher44 requesting left fork at: 135.202
+Philosopher44 acquired left fork at 135.202
+Philosopher44 requesting right fork at: 135.202
+Philosopher44 acquired right fork at 135.202
+Philosopher44 starts eating at 135.202
+Philosopher33 does NOT find both forks available at: 135.476
+Philosopher44 released forks at: 148.68
+Philosopher00 does NOT find both forks available at: 148.68
+Philosopher22 does NOT find both forks available at: 148.68
+Philosopher33 requesting left fork at: 148.68
+Philosopher33 acquired left fork at 148.68
+Philosopher33 requesting right fork at: 148.68
+Philosopher33 acquired right fork at 148.68
+Philosopher33 starts eating at 148.68
+Philosopher11 released forks at: 148.892
+Philosopher00 requesting left fork at: 148.892
+Philosopher00 acquired left fork at 148.892
+Philosopher00 requesting right fork at: 148.892
+Philosopher00 acquired right fork at 148.892
+Philosopher22 does NOT find both forks available at: 148.892
+Philosopher00 starts eating at 148.892
+Philosopher44 does NOT find both forks available at: 154.618
+Philosopher33 released forks at: 155.715
+Philosopher22 requesting left fork at: 155.715
+Philosopher22 acquired left fork at 155.715
+Philosopher22 requesting right fork at: 155.715
+Philosopher22 acquired right fork at 155.715
+Philosopher44 does NOT find both forks available at: 155.715
+Philosopher22 starts eating at 155.715
+Philosopher00 released forks at: 159.322
+Philosopher44 requesting left fork at: 159.322
+Philosopher44 acquired left fork at 159.322
+Philosopher44 requesting right fork at: 159.322
+Philosopher44 acquired right fork at 159.322
+Philosopher44 starts eating at 159.322
+Philosopher11 does NOT find both forks available at: 172.595
+Philosopher44 released forks at: 174.172
+Philosopher11 does NOT find both forks available at: 174.172
+Philosopher33 does NOT find both forks available at: 178.168
+Philosopher00 requesting left fork at: 178.767
+Philosopher00 acquired left fork at 178.767
+Philosopher00 requesting right fork at: 178.767
+Philosopher00 acquired right fork at 178.767
+Philosopher00 starts eating at 178.767
+Philosopher44 does NOT find both forks available at: 182.385
+Philosopher00 released forks at: 188.883
+Philosopher11 does NOT find both forks available at: 188.883
+Philosopher33 does NOT find both forks available at: 188.883
+Philosopher44 requesting left fork at: 188.883
+Philosopher44 acquired left fork at 188.883
+Philosopher44 requesting right fork at: 188.883
+Philosopher44 acquired right fork at 188.883
+Philosopher44 starts eating at 188.883
+Philosopher22 released forks at: 198.126
+Philosopher11 requesting left fork at: 198.126
+Philosopher11 acquired left fork at 198.126
+Philosopher11 requesting right fork at: 198.126
+Philosopher11 acquired right fork at 198.126
+Philosopher33 does NOT find both forks available at: 198.126
+Philosopher11 starts eating at 198.126
+Philosopher44 released forks at: 199.109
+Philosopher33 requesting left fork at: 199.109
+Philosopher33 acquired left fork at 199.109
+Philosopher33 requesting right fork at: 199.109
+Philosopher33 acquired right fork at 199.109
+Philosopher33 starts eating at 199.109
+Philosopher00 does NOT find both forks available at: 204.774
+Philosopher33 released forks at: 205.774
+Philosopher00 does NOT find both forks available at: 205.774
+Philosopher44 requesting left fork at: 206
+Philosopher44 acquired left fork at 206
+Philosopher44 requesting right fork at: 206
+Philosopher44 acquired right fork at 206
+Philosopher44 starts eating at 206
+Philosopher11 released forks at: 216.724
+Philosopher00 does NOT find both forks available at: 216.724
+Philosopher44 released forks at: 219.652
+Philosopher00 requesting left fork at: 219.652
+Philosopher00 acquired left fork at 219.652
+Philosopher00 requesting right fork at: 219.652
+Philosopher00 acquired right fork at 219.652
+Philosopher00 starts eating at 219.652
+Philosopher33 requesting left fork at: 225.097
+Philosopher33 acquired left fork at 225.097
+Philosopher33 requesting right fork at: 225.097
+Philosopher33 acquired right fork at 225.097
+Philosopher33 starts eating at 225.097
+Philosopher44 does NOT find both forks available at: 226.804
+Philosopher00 released forks at: 230.022
+Philosopher44 does NOT find both forks available at: 230.022
+Philosopher33 released forks at: 230.504
+Philosopher44 requesting left fork at: 230.504
+Philosopher44 acquired left fork at 230.504
+Philosopher44 requesting right fork at: 230.504
+Philosopher44 acquired right fork at 230.504
+Philosopher44 starts eating at 230.504
+Philosopher44 released forks at: 242.057
+Philosopher22 requesting left fork at: 242.368
+Philosopher22 acquired left fork at 242.368
+Philosopher22 requesting right fork at: 242.368
+Philosopher22 acquired right fork at 242.368
+Philosopher22 starts eating at 242.368
+Philosopher11 does NOT find both forks available at: 242.853
+Philosopher33 does NOT find both forks available at: 246.378
+Philosopher00 requesting left fork at: 248.398
+Philosopher00 acquired left fork at 248.398
+Philosopher00 requesting right fork at: 248.398
+Philosopher00 acquired right fork at 248.398
+Philosopher00 starts eating at 248.398
+Philosopher44 does NOT find both forks available at: 249.75
+End of simulation run

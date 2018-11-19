@@ -1,0 +1,12 @@
+Psim3 project: Disk SCAN Sched with Normal Dist.
+Simulation date: Thu Nov  9 12:20:49 2017
+
+ 
+Total number of requests that arrived: 42
+Total number of serviced requests: 42
+Total head movement in cylinders: 1126
+Average waiting time: 949.301
+Disk utilization: 0.643825
+-------------------------------------------------------------
+End of simulation Disk SCAN Sched with Normal Dist. Thu Nov  9 12:20:49 2017
+

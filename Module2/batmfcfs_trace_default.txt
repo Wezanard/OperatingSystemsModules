@@ -1,0 +1,739 @@
+Psim3 project: Batch Multiprogramming FCFS Scheduling
+Simulation date: Mon Sep 18 15:13:34 2017
+
+CPU starts idle state at 0
+Job1 of type 1 requiring CPU serv 13.3615 memory 22 arrives at 1.96806
+Job1 joining input queue at 1.96806
+Job1 acquired 22 memory at 1.96806
+Job1 start CPU service at: 1.96806 for period = 13.3615
+Job2 of type 4 requiring CPU serv 78.7835 memory 32 arrives at 5.82551
+Job2 joining input queue at 5.82551
+Job2 acquired 32 memory at 5.82551
+Job3 of type 2 requiring CPU serv 37.1258 memory 26 arrives at 11.2482
+Job3 joining input queue at 11.2482
+Job3 acquired 26 memory at 11.2482
+CPU completed CPU service to Job1 at 15.3296
+Job1 of type 1 terminating at: 15.3296 sojourn time: 13.3615 wait time: 0
+Job2 start CPU service at: 15.3296 for period = 78.7835
+Job4 of type 3 requiring CPU serv 43.7507 memory 23 arrives at 18.0449
+Job4 joining input queue at 18.0449
+Job4 acquired 23 memory at 18.0449
+Job5 of type 3 requiring CPU serv 6.1691 memory 15 arrives at 26.7428
+Job5 joining input queue at 26.7428
+Job5 acquired 15 memory at 26.7428
+Job6 of type 0 requiring CPU serv 14.065 memory 26 arrives at 30.8487
+Job6 joining input queue at 30.8487
+Job6 acquired 26 memory at 30.8487
+Job7 of type 2 requiring CPU serv 38.0629 memory 25 arrives at 32.2658
+Job7 joining input queue at 32.2658
+Job7 acquired 25 memory at 32.2658
+Job8 of type 3 requiring CPU serv 75.8142 memory 19 arrives at 33.9118
+Job8 joining input queue at 33.9118
+Job8 acquired 19 memory at 33.9118
+Job9 of type 4 requiring CPU serv 12.8229 memory 23 arrives at 40.3989
+Job9 joining input queue at 40.3989
+Job9 acquired 23 memory at 40.3989
+Job10 of type 0 requiring CPU serv 11.6066 memory 14 arrives at 40.6046
+Job10 joining input queue at 40.6046
+Job10 acquired 14 memory at 40.6046
+Job11 of type 2 requiring CPU serv 86.1568 memory 11 arrives at 56.8671
+Job11 joining input queue at 56.8671
+Job11 acquired 11 memory at 56.8671
+Job12 of type 4 requiring CPU serv 120.392 memory 8 arrives at 57.0785
+Job12 joining input queue at 57.0785
+Job12 acquired 8 memory at 57.0785
+Job13 of type 2 requiring CPU serv 39.5175 memory 20 arrives at 59.7126
+Job13 joining input queue at 59.7126
+Job13 acquired 20 memory at 59.7126
+Job14 of type 1 requiring CPU serv 10.7693 memory 36 arrives at 61.6342
+Job14 joining input queue at 61.6342
+Job14 acquired 36 memory at 61.6342
+Job15 of type 3 requiring CPU serv 67.3727 memory 20 arrives at 62.16
+Job15 joining input queue at 62.16
+Job15 acquired 20 memory at 62.16
+Job16 of type 3 requiring CPU serv 5.88635 memory 5 arrives at 64.069
+Job16 joining input queue at 64.069
+Job16 acquired 5 memory at 64.069
+Job17 of type 1 requiring CPU serv 14.6687 memory 39 arrives at 64.1226
+Job17 joining input queue at 64.1226
+Job17 acquired 39 memory at 64.1226
+Job18 of type 2 requiring CPU serv 9.14639 memory 32 arrives at 68.8381
+Job18 joining input queue at 68.8381
+Job18 acquired 32 memory at 68.8381
+Job19 of type 3 requiring CPU serv 2.70297 memory 6 arrives at 69.9756
+Job19 joining input queue at 69.9756
+Job19 acquired 6 memory at 69.9756
+Job20 of type 1 requiring CPU serv 19.9481 memory 35 arrives at 72.7728
+Job20 joining input queue at 72.7728
+Job20 acquired 35 memory at 72.7728
+Job21 of type 0 requiring CPU serv 4.45443 memory 33 arrives at 77.5429
+Job21 joining input queue at 77.5429
+Job21 acquired 33 memory at 77.5429
+Job22 of type 0 requiring CPU serv 6.59037 memory 6 arrives at 81.0567
+Job22 joining input queue at 81.0567
+Job22 acquired 6 memory at 81.0567
+Job23 of type 2 requiring CPU serv 30.1098 memory 39 arrives at 85.5227
+Job23 joining input queue at 85.5227
+Job23 acquired 39 memory at 85.5227
+Job24 of type 0 requiring CPU serv 0.338168 memory 29 arrives at 88.483
+Job24 joining input queue at 88.483
+Job24 acquired 29 memory at 88.483
+Job25 of type 2 requiring CPU serv 5.47948 memory 10 arrives at 90.3351
+Job25 joining input queue at 90.3351
+Job25 acquired 10 memory at 90.3351
+CPU completed CPU service to Job2 at 94.1131
+Job2 of type 4 terminating at: 94.1131 sojourn time: 88.2875 wait time: 9.50407
+Job3 start CPU service at: 94.1131 for period = 37.1258
+Job26 of type 2 requiring CPU serv 8.98433 memory 30 arrives at 103.319
+Job26 joining input queue at 103.319
+Job26 acquired 30 memory at 103.319
+Job27 of type 1 requiring CPU serv 14.8558 memory 12 arrives at 104.357
+Job27 joining input queue at 104.357
+Job27 acquired 12 memory at 104.357
+Job28 of type 2 requiring CPU serv 71.419 memory 31 arrives at 105.64
+Job28 joining input queue at 105.64
+Job28 acquired 31 memory at 105.64
+Job29 of type 1 requiring CPU serv 13.5668 memory 27 arrives at 116.488
+Job29 joining input queue at 116.488
+Job29 acquired 27 memory at 116.488
+Job30 of type 0 requiring CPU serv 4.13887 memory 8 arrives at 117.783
+Job30 joining input queue at 117.783
+Job30 acquired 8 memory at 117.783
+Job31 of type 1 requiring CPU serv 7.05248 memory 11 arrives at 119.334
+Job31 joining input queue at 119.334
+Job31 acquired 11 memory at 119.334
+Job32 of type 2 requiring CPU serv 18.5145 memory 15 arrives at 127.637
+Job32 joining input queue at 127.637
+Job32 acquired 15 memory at 127.637
+Job33 of type 0 requiring CPU serv 10.3084 memory 27 arrives at 128.681
+Job33 joining input queue at 128.681
+CPU completed CPU service to Job3 at 131.239
+Job3 of type 2 terminating at: 131.239 sojourn time: 119.991 wait time: 82.8649
+Job4 start CPU service at: 131.239 for period = 43.7507
+Job33 acquired 27 memory at 131.239
+Job34 of type 3 requiring CPU serv 2.02359 memory 15 arrives at 141.124
+Job34 joining input queue at 141.124
+Job35 of type 1 requiring CPU serv 34.4232 memory 14 arrives at 141.865
+Job35 joining input queue at 141.865
+Job36 of type 3 requiring CPU serv 17.0475 memory 18 arrives at 145.186
+Job36 joining input queue at 145.186
+Job37 of type 1 requiring CPU serv 11.6289 memory 24 arrives at 151.096
+Job37 joining input queue at 151.096
+Job38 of type 0 requiring CPU serv 17.6922 memory 36 arrives at 160.183
+Job38 joining input queue at 160.183
+Job39 of type 2 requiring CPU serv 28.3318 memory 13 arrives at 166.832
+Job39 joining input queue at 166.832
+Job40 of type 2 requiring CPU serv 42.3549 memory 5 arrives at 166.836
+Job40 joining input queue at 166.836
+Job41 of type 1 requiring CPU serv 4.85484 memory 24 arrives at 168.371
+Job41 joining input queue at 168.371
+Job42 of type 3 requiring CPU serv 108.63 memory 17 arrives at 169.147
+Job42 joining input queue at 169.147
+CPU completed CPU service to Job4 at 174.99
+Job4 of type 3 terminating at: 174.99 sojourn time: 156.945 wait time: 113.194
+Job5 start CPU service at: 174.99 for period = 6.1691
+Job34 acquired 15 memory at 174.99
+Job43 of type 1 requiring CPU serv 31.1943 memory 7 arrives at 175.044
+Job43 joining input queue at 175.044
+Job44 of type 1 requiring CPU serv 18.5241 memory 26 arrives at 177.58
+Job44 joining input queue at 177.58
+Job45 of type 3 requiring CPU serv 70.3725 memory 33 arrives at 178.072
+Job45 joining input queue at 178.072
+CPU completed CPU service to Job5 at 181.159
+Job5 of type 3 terminating at: 181.159 sojourn time: 154.416 wait time: 148.247
+Job6 start CPU service at: 181.159 for period = 14.065
+Job35 acquired 14 memory at 181.159
+Job46 of type 4 requiring CPU serv 12.1968 memory 22 arrives at 182.018
+Job46 joining input queue at 182.018
+Job47 of type 4 requiring CPU serv 143.907 memory 15 arrives at 185.433
+Job47 joining input queue at 185.433
+Job48 of type 0 requiring CPU serv 4.86706 memory 40 arrives at 187.428
+Job48 joining input queue at 187.428
+CPU completed CPU service to Job6 at 195.224
+Job6 of type 0 terminating at: 195.224 sojourn time: 164.375 wait time: 150.31
+Job7 start CPU service at: 195.224 for period = 38.0629
+Job36 acquired 18 memory at 195.224
+Job49 of type 2 requiring CPU serv 10.8643 memory 34 arrives at 207.583
+Job49 joining input queue at 207.583
+Job50 of type 0 requiring CPU serv 2.37201 memory 17 arrives at 210.792
+Job50 joining input queue at 210.792
+Job51 of type 3 requiring CPU serv 9.67437 memory 16 arrives at 222.428
+Job51 joining input queue at 222.428
+Job52 of type 1 requiring CPU serv 13.5338 memory 23 arrives at 226.32
+Job52 joining input queue at 226.32
+CPU completed CPU service to Job7 at 233.286
+Job7 of type 2 terminating at: 233.286 sojourn time: 201.021 wait time: 162.958
+Job8 start CPU service at: 233.286 for period = 75.8142
+Job37 acquired 24 memory at 233.286
+Job53 of type 1 requiring CPU serv 42.893 memory 19 arrives at 234.665
+Job53 joining input queue at 234.665
+Job54 of type 0 requiring CPU serv 0.180765 memory 38 arrives at 234.946
+Job54 joining input queue at 234.946
+Job55 of type 0 requiring CPU serv 19.0105 memory 30 arrives at 238.569
+Job55 joining input queue at 238.569
+Job56 of type 0 requiring CPU serv 12.1043 memory 38 arrives at 249.782
+Job56 joining input queue at 249.782
+Job57 of type 0 requiring CPU serv 0.217369 memory 29 arrives at 251.323
+Job57 joining input queue at 251.323
+Job58 of type 3 requiring CPU serv 0.629219 memory 9 arrives at 252.3
+Job58 joining input queue at 252.3
+Job59 of type 0 requiring CPU serv 7.92032 memory 5 arrives at 254.814
+Job59 joining input queue at 254.814
+Job60 of type 3 requiring CPU serv 48.7693 memory 39 arrives at 256.7
+Job60 joining input queue at 256.7
+Job61 of type 4 requiring CPU serv 27.73 memory 39 arrives at 257.922
+Job61 joining input queue at 257.922
+Job62 of type 4 requiring CPU serv 13.0956 memory 31 arrives at 259.106
+Job62 joining input queue at 259.106
+Job63 of type 1 requiring CPU serv 16.9461 memory 38 arrives at 259.991
+Job63 joining input queue at 259.991
+Job64 of type 1 requiring CPU serv 7.84237 memory 13 arrives at 262.892
+Job64 joining input queue at 262.892
+Job65 of type 3 requiring CPU serv 29.4555 memory 18 arrives at 265.037
+Job65 joining input queue at 265.037
+Job66 of type 1 requiring CPU serv 70.5135 memory 27 arrives at 267.648
+Job66 joining input queue at 267.648
+Job67 of type 3 requiring CPU serv 2.36721 memory 33 arrives at 267.784
+Job67 joining input queue at 267.784
+Job68 of type 1 requiring CPU serv 4.83071 memory 18 arrives at 273.517
+Job68 joining input queue at 273.517
+Job69 of type 2 requiring CPU serv 16.0173 memory 14 arrives at 275.046
+Job69 joining input queue at 275.046
+Job70 of type 3 requiring CPU serv 16.2688 memory 9 arrives at 275.878
+Job70 joining input queue at 275.878
+Job71 of type 4 requiring CPU serv 58.1183 memory 20 arrives at 281.146
+Job71 joining input queue at 281.146
+Job72 of type 3 requiring CPU serv 56.8417 memory 30 arrives at 281.158
+Job72 joining input queue at 281.158
+Job73 of type 0 requiring CPU serv 3.66256 memory 14 arrives at 296.404
+Job73 joining input queue at 296.404
+Job74 of type 4 requiring CPU serv 44.6408 memory 7 arrives at 307.199
+Job74 joining input queue at 307.199
+CPU completed CPU service to Job8 at 309.101
+Job8 of type 3 terminating at: 309.101 sojourn time: 275.189 wait time: 199.375
+Job9 start CPU service at: 309.101 for period = 12.8229
+Job38 acquired 36 memory at 309.101
+Job75 of type 3 requiring CPU serv 70.1401 memory 14 arrives at 309.289
+Job75 joining input queue at 309.289
+Job76 of type 0 requiring CPU serv 20.4169 memory 24 arrives at 319.241
+Job76 joining input queue at 319.241
+CPU completed CPU service to Job9 at 321.924
+Job9 of type 4 terminating at: 321.924 sojourn time: 281.525 wait time: 268.702
+Job10 start CPU service at: 321.924 for period = 11.6066
+Job39 acquired 13 memory at 321.924
+Job77 of type 3 requiring CPU serv 10.8329 memory 18 arrives at 325.4
+Job77 joining input queue at 325.4
+Job78 of type 4 requiring CPU serv 43.5441 memory 22 arrives at 327.499
+Job78 joining input queue at 327.499
+Job79 of type 0 requiring CPU serv 5.28413 memory 36 arrives at 327.601
+Job79 joining input queue at 327.601
+Job80 of type 4 requiring CPU serv 37.904 memory 12 arrives at 327.776
+Job80 joining input queue at 327.776
+Job81 of type 3 requiring CPU serv 62.2144 memory 18 arrives at 329.102
+Job81 joining input queue at 329.102
+Job82 of type 2 requiring CPU serv 21.738 memory 26 arrives at 333.326
+Job82 joining input queue at 333.326
+CPU completed CPU service to Job10 at 333.53
+Job10 of type 0 terminating at: 333.53 sojourn time: 292.926 wait time: 281.319
+Job11 start CPU service at: 333.53 for period = 86.1568
+Job40 acquired 5 memory at 333.53
+Job83 of type 0 requiring CPU serv 2.38307 memory 22 arrives at 343.701
+Job83 joining input queue at 343.701
+Job84 of type 3 requiring CPU serv 1.4893 memory 31 arrives at 344.426
+Job84 joining input queue at 344.426
+Job85 of type 0 requiring CPU serv 7.28436 memory 35 arrives at 344.741
+Job85 joining input queue at 344.741
+Job86 of type 2 requiring CPU serv 9.20353 memory 39 arrives at 346.485
+Job86 joining input queue at 346.485
+Job87 of type 0 requiring CPU serv 6.26513 memory 40 arrives at 353.009
+Job87 joining input queue at 353.009
+Job88 of type 0 requiring CPU serv 10.6096 memory 39 arrives at 357.209
+Job88 joining input queue at 357.209
+Job89 of type 4 requiring CPU serv 90.0724 memory 8 arrives at 363.409
+Job89 joining input queue at 363.409
+Job90 of type 4 requiring CPU serv 26.8397 memory 14 arrives at 363.497
+Job90 joining input queue at 363.497
+Job91 of type 1 requiring CPU serv 6.0677 memory 40 arrives at 364.242
+Job91 joining input queue at 364.242
+Job92 of type 2 requiring CPU serv 50.8909 memory 28 arrives at 372.345
+Job92 joining input queue at 372.345
+Job93 of type 4 requiring CPU serv 21.0104 memory 38 arrives at 374.969
+Job93 joining input queue at 374.969
+Job94 of type 1 requiring CPU serv 9.65289 memory 13 arrives at 382.056
+Job94 joining input queue at 382.056
+Job95 of type 2 requiring CPU serv 11.948 memory 35 arrives at 386.509
+Job95 joining input queue at 386.509
+Job96 of type 0 requiring CPU serv 7.48564 memory 24 arrives at 396.931
+Job96 joining input queue at 396.931
+Job97 of type 3 requiring CPU serv 24.9127 memory 23 arrives at 398.375
+Job97 joining input queue at 398.375
+Job98 of type 2 requiring CPU serv 30.3868 memory 20 arrives at 408.099
+Job98 joining input queue at 408.099
+Job99 of type 0 requiring CPU serv 4.81727 memory 32 arrives at 408.325
+Job99 joining input queue at 408.325
+Job100 of type 2 requiring CPU serv 22.3703 memory 12 arrives at 409.483
+Job100 joining input queue at 409.483
+Job101 of type 3 requiring CPU serv 0.754746 memory 32 arrives at 410.103
+Job101 joining input queue at 410.103
+Job102 of type 0 requiring CPU serv 6.08034 memory 21 arrives at 413.901
+Job102 joining input queue at 413.901
+Job103 of type 4 requiring CPU serv 9.14364 memory 18 arrives at 419.234
+Job103 joining input queue at 419.234
+CPU completed CPU service to Job11 at 419.687
+Job11 of type 2 terminating at: 419.687 sojourn time: 362.82 wait time: 276.663
+Job12 start CPU service at: 419.687 for period = 120.392
+Job41 acquired 24 memory at 419.687
+Job104 of type 1 requiring CPU serv 1.55464 memory 18 arrives at 421.954
+Job104 joining input queue at 421.954
+Job105 of type 3 requiring CPU serv 133.138 memory 17 arrives at 423.401
+Job105 joining input queue at 423.401
+Job106 of type 0 requiring CPU serv 6.36089 memory 10 arrives at 429.982
+Job106 joining input queue at 429.982
+Job107 of type 1 requiring CPU serv 2.22726 memory 12 arrives at 431.691
+Job107 joining input queue at 431.691
+Job108 of type 1 requiring CPU serv 16.1785 memory 21 arrives at 432.312
+Job108 joining input queue at 432.312
+Job109 of type 3 requiring CPU serv 42.3068 memory 13 arrives at 437.963
+Job109 joining input queue at 437.963
+Job110 of type 3 requiring CPU serv 98.0998 memory 5 arrives at 458.594
+Job110 joining input queue at 458.594
+Job111 of type 1 requiring CPU serv 43.7818 memory 34 arrives at 481.638
+Job111 joining input queue at 481.638
+Job112 of type 1 requiring CPU serv 10.0412 memory 7 arrives at 487.863
+Job112 joining input queue at 487.863
+Job113 of type 4 requiring CPU serv 378.319 memory 33 arrives at 488.693
+Job113 joining input queue at 488.693
+Job114 of type 0 requiring CPU serv 22.4241 memory 21 arrives at 491.964
+Job114 joining input queue at 491.964
+Job115 of type 3 requiring CPU serv 19.3497 memory 33 arrives at 492.395
+Job115 joining input queue at 492.395
+Job116 of type 4 requiring CPU serv 129.022 memory 7 arrives at 493.207
+Job116 joining input queue at 493.207
+Job117 of type 2 requiring CPU serv 62.0292 memory 33 arrives at 496.546
+Job117 joining input queue at 496.546
+Job118 of type 0 requiring CPU serv 15.8042 memory 19 arrives at 497.644
+Job118 joining input queue at 497.644
+Job119 of type 1 requiring CPU serv 36.2018 memory 14 arrives at 503.701
+Job119 joining input queue at 503.701
+Job120 of type 2 requiring CPU serv 20.8119 memory 39 arrives at 504.7
+Job120 joining input queue at 504.7
+Job121 of type 3 requiring CPU serv 18.3628 memory 29 arrives at 512.606
+Job121 joining input queue at 512.606
+Job122 of type 1 requiring CPU serv 19.7244 memory 37 arrives at 513.256
+Job122 joining input queue at 513.256
+Job123 of type 0 requiring CPU serv 1.57497 memory 13 arrives at 514.778
+Job123 joining input queue at 514.778
+Job124 of type 3 requiring CPU serv 23.5755 memory 6 arrives at 515.279
+Job124 joining input queue at 515.279
+Job125 of type 1 requiring CPU serv 23.0133 memory 6 arrives at 516.187
+Job125 joining input queue at 516.187
+Job126 of type 4 requiring CPU serv 22.8795 memory 5 arrives at 521.025
+Job126 joining input queue at 521.025
+Job127 of type 0 requiring CPU serv 1.00399 memory 40 arrives at 522.199
+Job127 joining input queue at 522.199
+Job128 of type 2 requiring CPU serv 19.6453 memory 35 arrives at 531.067
+Job128 joining input queue at 531.067
+Job129 of type 3 requiring CPU serv 4.83065 memory 7 arrives at 532.001
+Job129 joining input queue at 532.001
+Job130 of type 2 requiring CPU serv 20.0603 memory 33 arrives at 537.232
+Job130 joining input queue at 537.232
+CPU completed CPU service to Job12 at 540.079
+Job12 of type 4 terminating at: 540.079 sojourn time: 483.001 wait time: 362.609
+Job13 start CPU service at: 540.079 for period = 39.5175
+Job42 acquired 17 memory at 540.079
+Job131 of type 4 requiring CPU serv 15.7406 memory 34 arrives at 543.768
+Job131 joining input queue at 543.768
+Job132 of type 0 requiring CPU serv 3.18521 memory 32 arrives at 544.721
+Job132 joining input queue at 544.721
+Job133 of type 3 requiring CPU serv 32.4895 memory 23 arrives at 545.497
+Job133 joining input queue at 545.497
+Job134 of type 1 requiring CPU serv 40.6422 memory 22 arrives at 548.375
+Job134 joining input queue at 548.375
+Job135 of type 0 requiring CPU serv 3.9683 memory 40 arrives at 548.807
+Job135 joining input queue at 548.807
+Job136 of type 1 requiring CPU serv 6.81994 memory 15 arrives at 550.805
+Job136 joining input queue at 550.805
+Job137 of type 2 requiring CPU serv 0.439237 memory 24 arrives at 557.605
+Job137 joining input queue at 557.605
+Job138 of type 3 requiring CPU serv 50.5775 memory 39 arrives at 566.15
+Job138 joining input queue at 566.15
+Job139 of type 2 requiring CPU serv 0.0893748 memory 35 arrives at 566.646
+Job139 joining input queue at 566.646
+Job140 of type 4 requiring CPU serv 35.6721 memory 5 arrives at 567.547
+Job140 joining input queue at 567.547
+Job141 of type 1 requiring CPU serv 3.8675 memory 17 arrives at 574.7
+Job141 joining input queue at 574.7
+Job142 of type 2 requiring CPU serv 66.8631 memory 28 arrives at 576.865
+Job142 joining input queue at 576.865
+Job143 of type 4 requiring CPU serv 5.66086 memory 6 arrives at 577.107
+Job143 joining input queue at 577.107
+CPU completed CPU service to Job13 at 579.597
+Job13 of type 2 terminating at: 579.597 sojourn time: 519.884 wait time: 480.367
+Job14 start CPU service at: 579.597 for period = 10.7693
+Job43 acquired 7 memory at 579.597
+CPU completed CPU service to Job14 at 590.366
+Job14 of type 1 terminating at: 590.366 sojourn time: 528.732 wait time: 517.963
+Job15 start CPU service at: 590.366 for period = 67.3727
+Job44 acquired 26 memory at 590.366
+Job144 of type 1 requiring CPU serv 28.2485 memory 10 arrives at 600.542
+Job144 joining input queue at 600.542
+Job145 of type 2 requiring CPU serv 64.9818 memory 37 arrives at 603.066
+Job145 joining input queue at 603.066
+Job146 of type 2 requiring CPU serv 55.0368 memory 7 arrives at 604.424
+Job146 joining input queue at 604.424
+Job147 of type 0 requiring CPU serv 5.34989 memory 16 arrives at 607.893
+Job147 joining input queue at 607.893
+Job148 of type 1 requiring CPU serv 69.4483 memory 31 arrives at 621.392
+Job148 joining input queue at 621.392
+Job149 of type 1 requiring CPU serv 56.456 memory 34 arrives at 625.587
+Job149 joining input queue at 625.587
+Job150 of type 0 requiring CPU serv 2.84073 memory 16 arrives at 634.856
+Job150 joining input queue at 634.856
+Job151 of type 3 requiring CPU serv 60.3147 memory 5 arrives at 635.262
+Job151 joining input queue at 635.262
+Job152 of type 2 requiring CPU serv 20.9589 memory 27 arrives at 638.551
+Job152 joining input queue at 638.551
+Job153 of type 3 requiring CPU serv 13.6539 memory 22 arrives at 638.63
+Job153 joining input queue at 638.63
+Job154 of type 3 requiring CPU serv 13.2636 memory 33 arrives at 643.695
+Job154 joining input queue at 643.695
+Job155 of type 1 requiring CPU serv 59.4203 memory 6 arrives at 651.463
+Job155 joining input queue at 651.463
+Job156 of type 1 requiring CPU serv 0.572939 memory 14 arrives at 654.092
+Job156 joining input queue at 654.092
+Job157 of type 3 requiring CPU serv 81.8479 memory 37 arrives at 654.555
+Job157 joining input queue at 654.555
+Job158 of type 1 requiring CPU serv 18.8799 memory 23 arrives at 656.651
+Job158 joining input queue at 656.651
+Job159 of type 3 requiring CPU serv 73.4733 memory 18 arrives at 657.384
+Job159 joining input queue at 657.384
+CPU completed CPU service to Job15 at 657.739
+Job15 of type 3 terminating at: 657.739 sojourn time: 595.579 wait time: 528.206
+Job16 start CPU service at: 657.739 for period = 5.88635
+Job45 acquired 33 memory at 657.739
+CPU completed CPU service to Job16 at 663.625
+Job16 of type 3 terminating at: 663.625 sojourn time: 599.556 wait time: 593.67
+Job17 start CPU service at: 663.625 for period = 14.6687
+Job46 acquired 22 memory at 663.625
+Job160 of type 0 requiring CPU serv 5.43198 memory 40 arrives at 666.692
+Job160 joining input queue at 666.692
+Job161 of type 4 requiring CPU serv 26.1155 memory 30 arrives at 668.901
+Job161 joining input queue at 668.901
+Job162 of type 3 requiring CPU serv 34.7837 memory 32 arrives at 674.797
+Job162 joining input queue at 674.797
+Job163 of type 4 requiring CPU serv 34.261 memory 33 arrives at 675.821
+Job163 joining input queue at 675.821
+CPU completed CPU service to Job17 at 678.294
+Job17 of type 1 terminating at: 678.294 sojourn time: 614.171 wait time: 599.503
+Job18 start CPU service at: 678.294 for period = 9.14639
+Job47 acquired 15 memory at 678.294
+Job164 of type 4 requiring CPU serv 66.4794 memory 17 arrives at 678.554
+Job164 joining input queue at 678.554
+Job165 of type 2 requiring CPU serv 5.81062 memory 35 arrives at 686.174
+Job165 joining input queue at 686.174
+CPU completed CPU service to Job18 at 687.44
+Job18 of type 2 terminating at: 687.44 sojourn time: 618.602 wait time: 609.456
+Job19 start CPU service at: 687.44 for period = 2.70297
+Job48 acquired 40 memory at 687.44
+Job166 of type 4 requiring CPU serv 18.8931 memory 32 arrives at 687.636
+Job166 joining input queue at 687.636
+CPU completed CPU service to Job19 at 690.143
+Job19 of type 3 terminating at: 690.143 sojourn time: 620.168 wait time: 617.465
+Job20 start CPU service at: 690.143 for period = 19.9481
+Job49 acquired 34 memory at 690.143
+Job167 of type 1 requiring CPU serv 11.1307 memory 18 arrives at 695.002
+Job167 joining input queue at 695.002
+Job168 of type 3 requiring CPU serv 35.8181 memory 13 arrives at 695.283
+Job168 joining input queue at 695.283
+Job169 of type 1 requiring CPU serv 11.678 memory 30 arrives at 698.605
+Job169 joining input queue at 698.605
+Job170 of type 2 requiring CPU serv 2.23146 memory 7 arrives at 700.716
+Job170 joining input queue at 700.716
+Job171 of type 4 requiring CPU serv 140.157 memory 37 arrives at 703.063
+Job171 joining input queue at 703.063
+Job172 of type 0 requiring CPU serv 1.77947 memory 36 arrives at 703.964
+Job172 joining input queue at 703.964
+Job173 of type 1 requiring CPU serv 48.221 memory 30 arrives at 705.348
+Job173 joining input queue at 705.348
+Job174 of type 2 requiring CPU serv 1.80581 memory 34 arrives at 705.388
+Job174 joining input queue at 705.388
+Job175 of type 0 requiring CPU serv 3.6032 memory 19 arrives at 707.046
+Job175 joining input queue at 707.046
+CPU completed CPU service to Job20 at 710.091
+Job20 of type 1 terminating at: 710.091 sojourn time: 637.319 wait time: 617.37
+Job21 start CPU service at: 710.091 for period = 4.45443
+Job50 acquired 17 memory at 710.091
+Job176 of type 0 requiring CPU serv 32.9029 memory 31 arrives at 712.322
+Job176 joining input queue at 712.322
+Job177 of type 0 requiring CPU serv 4.94634 memory 19 arrives at 713.166
+Job177 joining input queue at 713.166
+CPU completed CPU service to Job21 at 714.546
+Job21 of type 0 terminating at: 714.546 sojourn time: 637.003 wait time: 632.548
+Job22 start CPU service at: 714.546 for period = 6.59037
+Job51 acquired 16 memory at 714.546
+Job178 of type 2 requiring CPU serv 36.8816 memory 30 arrives at 717.564
+Job178 joining input queue at 717.564
+Job179 of type 2 requiring CPU serv 19.2434 memory 35 arrives at 717.974
+Job179 joining input queue at 717.974
+CPU completed CPU service to Job22 at 721.136
+Job22 of type 0 terminating at: 721.136 sojourn time: 640.079 wait time: 633.489
+Job23 start CPU service at: 721.136 for period = 30.1098
+Job52 acquired 23 memory at 721.136
+Job180 of type 2 requiring CPU serv 45.4879 memory 7 arrives at 721.486
+Job180 joining input queue at 721.486
+Job181 of type 3 requiring CPU serv 1.29014 memory 29 arrives at 722.062
+Job181 joining input queue at 722.062
+Job182 of type 3 requiring CPU serv 122.049 memory 10 arrives at 723.659
+Job182 joining input queue at 723.659
+Job183 of type 1 requiring CPU serv 2.09485 memory 7 arrives at 726.196
+Job183 joining input queue at 726.196
+Job184 of type 1 requiring CPU serv 28.2682 memory 19 arrives at 727.789
+Job184 joining input queue at 727.789
+Job185 of type 1 requiring CPU serv 5.70175 memory 16 arrives at 729.377
+Job185 joining input queue at 729.377
+Job186 of type 1 requiring CPU serv 13.325 memory 37 arrives at 735.263
+Job186 joining input queue at 735.263
+Job187 of type 0 requiring CPU serv 4.89822 memory 33 arrives at 736.289
+Job187 joining input queue at 736.289
+Job188 of type 4 requiring CPU serv 15.3422 memory 18 arrives at 750.178
+Job188 joining input queue at 750.178
+CPU completed CPU service to Job23 at 751.246
+Job23 of type 2 terminating at: 751.246 sojourn time: 665.723 wait time: 635.613
+Job24 start CPU service at: 751.246 for period = 0.338168
+Job53 acquired 19 memory at 751.246
+CPU completed CPU service to Job24 at 751.584
+Job24 of type 0 terminating at: 751.584 sojourn time: 663.101 wait time: 662.763
+Job25 start CPU service at: 751.584 for period = 5.47948
+Job54 acquired 38 memory at 751.584
+Job189 of type 3 requiring CPU serv 13.8016 memory 26 arrives at 756.345
+Job189 joining input queue at 756.345
+Job190 of type 4 requiring CPU serv 30.4174 memory 19 arrives at 757.045
+Job190 joining input queue at 757.045
+CPU completed CPU service to Job25 at 757.064
+Job25 of type 2 terminating at: 757.064 sojourn time: 666.728 wait time: 661.249
+Job26 start CPU service at: 757.064 for period = 8.98433
+Job55 acquired 30 memory at 757.064
+Job191 of type 0 requiring CPU serv 2.92367 memory 11 arrives at 762.007
+Job191 joining input queue at 762.007
+Job192 of type 1 requiring CPU serv 11.69 memory 29 arrives at 763.76
+Job192 joining input queue at 763.76
+Job193 of type 3 requiring CPU serv 14.0382 memory 6 arrives at 763.956
+Job193 joining input queue at 763.956
+Job194 of type 3 requiring CPU serv 19.0031 memory 8 arrives at 764.541
+Job194 joining input queue at 764.541
+CPU completed CPU service to Job26 at 766.048
+Job26 of type 2 terminating at: 766.048 sojourn time: 662.729 wait time: 653.745
+Job27 start CPU service at: 766.048 for period = 14.8558
+Job56 acquired 38 memory at 766.048
+Job195 of type 4 requiring CPU serv 30.0604 memory 27 arrives at 767.853
+Job195 joining input queue at 767.853
+Job196 of type 2 requiring CPU serv 36.5025 memory 40 arrives at 768.089
+Job196 joining input queue at 768.089
+Job197 of type 4 requiring CPU serv 35.6137 memory 36 arrives at 769.292
+Job197 joining input queue at 769.292
+Job198 of type 4 requiring CPU serv 15.3465 memory 12 arrives at 771.726
+Job198 joining input queue at 771.726
+Job199 of type 3 requiring CPU serv 34.6334 memory 12 arrives at 771.874
+Job199 joining input queue at 771.874
+Job200 of type 0 requiring CPU serv 15.0716 memory 37 arrives at 774.542
+Job200 joining input queue at 774.542
+Job201 of type 4 requiring CPU serv 21.7238 memory 38 arrives at 775.1
+Job201 joining input queue at 775.1
+Job202 of type 0 requiring CPU serv 11.5246 memory 10 arrives at 775.862
+Job202 joining input queue at 775.862
+CPU completed CPU service to Job27 at 780.904
+Job27 of type 1 terminating at: 780.904 sojourn time: 676.546 wait time: 661.691
+Job28 start CPU service at: 780.904 for period = 71.419
+Job57 acquired 29 memory at 780.904
+Job203 of type 4 requiring CPU serv 51.1478 memory 18 arrives at 786.371
+Job203 joining input queue at 786.371
+Job204 of type 4 requiring CPU serv 55.6867 memory 34 arrives at 791.577
+Job204 joining input queue at 791.577
+Job205 of type 1 requiring CPU serv 0.193642 memory 11 arrives at 793.4
+Job205 joining input queue at 793.4
+Job206 of type 3 requiring CPU serv 3.54316 memory 21 arrives at 794.994
+Job206 joining input queue at 794.994
+Job207 of type 2 requiring CPU serv 64.3314 memory 12 arrives at 799.641
+Job207 joining input queue at 799.641
+Job208 of type 4 requiring CPU serv 1.32092 memory 40 arrives at 803.545
+Job208 joining input queue at 803.545
+Arrivals  terminating 
+Job209 of type 0 requiring CPU serv 2.95647 memory 21 arrives at 805.382
+Job209 joining input queue at 805.382
+Arrivals  terminating 
+Job210 of type 2 requiring CPU serv 33.2051 memory 34 arrives at 814.413
+Job210 joining input queue at 814.413
+Arrivals  terminating 
+CPU completed CPU service to Job28 at 852.323
+Job28 of type 2 terminating at: 852.323 sojourn time: 746.683 wait time: 675.264
+Job29 start CPU service at: 852.323 for period = 13.5668
+Job58 acquired 9 memory at 852.323
+Job211 of type 1 requiring CPU serv 43.9426 memory 6 arrives at 859.976
+Job211 joining input queue at 859.976
+Arrivals  terminating 
+CPU completed CPU service to Job29 at 865.889
+Job29 of type 1 terminating at: 865.889 sojourn time: 749.401 wait time: 735.834
+Job30 start CPU service at: 865.889 for period = 4.13887
+Job59 acquired 5 memory at 865.889
+Job212 of type 3 requiring CPU serv 5.08731 memory 22 arrives at 869.654
+Job212 joining input queue at 869.654
+Arrivals  terminating 
+CPU completed CPU service to Job30 at 870.028
+Job30 of type 0 terminating at: 870.028 sojourn time: 752.245 wait time: 748.106
+Job31 start CPU service at: 870.028 for period = 7.05248
+Job60 acquired 39 memory at 870.028
+CPU completed CPU service to Job31 at 877.081
+Job31 of type 1 terminating at: 877.081 sojourn time: 757.747 wait time: 750.694
+Job32 start CPU service at: 877.081 for period = 18.5145
+Job61 acquired 39 memory at 877.081
+CPU completed CPU service to Job32 at 895.595
+Job32 of type 2 terminating at: 895.595 sojourn time: 767.958 wait time: 749.444
+Job33 start CPU service at: 895.595 for period = 10.3084
+Job62 acquired 31 memory at 895.595
+CPU completed CPU service to Job33 at 905.904
+Job33 of type 0 terminating at: 905.904 sojourn time: 774.665 wait time: 764.357
+Job34 start CPU service at: 905.904 for period = 2.02359
+Job63 acquired 38 memory at 905.904
+CPU completed CPU service to Job34 at 907.927
+Job34 of type 3 terminating at: 907.927 sojourn time: 732.938 wait time: 730.914
+Job35 start CPU service at: 907.927 for period = 34.4232
+Job64 acquired 13 memory at 907.927
+CPU completed CPU service to Job35 at 942.351
+Job35 of type 1 terminating at: 942.351 sojourn time: 761.192 wait time: 726.769
+Job36 start CPU service at: 942.351 for period = 17.0475
+Job65 acquired 18 memory at 942.351
+CPU completed CPU service to Job36 at 959.398
+Job36 of type 3 terminating at: 959.398 sojourn time: 764.174 wait time: 747.127
+Job37 start CPU service at: 959.398 for period = 11.6289
+Job66 acquired 27 memory at 959.398
+CPU completed CPU service to Job37 at 971.027
+Job37 of type 1 terminating at: 971.027 sojourn time: 737.74 wait time: 726.112
+Job38 start CPU service at: 971.027 for period = 17.6922
+Job67 acquired 33 memory at 971.027
+CPU completed CPU service to Job38 at 988.719
+Job38 of type 0 terminating at: 988.719 sojourn time: 679.618 wait time: 661.926
+Job39 start CPU service at: 988.719 for period = 28.3318
+Job68 acquired 18 memory at 988.719
+CPU completed CPU service to Job39 at 1017.05
+Job39 of type 2 terminating at: 1017.05 sojourn time: 695.127 wait time: 666.795
+Job40 start CPU service at: 1017.05 for period = 42.3549
+Job69 acquired 14 memory at 1017.05
+CPU completed CPU service to Job40 at 1059.41
+Job40 of type 2 terminating at: 1059.41 sojourn time: 725.876 wait time: 683.521
+Job41 start CPU service at: 1059.41 for period = 4.85484
+Job70 acquired 9 memory at 1059.41
+CPU completed CPU service to Job41 at 1064.26
+Job41 of type 1 terminating at: 1064.26 sojourn time: 644.574 wait time: 639.719
+Job42 start CPU service at: 1064.26 for period = 108.63
+Job71 acquired 20 memory at 1064.26
+CPU completed CPU service to Job42 at 1172.89
+Job42 of type 3 terminating at: 1172.89 sojourn time: 632.812 wait time: 524.181
+Job43 start CPU service at: 1172.89 for period = 31.1943
+Job72 acquired 30 memory at 1172.89
+CPU completed CPU service to Job43 at 1204.09
+Job43 of type 1 terminating at: 1204.09 sojourn time: 624.488 wait time: 593.294
+Job44 start CPU service at: 1204.09 for period = 18.5241
+Job73 acquired 14 memory at 1204.09
+CPU completed CPU service to Job44 at 1222.61
+Job44 of type 1 terminating at: 1222.61 sojourn time: 632.243 wait time: 613.719
+Job45 start CPU service at: 1222.61 for period = 70.3725
+Job74 acquired 7 memory at 1222.61
+CPU completed CPU service to Job45 at 1292.98
+Job45 of type 3 terminating at: 1292.98 sojourn time: 635.243 wait time: 564.871
+Job46 start CPU service at: 1292.98 for period = 12.1968
+Job75 acquired 14 memory at 1292.98
+CPU completed CPU service to Job46 at 1305.18
+Job46 of type 4 terminating at: 1305.18 sojourn time: 641.554 wait time: 629.357
+Job47 start CPU service at: 1305.18 for period = 143.907
+Job76 acquired 24 memory at 1305.18
+CPU completed CPU service to Job47 at 1449.09
+Job47 of type 4 terminating at: 1449.09 sojourn time: 770.792 wait time: 626.885
+Job48 start CPU service at: 1449.09 for period = 4.86706
+Job77 acquired 18 memory at 1449.09
+CPU completed CPU service to Job48 at 1453.95
+Job48 of type 0 terminating at: 1453.95 sojourn time: 766.513 wait time: 761.646
+Job49 start CPU service at: 1453.95 for period = 10.8643
+Job78 acquired 22 memory at 1453.95
+CPU completed CPU service to Job49 at 1464.82
+Job49 of type 2 terminating at: 1464.82 sojourn time: 774.674 wait time: 763.81
+Job50 start CPU service at: 1464.82 for period = 2.37201
+Job79 acquired 36 memory at 1464.82
+CPU completed CPU service to Job50 at 1467.19
+Job50 of type 0 terminating at: 1467.19 sojourn time: 757.098 wait time: 754.726
+Job51 start CPU service at: 1467.19 for period = 9.67437
+Job80 acquired 12 memory at 1467.19
+CPU completed CPU service to Job51 at 1476.86
+Job51 of type 3 terminating at: 1476.86 sojourn time: 762.318 wait time: 752.644
+Job52 start CPU service at: 1476.86 for period = 13.5338
+Job81 acquired 18 memory at 1476.86
+CPU completed CPU service to Job52 at 1490.4
+Job52 of type 1 terminating at: 1490.4 sojourn time: 769.261 wait time: 755.728
+Job53 start CPU service at: 1490.4 for period = 42.893
+Job82 acquired 26 memory at 1490.4
+CPU completed CPU service to Job53 at 1533.29
+Job53 of type 1 terminating at: 1533.29 sojourn time: 782.045 wait time: 739.152
+Job54 start CPU service at: 1533.29 for period = 0.180765
+Job83 acquired 22 memory at 1533.29
+CPU completed CPU service to Job54 at 1533.47
+Job54 of type 0 terminating at: 1533.47 sojourn time: 781.887 wait time: 781.706
+Job55 start CPU service at: 1533.47 for period = 19.0105
+Job84 acquired 31 memory at 1533.47
+CPU completed CPU service to Job55 at 1552.48
+Job55 of type 0 terminating at: 1552.48 sojourn time: 795.418 wait time: 776.408
+Job56 start CPU service at: 1552.48 for period = 12.1043
+Job85 acquired 35 memory at 1552.48
+CPU completed CPU service to Job56 at 1564.59
+Job56 of type 0 terminating at: 1564.59 sojourn time: 798.538 wait time: 786.434
+Job57 start CPU service at: 1564.59 for period = 0.217369
+Job86 acquired 39 memory at 1564.59
+CPU completed CPU service to Job57 at 1564.8
+Job57 of type 0 terminating at: 1564.8 sojourn time: 783.9 wait time: 783.682
+Job58 start CPU service at: 1564.8 for period = 0.629219
+Job87 acquired 40 memory at 1564.8
+CPU completed CPU service to Job58 at 1565.43
+Job58 of type 3 terminating at: 1565.43 sojourn time: 713.11 wait time: 712.481
+Job59 start CPU service at: 1565.43 for period = 7.92032
+Job88 acquired 39 memory at 1565.43
+CPU completed CPU service to Job59 at 1573.35
+Job59 of type 0 terminating at: 1573.35 sojourn time: 707.464 wait time: 699.543
+Job60 start CPU service at: 1573.35 for period = 48.7693
+Job89 acquired 8 memory at 1573.35
+CPU completed CPU service to Job60 at 1622.12
+Job60 of type 3 terminating at: 1622.12 sojourn time: 752.094 wait time: 703.325
+Job61 start CPU service at: 1622.12 for period = 27.73
+Job90 acquired 14 memory at 1622.12
+CPU completed CPU service to Job61 at 1649.85
+Job61 of type 4 terminating at: 1649.85 sojourn time: 772.771 wait time: 745.041
+Job62 start CPU service at: 1649.85 for period = 13.0956
+Job91 acquired 40 memory at 1649.85
+CPU completed CPU service to Job62 at 1662.95
+Job62 of type 4 terminating at: 1662.95 sojourn time: 767.352 wait time: 754.257
+Job63 start CPU service at: 1662.95 for period = 16.9461
+Job92 acquired 28 memory at 1662.95
+CPU completed CPU service to Job63 at 1679.89
+Job63 of type 1 terminating at: 1679.89 sojourn time: 773.99 wait time: 757.044
+Job64 start CPU service at: 1679.89 for period = 7.84237
+Job93 acquired 38 memory at 1679.89
+CPU completed CPU service to Job64 at 1687.74
+Job64 of type 1 terminating at: 1687.74 sojourn time: 779.809 wait time: 771.967
+Job65 start CPU service at: 1687.74 for period = 29.4555
+Job94 acquired 13 memory at 1687.74
+CPU completed CPU service to Job65 at 1717.19
+Job65 of type 3 terminating at: 1717.19 sojourn time: 774.841 wait time: 745.386
+Job66 start CPU service at: 1717.19 for period = 70.5135
+Job95 acquired 35 memory at 1717.19
+CPU completed CPU service to Job66 at 1787.71
+Job66 of type 1 terminating at: 1787.71 sojourn time: 828.307 wait time: 757.794
+Job67 start CPU service at: 1787.71 for period = 2.36721
+Job96 acquired 24 memory at 1787.71
+CPU completed CPU service to Job67 at 1790.07
+Job67 of type 3 terminating at: 1790.07 sojourn time: 819.046 wait time: 816.678
+Job68 start CPU service at: 1790.07 for period = 4.83071
+Job97 acquired 23 memory at 1790.07
+CPU completed CPU service to Job68 at 1794.9
+Job68 of type 1 terminating at: 1794.9 sojourn time: 806.184 wait time: 801.353
+Job69 of type 2 terminating at: 1794.9 sojourn time: 777.852 wait time: 777.852
+CPU terminating at 1794.9
+Job98 acquired 20 memory at 1794.9
+Job99 acquired 32 memory at 1794.9
+*** End of Simulation

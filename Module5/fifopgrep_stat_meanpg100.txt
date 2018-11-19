@@ -1,0 +1,13 @@
+Simulation of FIFO Page Replacement
+-----------------------------------------------------------
+Psim3 project: FIFO Page Replacement
+Simulation date: Mon Oct 23 12:56:54 2017
+
+
+FIFO - Total page faults: 174
+Total number of page references: 262
+Proportion of pg faults to pg refs.: 0.664122
+
+-------------------------------------------------------------
+End of simulation FIFO Page Replacement Mon Oct 23 12:56:54 2017
+

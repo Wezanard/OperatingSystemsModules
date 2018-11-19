@@ -1,0 +1,12 @@
+Psim3 project: Disk FCFS Sched (Normal)
+Simulation date: Thu Nov  9 14:02:27 2017
+
+ 
+Total number of requests that arrived: 42
+Total number of serviced requests: 42
+Total head movement in cylinders: 1376
+Average waiting time: 2240.86
+Disk utilization: 0.784621
+-------------------------------------------------------------
+End of simulation Disk FCFS Sched (Normal) Thu Nov  9 14:02:27 2017
+

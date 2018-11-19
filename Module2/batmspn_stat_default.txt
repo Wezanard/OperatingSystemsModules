@@ -1,0 +1,59 @@
+Batch System with SJF Scheduling
+System Parameters
+Simulation period: 2750
+Close arrivals time: 400
+Total memory: 255, queue sizes: 100
+Degree of mult.: 15
+Workload Parameters
+Mean arrival: 0, mean CPU per: 0
+Upper memory demand: 60 lower mem demand: 10
+Mean inter-arrival for type 0: 18.5
+Mean CPU service demand for type 0: 26
+Mean inter-arrival for type 1: 18.5
+Mean CPU service demand for type 1: 48.5
+Mean inter-arrival for type 2: 18.5
+Mean CPU service demand for type 2: 67.5
+Mean inter-arrival for type 3: 18.5
+Mean CPU service demand for type 3: 89.75
+Mean inter-arrival for type 4: 18.5
+Mean CPU service demand for type 4: 128.45
+
+Psim3 project: Batch Multiprogramming System with SPN (or SJF) Scheduling
+Simulation date: Mon Sep 18 15:16:34 2017
+
+-------------------------------------------------------------
+Memory % usage: 0.763199 avg num items used: 228.935
+% of time spent in res usage: 0.850092
+% of time spent waiting: 0.845584
+-------------------------------------------------------------
+
+------------------------------------------
+Service factor: 0.218474
+Total number of jobs that arrived: 100
+Total number of rejected jobs: 0
+Total number of completed jobs: 32
+Average number of jobs in input queue: 59.0945
+Maximum number of jobs in memory: 15
+The proportion of rejected jobs is: 0
+Average sojourn time: 409.462
+Average total wait time: 336.84
+CPU utilization: 0.994971
+--------------------------------------
+Number of completed jobs of type 0: 7
+Average sojourn time for type 0: 149.248
+Average waiting time for type 0: 108.383
+Number of completed jobs of type 1: 9
+Average sojourn time for type 1: 126.539
+Average waiting time for type 1: 85.3319
+Number of completed jobs of type 2: 9
+Average sojourn time for type 2: 384.792
+Average waiting time for type 2: 274.23
+Number of completed jobs of type 3: 6
+Average sojourn time for type 3: 853.054
+Average waiting time for type 3: 741.062
+Number of completed jobs of type 4: 1
+Average sojourn time for type 4: 2337.75
+Average waiting time for type 4: 2337.75
+-------------------------------------------------------------
+End of simulation Batch Multiprogramming System with SPN (or SJF) Scheduling Mon Sep 18 15:16:34 2017
+

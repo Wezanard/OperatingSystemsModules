@@ -1,0 +1,26 @@
+Psim3 project: System with RR Scheduling
+Simulation date: Mon Sep 18 15:19:59 2017
+
+-------------------------------------------------------------
+Memory % usage: 0.504877 avg num items used: 606.679
+% of time spent in res usage: 0.998638
+
+-------------------------------------------------------------
+Number of completed processes of type 0: 11
+Average turnaround time for type 0: 219.388
+Average waiting time for type 0: 211.007
+Number of completed processes of type 1: 11
+Average turnaround time for type 1: 357.656
+Average waiting time for type 1: 340.904
+Number of completed processes of type 2: 8
+Average turnaround time for type 2: 865.162
+Average waiting time for type 2: 830.77
+Number of completed processes of type 3: 7
+Average turnaround time for type 3: 517.201
+Average waiting time for type 3: 490.601
+Number of completed processes of type 4: 4
+Average turnaround time for type 4: 1357.5
+Average waiting time for type 4: 1304.18
+-------------------------------------------------------------
+End of simulation System with RR Scheduling Mon Sep 18 15:19:59 2017
+

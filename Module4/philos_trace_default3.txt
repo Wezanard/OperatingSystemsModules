@@ -1,0 +1,22 @@
+Simulation of Concurrent Philosophers
+-----------------------------------------------------------
+Psim3 project: Concurrent philosophers problem
+Simulation date: Tue Oct 10 11:22:42 2017
+
+Philosopher0 requesting left fork at: 0
+Philosopher0 acquired left fork at 0
+Philosopher3 requesting left fork at: 0
+Philosopher3 acquired left fork at 0
+Philosopher4 requesting left fork at: 0
+Philosopher4 acquired left fork at 0
+Philosopher2 requesting left fork at: 0
+Philosopher2 acquired left fork at 0
+Philosopher1 requesting left fork at: 0
+Philosopher1 acquired left fork at 0
+Philosopher0 requesting right fork at: 0
+Philosopher3 requesting right fork at: 0
+Philosopher4 requesting right fork at: 0
+Philosopher2 requesting right fork at: 0
+Philosopher1 requesting right fork at: 0
+ ------------------------------------------------------------------
+End of simulation Concurrent Philosophers

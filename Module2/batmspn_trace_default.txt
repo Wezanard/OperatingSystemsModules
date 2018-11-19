@@ -1,0 +1,650 @@
+Psim3 project: Batch Multiprogramming System with SPN (or SJF) Scheduling
+Simulation date: Mon Sep 18 15:16:34 2017
+
+CPU starts idle state at 0
+Memory manager: Jobs in memory: 0
+Memory manager: input queue 0
+Job1 of type 0 requiring CPU serv 106.24 memory 15 arrives at 0
+Job1 joining input queue at 13.8307
+Job2 of type 3 requiring CPU serv 366.733 memory 15 arrives at 0
+Job2 joining input queue at 13.8307
+Job3 of type 4 requiring CPU serv 524.867 memory 15 arrives at 0
+Job3 joining input queue at 13.8307
+Job4 of type 2 requiring CPU serv 275.816 memory 15 arrives at 0
+Job4 joining input queue at 13.8307
+Job5 of type 1 requiring CPU serv 198.179 memory 15 arrives at 0
+Job5 joining input queue at 13.8307
+Memory manager: Jobs in memory: 0
+Memory manager: input queue 5
+Memory manager dequed Job1 from input queue 
+Memory manager dequed Job2 from input queue 
+Memory manager dequed Job3 from input queue 
+Memory manager dequed Job4 from input queue 
+Memory manager dequed Job5 from input queue 
+CPU starts idle state at 13.8307
+Job1 joined ready queue 
+Job1 activating CPU at time 13.8307
+Job3 joined ready queue 
+Job4 joined ready queue 
+Job5 joined ready queue 
+Job2 joined ready queue 
+Job1 start CPU service at: 13.8307 for period = 106.24
+Memory manager: Jobs in memory: 5
+Memory manager: input queue 0
+Job6 of type 0 requiring CPU serv 54.5915 memory 40 arrives at 0
+Job6 joining input queue at 14.3858
+Memory manager: Jobs in memory: 5
+Memory manager: input queue 1
+Memory manager dequed Job6 from input queue 
+Job6 joined ready queue 
+Job7 of type 3 requiring CPU serv 0.525034 memory 20 arrives at 0
+Job7 joining input queue at 14.6132
+Memory manager: Jobs in memory: 6
+Memory manager: input queue 1
+Memory manager dequed Job7 from input queue 
+Job7 joined ready queue 
+Job8 of type 2 requiring CPU serv 25.7582 memory 46 arrives at 0
+Job8 joining input queue at 19.4564
+Memory manager: Jobs in memory: 7
+Memory manager: input queue 1
+Memory manager dequed Job8 from input queue 
+Job8 joined ready queue 
+Job9 of type 4 requiring CPU serv 31.9641 memory 43 arrives at 0
+Job9 joining input queue at 22.5036
+Memory manager: Jobs in memory: 8
+Memory manager: input queue 1
+Memory manager dequed Job9 from input queue 
+Job9 joined ready queue 
+Job10 of type 2 requiring CPU serv 19.0422 memory 32 arrives at 0
+Job10 joining input queue at 26.2281
+Memory manager: Jobs in memory: 9
+Memory manager: input queue 1
+Memory manager dequed Job10 from input queue 
+Job11 of type 4 requiring CPU serv 71.3605 memory 14 arrives at 0
+Job11 joining input queue at 27.8168
+Memory manager: Jobs in memory: 10
+Memory manager: input queue 1
+Memory manager dequed Job11 from input queue 
+Job12 of type 4 requiring CPU serv 518.228 memory 24 arrives at 0
+Job12 joining input queue at 31.8889
+Memory manager: Jobs in memory: 11
+Memory manager: input queue 1
+Memory manager dequed Job12 from input queue 
+Job13 of type 1 requiring CPU serv 17.898 memory 50 arrives at 0
+Job13 joining input queue at 32.3506
+Memory manager: Jobs in memory: 12
+Memory manager: input queue 1
+Memory manager dequed Job13 from input queue 
+Job14 of type 1 requiring CPU serv 24.6114 memory 48 arrives at 0
+Job14 joining input queue at 32.4883
+Memory manager: Jobs in memory: 13
+Memory manager: input queue 1
+Memory manager dequed Job14 from input queue 
+Job15 of type 3 requiring CPU serv 20.7472 memory 55 arrives at 0
+Job15 joining input queue at 32.892
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 1
+Memory manager dequed Job15 from input queue 
+Job16 of type 1 requiring CPU serv 52.3479 memory 49 arrives at 0
+Job16 joining input queue at 33.5731
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 1
+Job17 of type 2 requiring CPU serv 206.024 memory 49 arrives at 0
+Job17 joining input queue at 38.9472
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 2
+Job18 of type 4 requiring CPU serv 3.08373 memory 12 arrives at 0
+Job18 joining input queue at 42.8768
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 3
+Job19 of type 1 requiring CPU serv 11.3748 memory 40 arrives at 6.46401e-319
+Job19 joining input queue at 50.1793
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 4
+Job20 of type 4 requiring CPU serv 19.8636 memory 54 arrives at 0
+Job20 joining input queue at 51.613
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 5
+Job21 of type 3 requiring CPU serv 31.08 memory 21 arrives at 0
+Job21 joining input queue at 52.3443
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 6
+Job22 of type 2 requiring CPU serv 122.343 memory 48 arrives at 6.46401e-319
+Job22 joining input queue at 56.2441
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 7
+Job23 of type 0 requiring CPU serv 3.62268 memory 43 arrives at 0
+Job23 joining input queue at 60.2894
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 8
+Job24 of type 4 requiring CPU serv 283.633 memory 42 arrives at 0
+Job24 joining input queue at 60.2981
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 9
+Job25 of type 2 requiring CPU serv 51.7607 memory 12 arrives at 6.44741e-319
+Job25 joining input queue at 62.7723
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 10
+Job26 of type 4 requiring CPU serv 117.659 memory 47 arrives at 0
+Job26 joining input queue at 67.6926
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 11
+Job27 of type 2 requiring CPU serv 19.4599 memory 42 arrives at 6.43081e-319
+Job27 joining input queue at 68.669
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 12
+Job28 of type 4 requiring CPU serv 237.766 memory 14 arrives at 0
+Job28 joining input queue at 81.464
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 13
+Job29 of type 0 requiring CPU serv 20.3558 memory 38 arrives at 0
+Job29 joining input queue at 82.7649
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 14
+Job30 of type 1 requiring CPU serv 24.2058 memory 25 arrives at 6.44741e-319
+Job30 joining input queue at 83.5436
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 15
+Job31 of type 0 requiring CPU serv 28.2018 memory 59 arrives at 0
+Job31 joining input queue at 90.1713
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 16
+Job32 of type 4 requiring CPU serv 225.152 memory 10 arrives at 0
+Job32 joining input queue at 94.1251
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 17
+Job33 of type 3 requiring CPU serv 8.23411 memory 12 arrives at 0
+Job33 joining input queue at 94.4399
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 18
+Job34 of type 3 requiring CPU serv 244.63 memory 19 arrives at 0
+Job34 joining input queue at 99.0056
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 19
+Job35 of type 1 requiring CPU serv 1.81119 memory 21 arrives at 6.43081e-319
+Job35 joining input queue at 100.059
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 20
+Job36 of type 1 requiring CPU serv 37.337 memory 24 arrives at 6.41421e-319
+Job36 joining input queue at 102.288
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 21
+Job37 of type 2 requiring CPU serv 40.3943 memory 33 arrives at 6.41421e-319
+Job37 joining input queue at 112.628
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 22
+CPU completed CPU service to Job1 at 120.071
+Job1 type 0 terminates at: 120.071 sojourn time: 106.24 wait time: 13.8307
+Job6 start CPU service at: 120.071 for period = 54.5915
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 22
+Memory manager dequed Job16 from input queue 
+Job38 of type 0 requiring CPU serv 70.6326 memory 53 arrives at 0
+Job38 joining input queue at 120.298
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 22
+Job39 of type 0 requiring CPU serv 16.2427 memory 32 arrives at 0
+Job39 joining input queue at 121.818
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 23
+Job40 of type 1 requiring CPU serv 3.09876 memory 15 arrives at 6.39761e-319
+Job40 joining input queue at 123.579
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 24
+Job41 of type 2 requiring CPU serv 234.454 memory 54 arrives at 6.39761e-319
+Job41 joining input queue at 124.127
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 25
+Job42 of type 2 requiring CPU serv 14.118 memory 44 arrives at 6.38101e-319
+Job42 joining input queue at 124.74
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 26
+Job43 of type 2 requiring CPU serv 14.0658 memory 49 arrives at 6.36441e-319
+Job43 joining input queue at 128.021
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 27
+Job44 of type 3 requiring CPU serv 27.5079 memory 47 arrives at 0
+Job44 joining input queue at 132.451
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 28
+Job45 of type 3 requiring CPU serv 24.9622 memory 31 arrives at 0
+Job45 joining input queue at 133.137
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 29
+Job46 of type 0 requiring CPU serv 41.1398 memory 49 arrives at 0
+Job46 joining input queue at 155.506
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 30
+Job47 of type 2 requiring CPU serv 35.2504 memory 23 arrives at 6.3478e-319
+Job47 joining input queue at 160.584
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 31
+Job48 of type 3 requiring CPU serv 39.534 memory 35 arrives at 0
+Job48 joining input queue at 167.581
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 32
+Job49 of type 3 requiring CPU serv 78.2201 memory 40 arrives at 0
+Job49 joining input queue at 170.74
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 33
+CPU completed CPU service to Job6 at 174.662
+Job6 type 0 terminates at: 174.662 sojourn time: 160.277 wait time: 105.685
+Job5 start CPU service at: 174.662 for period = 198.179
+Job13 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 33
+Memory manager dequed Job17 from input queue 
+Job50 of type 3 requiring CPU serv 48.8628 memory 29 arrives at 0
+Job50 joining input queue at 178.306
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 33
+Job51 of type 3 requiring CPU serv 47.3775 memory 51 arrives at 6.3478e-319
+Job51 joining input queue at 181.895
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 34
+Job52 of type 3 requiring CPU serv 52.4791 memory 35 arrives at 6.3312e-319
+Job52 joining input queue at 182.916
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 35
+Job53 of type 2 requiring CPU serv 47.1688 memory 43 arrives at 6.3312e-319
+Job53 joining input queue at 190.826
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 36
+Job54 of type 0 requiring CPU serv 1.0595 memory 20 arrives at 0
+Job54 joining input queue at 198.733
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 37
+Job55 of type 1 requiring CPU serv 23.5746 memory 31 arrives at 6.38101e-319
+Job55 joining input queue at 209.375
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 38
+Job56 of type 1 requiring CPU serv 18.2948 memory 55 arrives at 6.36441e-319
+Job56 joining input queue at 211.853
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 39
+Job57 of type 3 requiring CPU serv 83.4274 memory 10 arrives at 6.3146e-319
+Job57 joining input queue at 219.951
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 40
+Job58 of type 4 requiring CPU serv 33.7794 memory 57 arrives at 0
+Job58 joining input queue at 230.542
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 41
+Job59 of type 2 requiring CPU serv 38.329 memory 27 arrives at 6.3146e-319
+Job59 joining input queue at 234.847
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 42
+Job60 of type 0 requiring CPU serv 16.4877 memory 13 arrives at 0
+Job60 joining input queue at 238.647
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 43
+Job61 of type 3 requiring CPU serv 2.04774 memory 51 arrives at 6.298e-319
+Job61 joining input queue at 245.086
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 44
+Job62 of type 4 requiring CPU serv 25.4158 memory 32 arrives at 6.3478e-319
+Job62 joining input queue at 245.386
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 45
+Job63 of type 3 requiring CPU serv 122.711 memory 57 arrives at 6.2814e-319
+Job63 joining input queue at 252.934
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 46
+Job64 of type 1 requiring CPU serv 11.8995 memory 32 arrives at 6.3478e-319
+Job64 joining input queue at 255.057
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 47
+Job65 of type 1 requiring CPU serv 24.9303 memory 59 arrives at 6.3312e-319
+Job65 joining input queue at 256.071
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 48
+Job66 of type 2 requiring CPU serv 48.8678 memory 26 arrives at 6.298e-319
+Job66 joining input queue at 267.101
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 49
+Job67 of type 1 requiring CPU serv 36.3376 memory 54 arrives at 6.3146e-319
+Job67 joining input queue at 270.141
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 50
+Job68 of type 1 requiring CPU serv 9.24079 memory 52 arrives at 6.298e-319
+Job68 joining input queue at 275.304
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 51
+Job69 of type 2 requiring CPU serv 38.0013 memory 42 arrives at 6.2814e-319
+Job69 joining input queue at 275.593
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 52
+Job70 of type 0 requiring CPU serv 30.5781 memory 56 arrives at 0
+Job70 joining input queue at 279.98
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 53
+Job71 of type 3 requiring CPU serv 65.4124 memory 17 arrives at 6.2648e-319
+Job71 joining input queue at 284.341
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 54
+Job72 of type 2 requiring CPU serv 53.9451 memory 40 arrives at 6.2648e-319
+Job72 joining input queue at 291.72
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 55
+Job73 of type 1 requiring CPU serv 62.652 memory 53 arrives at 6.2814e-319
+Job73 joining input queue at 293.293
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 56
+Job74 of type 3 requiring CPU serv 139.622 memory 11 arrives at 6.2482e-319
+Job74 joining input queue at 310.099
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 57
+Job75 of type 3 requiring CPU serv 93.3139 memory 41 arrives at 6.2316e-319
+Job75 joining input queue at 311.911
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 58
+Job76 of type 1 requiring CPU serv 43.6114 memory 55 arrives at 6.2648e-319
+Job76 joining input queue at 325.236
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 59
+Job77 of type 4 requiring CPU serv 120.989 memory 45 arrives at 6.3312e-319
+Job77 joining input queue at 326.099
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 60
+Job78 of type 4 requiring CPU serv 200.874 memory 44 arrives at 6.3146e-319
+Job78 joining input queue at 329.364
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 61
+Job79 of type 0 requiring CPU serv 15.2256 memory 27 arrives at 0
+Job79 joining input queue at 340.266
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 62
+Job80 of type 4 requiring CPU serv 68.3163 memory 37 arrives at 6.298e-319
+Job80 joining input queue at 340.658
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 63
+Job81 of type 3 requiring CPU serv 17.7037 memory 55 arrives at 6.215e-319
+Job81 joining input queue at 345.146
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 64
+Job82 of type 3 requiring CPU serv 110.273 memory 56 arrives at 6.1984e-319
+Job82 joining input queue at 362.229
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 65
+Job83 of type 3 requiring CPU serv 105.547 memory 55 arrives at 6.1818e-319
+Job83 joining input queue at 362.781
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 66
+Job84 of type 3 requiring CPU serv 64.687 memory 34 arrives at 6.1652e-319
+Job84 joining input queue at 364.046
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 67
+Job85 of type 1 requiring CPU serv 38.4179 memory 18 arrives at 6.2482e-319
+Job85 joining input queue at 365.929
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 68
+Job86 of type 2 requiring CPU serv 101.051 memory 24 arrives at 6.2482e-319
+Job86 joining input queue at 368.422
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 69
+Job87 of type 2 requiring CPU serv 27.0523 memory 44 arrives at 6.2316e-319
+Job87 joining input queue at 369.563
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 70
+CPU completed CPU service to Job5 at 372.841
+Job5 type 1 terminates at: 372.841 sojourn time: 359.01 wait time: 160.832
+Job13 start CPU service at: 372.841 for period = 17.898
+Job14 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 70
+Memory manager dequed Job18 from input queue 
+Job88 of type 1 requiring CPU serv 28.2118 memory 18 arrives at 6.2316e-319
+Job88 joining input queue at 381.82
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 70
+Job89 of type 3 requiring CPU serv 83.8047 memory 38 arrives at 6.1486e-319
+Job89 joining input queue at 381.96
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 71
+Job90 of type 1 requiring CPU serv 144.215 memory 36 arrives at 0
+Job90 joining input queue at 382.986
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 72
+Job91 of type 4 requiring CPU serv 400.701 memory 14 arrives at 6.2814e-319
+Job91 joining input queue at 387.724
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 73
+Job92 of type 1 requiring CPU serv 78.5296 memory 40 arrives at 0
+Job92 joining input queue at 387.98
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 74
+Job93 of type 4 requiring CPU serv 66.64 memory 54 arrives at 6.2648e-319
+Job93 joining input queue at 388.531
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 75
+Job94 of type 4 requiring CPU serv 89.0967 memory 20 arrives at 6.2482e-319
+Job94 joining input queue at 388.699
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 76
+Job95 of type 0 requiring CPU serv 134.162 memory 30 arrives at 0
+Job95 joining input queue at 389.891
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 77
+CPU completed CPU service to Job13 at 390.739
+Job13 type 1 terminates at: 390.739 sojourn time: 216.077 wait time: 198.179
+Job14 start CPU service at: 390.739 for period = 24.6114
+Job16 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 77
+Memory manager dequed Job19 from input queue 
+Job96 of type 0 requiring CPU serv 31.0401 memory 60 arrives at 6.3146e-319
+Job96 joining input queue at 406.129
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 77
+Arrivals  terminating 
+Job97 of type 1 requiring CPU serv 27.6182 memory 52 arrives at 0
+Job97 joining input queue at 406.766
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 78
+Arrivals  terminating 
+CPU completed CPU service to Job14 at 415.35
+Job14 type 1 terminates at: 415.35 sojourn time: 42.5093 wait time: 17.898
+Job16 start CPU service at: 415.35 for period = 52.3479
+Job19 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 78
+Memory manager dequed Job20 from input queue 
+Job98 of type 3 requiring CPU serv 190.652 memory 15 arrives at 6.132e-319
+Job98 joining input queue at 420.233
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 78
+Arrivals  terminating 
+Job99 of type 2 requiring CPU serv 45.7102 memory 11 arrives at 6.215e-319
+Job99 joining input queue at 436.87
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 79
+Arrivals  terminating 
+Job100 of type 4 requiring CPU serv 16.4977 memory 15 arrives at 6.2316e-319
+Job100 joining input queue at 455.827
+Memory manager: Jobs in memory: 15
+Memory manager: input queue 80
+Arrivals  terminating 
+CPU completed CPU service to Job16 at 467.698
+Job16 type 1 terminates at: 467.698 sojourn time: 76.9593 wait time: 24.6114
+Job19 start CPU service at: 467.698 for period = 11.3748
+Job10 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 80
+Memory manager dequed Job21 from input queue 
+CPU completed CPU service to Job19 at 479.073
+Job19 type 1 terminates at: 479.073 sojourn time: 63.7227 wait time: 52.3479
+Job4 start CPU service at: 479.073 for period = 275.816
+Job17 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 79
+Memory manager dequed Job22 from input queue 
+CPU completed CPU service to Job4 at 754.889
+Job4 type 2 terminates at: 754.889 sojourn time: 741.058 wait time: 465.242
+Job8 start CPU service at: 754.889 for period = 25.7582
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 78
+Memory manager dequed Job23 from input queue 
+CPU completed CPU service to Job8 at 780.647
+Job8 type 2 terminates at: 780.647 sojourn time: 761.19 wait time: 735.432
+Job10 start CPU service at: 780.647 for period = 19.0422
+Job23 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 77
+Memory manager dequed Job24 from input queue 
+CPU completed CPU service to Job10 at 799.689
+Job10 type 2 terminates at: 799.689 sojourn time: 331.991 wait time: 312.949
+Job23 start CPU service at: 799.689 for period = 3.62268
+Job22 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 76
+Memory manager dequed Job25 from input queue 
+CPU completed CPU service to Job23 at 803.312
+Job23 type 0 terminates at: 803.312 sojourn time: 22.6649 wait time: 19.0422
+Job17 start CPU service at: 803.312 for period = 206.024
+Job25 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 75
+Memory manager dequed Job26 from input queue 
+CPU completed CPU service to Job17 at 1009.34
+Job17 type 2 terminates at: 1009.34 sojourn time: 530.263 wait time: 324.239
+Job22 start CPU service at: 1009.34 for period = 122.343
+Job15 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 74
+Memory manager dequed Job27 from input queue 
+Job21 joined ready queue 
+Job11 joined ready queue 
+CPU completed CPU service to Job22 at 1131.68
+Job22 type 2 terminates at: 1131.68 sojourn time: 331.99 wait time: 209.647
+Job25 start CPU service at: 1131.68 for period = 51.7607
+Job27 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 73
+Memory manager dequed Job28 from input queue 
+CPU completed CPU service to Job25 at 1183.44
+Job25 type 2 terminates at: 1183.44 sojourn time: 380.128 wait time: 328.367
+Job27 start CPU service at: 1183.44 for period = 19.4599
+Job12 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 72
+Memory manager dequed Job29 from input queue 
+CPU completed CPU service to Job27 at 1202.9
+Job27 type 2 terminates at: 1202.9 sojourn time: 71.2206 wait time: 51.7607
+Job2 start CPU service at: 1202.9 for period = 366.733
+Job29 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 71
+Memory manager dequed Job30 from input queue 
+CPU completed CPU service to Job2 at 1569.63
+Job2 type 3 terminates at: 1569.63 sojourn time: 1555.8 wait time: 1189.07
+Job29 start CPU service at: 1569.63 for period = 20.3558
+Job30 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 70
+Memory manager dequed Job31 from input queue 
+CPU completed CPU service to Job29 at 1589.99
+Job29 type 0 terminates at: 1589.99 sojourn time: 387.088 wait time: 366.733
+Job30 start CPU service at: 1589.99 for period = 24.2058
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 69
+Memory manager dequed Job32 from input queue 
+CPU completed CPU service to Job30 at 1614.19
+Job30 type 1 terminates at: 1614.19 sojourn time: 44.5616 wait time: 20.3558
+Job7 start CPU service at: 1614.19 for period = 0.525034
+Job31 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 68
+Memory manager dequed Job33 from input queue 
+CPU completed CPU service to Job7 at 1614.72
+Job7 type 3 terminates at: 1614.72 sojourn time: 1600.11 wait time: 1599.58
+Job31 start CPU service at: 1614.72 for period = 28.2018
+Job33 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 67
+Memory manager dequed Job34 from input queue 
+Job18 joined ready queue 
+CPU completed CPU service to Job31 at 1642.92
+Job31 type 0 terminates at: 1642.92 sojourn time: 28.7269 wait time: 0.525034
+Job15 start CPU service at: 1642.92 for period = 20.7472
+Job34 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 66
+Memory manager dequed Job35 from input queue 
+CPU completed CPU service to Job15 at 1663.67
+Job15 type 3 terminates at: 1663.67 sojourn time: 654.332 wait time: 633.585
+Job21 start CPU service at: 1663.67 for period = 31.08
+Job35 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 65
+Memory manager dequed Job36 from input queue 
+Job20 joined ready queue 
+CPU completed CPU service to Job21 at 1694.75
+Job21 type 3 terminates at: 1694.75 sojourn time: 685.412 wait time: 654.332
+Job35 start CPU service at: 1694.75 for period = 1.81119
+Job36 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 64
+Memory manager dequed Job37 from input queue 
+CPU completed CPU service to Job35 at 1696.56
+Job35 type 1 terminates at: 1696.56 sojourn time: 32.8911 wait time: 31.08
+Job36 start CPU service at: 1696.56 for period = 37.337
+Job37 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 63
+Memory manager dequed Job38 from input queue 
+CPU completed CPU service to Job36 at 1733.9
+Job36 type 1 terminates at: 1733.9 sojourn time: 39.1482 wait time: 1.81119
+Job37 start CPU service at: 1733.9 for period = 40.3943
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 62
+Memory manager dequed Job39 from input queue 
+CPU completed CPU service to Job37 at 1774.29
+Job37 type 2 terminates at: 1774.29 sojourn time: 77.7313 wait time: 37.337
+Job33 start CPU service at: 1774.29 for period = 8.23411
+Job38 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 61
+Memory manager dequed Job40 from input queue 
+CPU completed CPU service to Job33 at 1782.52
+Job33 type 3 terminates at: 1782.52 sojourn time: 167.806 wait time: 159.571
+Job38 start CPU service at: 1782.52 for period = 70.6326
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 60
+Memory manager dequed Job41 from input queue 
+CPU completed CPU service to Job38 at 1853.16
+Job38 type 0 terminates at: 1853.16 sojourn time: 78.8668 wait time: 8.23411
+Job34 start CPU service at: 1853.16 for period = 244.63
+Job39 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 59
+Memory manager dequed Job42 from input queue 
+Job40 joined ready queue 
+CPU completed CPU service to Job34 at 2097.79
+Job34 type 3 terminates at: 2097.79 sojourn time: 454.867 wait time: 210.236
+Job39 start CPU service at: 2097.79 for period = 16.2427
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 58
+Memory manager dequed Job43 from input queue 
+CPU completed CPU service to Job39 at 2114.03
+Job39 type 0 terminates at: 2114.03 sojourn time: 260.873 wait time: 244.63
+Job40 start CPU service at: 2114.03 for period = 3.09876
+Job41 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 57
+Memory manager dequed Job44 from input queue 
+CPU completed CPU service to Job40 at 2117.13
+Job40 type 1 terminates at: 2117.13 sojourn time: 263.972 wait time: 260.873
+Job41 start CPU service at: 2117.13 for period = 234.454
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 56
+Memory manager dequed Job45 from input queue 
+CPU completed CPU service to Job41 at 2351.58
+Job41 type 2 terminates at: 2351.58 sojourn time: 237.553 wait time: 3.09876
+Job42 joined ready queue 
+Memory manager: Jobs in memory: 14
+Memory manager: input queue 55
+Memory manager dequed Job46 from input queue 
+Job3 type 4 terminates at: 2351.58 sojourn time: 2337.75 wait time: 2337.75
+CPU terminating at 2351.58
+Job43 joined ready queue 
+*** End of Simulation

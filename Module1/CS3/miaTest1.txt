@@ -1,0 +1,192 @@
+
+ Simulation parameters
+Simulation interval: (3000) Close arrival time: (1000) 
+ Workload Parameters
+Mean inter-arrival: (10.55) Mean CPU service demand: (12.65) Lower bound mean memory demand: (8) Upper bound mean mem demand: (14) 
+ Systems parameters
+Queue capacity: (40) System memory: (200) Processor object created
+environment created with 50 12.65
+Psim3 project: Simple Batch System
+Simulation date: Mon Aug 28 22:08:20 2017
+
+
+CPU goes idle at 0
+environment generating Job0 at 48.6565
+Job0 requiring service 25.3709 arrives at time 48.6565
+Job0 reactivating CPU
+Job0 joins queue and waiting
+CPU is reactivated at 48.6565
+Job0 starts service at 48.6565 with service 25.3709
+environment generating Job1 at 54.663
+Job1 requiring service 45.3015 arrives at time 54.663
+Job1 joins queue and waiting
+CPU completed service of Job Job0
+Job1 starts service at 74.0274 with service 45.3015
+Job0 terminates at time 74.0274
+Terminating Job0
+environment generating Job2 at 96.9495
+Job2 requiring service 20.6012 arrives at time 96.9495
+Job2 joins queue and waiting
+CPU completed service of Job Job1
+Job2 starts service at 119.329 with service 20.6012
+Job1 terminates at time 119.329
+Terminating Job1
+environment generating Job3 at 122.381
+Job3 requiring service 26.046 arrives at time 122.381
+Job3 joins queue and waiting
+CPU completed service of Job Job2
+Job3 starts service at 139.93 with service 26.046
+Job2 terminates at time 139.93
+Terminating Job2
+CPU completed service of Job Job3
+CPU goes idle at 165.976
+Job3 terminates at time 165.976
+Terminating Job3
+environment generating Job4 at 176.633
+Job4 requiring service 44.8604 arrives at time 176.633
+Job4 reactivating CPU
+Job4 joins queue and waiting
+CPU is reactivated at 176.633
+Job4 starts service at 176.633 with service 44.8604
+environment generating Job5 at 214.22
+Job5 requiring service 2.29932 arrives at time 214.22
+Job5 joins queue and waiting
+CPU completed service of Job Job4
+Job5 starts service at 221.494 with service 2.29932
+Job4 terminates at time 221.494
+Terminating Job4
+CPU completed service of Job Job5
+CPU goes idle at 223.793
+Job5 terminates at time 223.793
+Terminating Job5
+environment generating Job6 at 243.326
+Job6 requiring service 19.9479 arrives at time 243.326
+Job6 reactivating CPU
+Job6 joins queue and waiting
+CPU is reactivated at 243.326
+Job6 starts service at 243.326 with service 19.9479
+CPU completed service of Job Job6
+CPU goes idle at 263.274
+Job6 terminates at time 263.274
+Terminating Job6
+environment generating Job7 at 279.627
+Job7 requiring service 9.09121 arrives at time 279.627
+Job7 reactivating CPU
+Job7 joins queue and waiting
+CPU is reactivated at 279.627
+Job7 starts service at 279.627 with service 9.09121
+CPU completed service of Job Job7
+CPU goes idle at 288.718
+Job7 terminates at time 288.718
+Terminating Job7
+environment generating Job8 at 363.89
+Job8 requiring service 3.19472 arrives at time 363.89
+Job8 reactivating CPU
+Job8 joins queue and waiting
+CPU is reactivated at 363.89
+Job8 starts service at 363.89 with service 3.19472
+CPU completed service of Job Job8
+CPU goes idle at 367.085
+Job8 terminates at time 367.085
+Terminating Job8
+environment generating Job9 at 381.723
+Job9 requiring service 17.2908 arrives at time 381.723
+Job9 reactivating CPU
+Job9 joins queue and waiting
+CPU is reactivated at 381.723
+Job9 starts service at 381.723 with service 17.2908
+environment generating Job10 at 389.977
+Job10 requiring service 5.78855 arrives at time 389.977
+Job10 joins queue and waiting
+CPU completed service of Job Job9
+Job10 starts service at 399.014 with service 5.78855
+Job9 terminates at time 399.014
+Terminating Job9
+CPU completed service of Job Job10
+CPU goes idle at 404.802
+Job10 terminates at time 404.802
+Terminating Job10
+environment generating Job11 at 532.632
+Job11 requiring service 8.28167 arrives at time 532.632
+Job11 reactivating CPU
+Job11 joins queue and waiting
+CPU is reactivated at 532.632
+Job11 starts service at 532.632 with service 8.28167
+CPU completed service of Job Job11
+CPU goes idle at 540.913
+Job11 terminates at time 540.913
+Terminating Job11
+environment generating Job12 at 560.519
+Job12 requiring service 0.664132 arrives at time 560.519
+Job12 reactivating CPU
+Job12 joins queue and waiting
+CPU is reactivated at 560.519
+Job12 starts service at 560.519 with service 0.664132
+CPU completed service of Job Job12
+CPU goes idle at 561.184
+Job12 terminates at time 561.184
+Terminating Job12
+environment generating Job13 at 664.711
+Job13 requiring service 7.5587 arrives at time 664.711
+Job13 reactivating CPU
+Job13 joins queue and waiting
+CPU is reactivated at 664.711
+Job13 starts service at 664.711 with service 7.5587
+CPU completed service of Job Job13
+CPU goes idle at 672.27
+Job13 terminates at time 672.27
+Terminating Job13
+environment generating Job14 at 838.438
+Job14 requiring service 1.50178 arrives at time 838.438
+Job14 reactivating CPU
+Job14 joins queue and waiting
+CPU is reactivated at 838.438
+Job14 starts service at 838.438 with service 1.50178
+CPU completed service of Job Job14
+CPU goes idle at 839.94
+Job14 terminates at time 839.94
+Terminating Job14
+environment generating Job15 at 846.123
+Job15 requiring service 12.9378 arrives at time 846.123
+Job15 reactivating CPU
+Job15 joins queue and waiting
+CPU is reactivated at 846.123
+Job15 starts service at 846.123 with service 12.9378
+CPU completed service of Job Job15
+CPU goes idle at 859.06
+Job15 terminates at time 859.06
+Terminating Job15
+environment generating Job16 at 911.042
+Job16 requiring service 1.0779 arrives at time 911.042
+Job16 reactivating CPU
+Job16 joins queue and waiting
+CPU is reactivated at 911.042
+Job16 starts service at 911.042 with service 1.0779
+CPU completed service of Job Job16
+CPU goes idle at 912.12
+Job16 terminates at time 912.12
+Terminating Job16
+environment generating Job17 at 962.871
+Job17 requiring service 11.5232 arrives at time 962.871
+Job17 reactivating CPU
+Job17 joins queue and waiting
+CPU is reactivated at 962.871
+Job17 starts service at 962.871 with service 11.5232
+CPU completed service of Job Job17
+CPU goes idle at 974.394
+Job17 terminates at time 974.394
+Terminating Job17
+Terminating environment 
+
+Service factor: 0.776942
+Processor utilization: 0.0877793
+Total jobs arrived: 18
+Total jobs rejected: 0
+Throughput (jobs completed): 18
+Proportion Rejected: 0
+Average job wait period: 4.2002
+Average memory used: 1.03724
+---------------------------------------------------------------
+ End of simulation Simple Batch System Mon Aug 28 22:08:20 2017
+
+

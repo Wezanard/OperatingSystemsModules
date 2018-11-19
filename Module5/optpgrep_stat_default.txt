@@ -1,0 +1,13 @@
+Simulation of Optimal Page Replacement
+-----------------------------------------------------------
+Psim3 project: Optimal Page Replacement Algorithm
+Simulation date: Tue Oct 24 12:13:04 2017
+
+
+Optimal - Total page faults: 120
+Total number of page references: 300
+Proportion of pg faults to pg refs.: 0.4
+
+-------------------------------------------------------------
+End of simulation Optimal Page Replacement Algorithm Tue Oct 24 12:13:04 2017
+

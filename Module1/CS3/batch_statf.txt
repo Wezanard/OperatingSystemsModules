@@ -1,0 +1,28 @@
+
+ Simulation parameters
+Simulation interval: 3000 
+Close arrival time: 1000
+Mean inter-arrival: 10.55
+Mean CPU service demand: 12.65
+Lower bound mean memory demand: 8
+Upper bound mean mem demand: 14
+
+ Systems parameters
+Queue capacity: 200
+System memory: 40
+ 
+Psim3 project: Simple Batch System
+Simulation date: Mon Aug 28 16:16:25 2017
+
+
+Service factor: 0.0487658
+Processor utilization: 0.480297
+Total jobs arrived: 111
+Total jobs rejected: 0
+Throughput (jobs completed): 111
+Proportion Rejected: 0
+Average job wait period: 253.21
+Average memory used: 5.35599
+-------------------------------------------------------------
+End of simulation Simple Batch System Mon Aug 28 16:16:25 2017
+

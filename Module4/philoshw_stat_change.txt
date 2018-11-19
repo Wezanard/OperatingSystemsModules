@@ -1,0 +1,46 @@
+Psim3 project: Concurrent Philosophers - Hold & Wait
+Simulation date: Tue Oct 10 11:40:18 2017
+
+-------------------------------------------------------------
+Mutex % usage: 0
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork4 % usage: 0.703768 avg num items used: 1
+% of time spent in res usage: 0.703768
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork3 % usage: 0.453971 avg num items used: 1
+% of time spent in res usage: 0.453971
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork2 % usage: 0.598727 avg num items used: 1
+% of time spent in res usage: 0.598727
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork1 % usage: 0.630164 avg num items used: 1
+% of time spent in res usage: 0.630164
+
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork0 % usage: 0.80588 avg num items used: 1
+% of time spent in res usage: 0.80588
+
+-------------------------------------------------------------
+Number of eat cycles Philosopher00 = 7
+Total waiting time to eat Philosopher00 = 38.2001
+Number of eat cycles Philosopher11 = 4
+Total waiting time to eat Philosopher11 = 37.446
+Number of eat cycles Philosopher22 = 3
+Total waiting time to eat Philosopher22 = 14.7005
+Number of eat cycles Philosopher33 = 6
+Total waiting time to eat Philosopher33 = 46.0357
+Number of eat cycles Philosopher44 = 8
+Total waiting time to eat Philosopher44 = 36.646
+Average time waiting to eat: 34.6057
+-------------------------------------------------------------
+End of simulation Concurrent Philosophers - Hold & Wait Tue Oct 10 11:40:18 2017
+

@@ -1,0 +1,799 @@
+
+ Simulation parameters
+Simulation interval: (3000) Close arrival time: (1000) 
+ Workload Parameters
+Mean inter-arrival: (10.55) Mean CPU service demand: (12.65) Lower bound mean memory demand: (8) Upper bound mean mem demand: (14) 
+ Systems parameters
+Queue capacity: (40) System memory: (200) Processor object created
+environment created with 10.55 12.65
+Psim3 project: Simple Batch System
+Simulation date: Mon Aug 28 22:13:01 2017
+
+
+CPU goes idle at 0
+environment generating Job0 at 4.45859
+Job0 requiring service 10.2473 arrives at time 4.45859
+Job0 reactivating CPU
+Job0 joins queue and waiting
+CPU is reactivated at 4.45859
+Job0 starts service at 4.45859 with service 10.2473
+environment generating Job1 at 6.88116
+Job1 requiring service 15.7438 arrives at time 6.88116
+Job1 joins queue and waiting
+environment generating Job2 at 7.3538
+Job2 requiring service 0.276967 arrives at time 7.3538
+Job2 joins queue and waiting
+CPU completed service of Job Job0
+Job1 starts service at 14.7059 with service 15.7438
+Job0 terminates at time 14.7059
+Terminating Job0
+environment generating Job3 at 27.6882
+Job3 requiring service 14.7679 arrives at time 27.6882
+Job3 joins queue and waiting
+environment generating Job4 at 29.9344
+Job4 requiring service 4.01799 arrives at time 29.9344
+Job4 joins queue and waiting
+CPU completed service of Job Job1
+Job2 starts service at 30.4498 with service 0.276967
+Job1 terminates at time 30.4498
+Terminating Job1
+CPU completed service of Job Job2
+Job3 starts service at 30.7268 with service 14.7679
+Job2 terminates at time 30.7268
+Terminating Job2
+CPU completed service of Job Job3
+Job4 starts service at 45.4946 with service 4.01799
+Job3 terminates at time 45.4946
+Terminating Job3
+CPU completed service of Job Job4
+CPU goes idle at 49.5126
+Job4 terminates at time 49.5126
+Terminating Job4
+environment generating Job5 at 80.4873
+Job5 requiring service 11.343 arrives at time 80.4873
+Job5 reactivating CPU
+Job5 joins queue and waiting
+CPU is reactivated at 80.4873
+Job5 starts service at 80.4873 with service 11.343
+environment generating Job6 at 88.9901
+Job6 requiring service 5.03779 arrives at time 88.9901
+Job6 joins queue and waiting
+CPU completed service of Job Job5
+Job6 starts service at 91.8303 with service 5.03779
+Job5 terminates at time 91.8303
+Terminating Job5
+CPU completed service of Job Job6
+CPU goes idle at 96.8681
+Job6 terminates at time 96.8681
+Terminating Job6
+environment generating Job7 at 98.3544
+Job7 requiring service 6.57946 arrives at time 98.3544
+Job7 reactivating CPU
+Job7 joins queue and waiting
+CPU is reactivated at 98.3544
+Job7 starts service at 98.3544 with service 6.57946
+environment generating Job8 at 99.1351
+Job8 requiring service 1.14648 arrives at time 99.1351
+Job8 joins queue and waiting
+environment generating Job9 at 101.895
+Job9 requiring service 7.52938 arrives at time 101.895
+Job9 joins queue and waiting
+environment generating Job10 at 103.569
+Job10 requiring service 19.9378 arrives at time 103.569
+Job10 joins queue and waiting
+CPU completed service of Job Job7
+Job8 starts service at 104.934 with service 1.14648
+Job7 terminates at time 104.934
+Terminating Job7
+CPU completed service of Job Job8
+Job9 starts service at 106.08 with service 7.52938
+Job8 terminates at time 106.08
+Terminating Job8
+environment generating Job11 at 110.594
+Job11 requiring service 81.3701 arrives at time 110.594
+Job11 joins queue and waiting
+CPU completed service of Job Job9
+Job10 starts service at 113.61 with service 19.9378
+Job9 terminates at time 113.61
+Terminating Job9
+environment generating Job12 at 125.6
+Job12 requiring service 0.545461 arrives at time 125.6
+Job12 joins queue and waiting
+environment generating Job13 at 131.872
+Job13 requiring service 28.7148 arrives at time 131.872
+Job13 joins queue and waiting
+CPU completed service of Job Job10
+Job11 starts service at 133.547 with service 81.3701
+Job10 terminates at time 133.547
+Terminating Job10
+environment generating Job14 at 140.593
+Job14 requiring service 1.17153 arrives at time 140.593
+Job14 joins queue and waiting
+environment generating Job15 at 150.764
+Job15 requiring service 1.0569 arrives at time 150.764
+Job15 joins queue and waiting
+environment generating Job16 at 152.462
+Job16 requiring service 12.6973 arrives at time 152.462
+Job16 joins queue and waiting
+environment generating Job17 at 152.598
+Job17 requiring service 3.17315 arrives at time 152.598
+Job17 joins queue and waiting
+environment generating Job18 at 155.744
+Job18 requiring service 4.3894 arrives at time 155.744
+Job18 joins queue and waiting
+environment generating Job19 at 166.742
+Job19 requiring service 9.37345 arrives at time 166.742
+Job19 joins queue and waiting
+environment generating Job20 at 168.757
+Job20 requiring service 14.027 arrives at time 168.757
+Job20 joins queue and waiting
+environment generating Job21 at 171.87
+Job21 requiring service 2.14929 arrives at time 171.87
+Job21 joins queue and waiting
+environment generating Job22 at 172.401
+Job22 requiring service 31.2017 arrives at time 172.401
+Job22 joins queue and waiting
+environment generating Job23 at 193.469
+Job23 requiring service 5.7104 arrives at time 193.469
+Job23 joins queue and waiting
+environment generating Job24 at 198.315
+Job24 requiring service 32.8963 arrives at time 198.315
+Job24 joins queue and waiting
+environment generating Job25 at 199.961
+Job25 requiring service 9.94482 arrives at time 199.961
+Job25 joins queue and waiting
+environment generating Job26 at 207.545
+Job26 requiring service 14.941 arrives at time 207.545
+Job26 joins queue and waiting
+environment generating Job27 at 210.025
+Job27 requiring service 15.4837 arrives at time 210.025
+Job27 joins queue and waiting
+environment generating Job28 at 213.967
+Job28 requiring service 41.9614 arrives at time 213.967
+Job28 joins queue and waiting
+CPU completed service of Job Job11
+Job12 starts service at 214.917 with service 0.545461
+Job11 terminates at time 214.917
+Terminating Job11
+CPU completed service of Job Job12
+Job13 starts service at 215.463 with service 28.7148
+Job12 terminates at time 215.463
+Terminating Job12
+environment generating Job29 at 221.294
+Job29 requiring service 11.9495 arrives at time 221.294
+Job29 joins queue and waiting
+environment generating Job30 at 222.863
+Job30 requiring service 19.4475 arrives at time 222.863
+Job30 joins queue and waiting
+environment generating Job31 at 231.74
+Job31 requiring service 0.523569 arrives at time 231.74
+Job31 joins queue and waiting
+CPU completed service of Job Job13
+Job14 starts service at 244.178 with service 1.17153
+Job13 terminates at time 244.178
+Terminating Job13
+CPU completed service of Job Job14
+Job15 starts service at 245.349 with service 1.0569
+Job14 terminates at time 245.349
+Terminating Job14
+CPU completed service of Job Job15
+Job16 starts service at 246.406 with service 12.6973
+Job15 terminates at time 246.406
+Terminating Job15
+CPU completed service of Job Job16
+Job17 starts service at 259.103 with service 3.17315
+Job16 terminates at time 259.103
+Terminating Job16
+CPU completed service of Job Job17
+Job18 starts service at 262.277 with service 4.3894
+Job17 terminates at time 262.277
+Terminating Job17
+CPU completed service of Job Job18
+Job19 starts service at 266.666 with service 9.37345
+Job18 terminates at time 266.666
+Terminating Job18
+CPU completed service of Job Job19
+Job20 starts service at 276.039 with service 14.027
+Job19 terminates at time 276.039
+Terminating Job19
+CPU completed service of Job Job20
+Job21 starts service at 290.066 with service 2.14929
+Job20 terminates at time 290.066
+Terminating Job20
+CPU completed service of Job Job21
+Job22 starts service at 292.216 with service 31.2017
+Job21 terminates at time 292.216
+Terminating Job21
+environment generating Job32 at 297.383
+Job32 requiring service 1.18736 arrives at time 297.383
+Job32 joins queue and waiting
+environment generating Job33 at 304.067
+Job33 requiring service 38.9095 arrives at time 304.067
+Job33 joins queue and waiting
+environment generating Job34 at 323.226
+Job34 requiring service 4.91868 arrives at time 323.226
+Job34 joins queue and waiting
+CPU completed service of Job Job22
+Job23 starts service at 323.417 with service 5.7104
+Job22 terminates at time 323.417
+Terminating Job22
+environment generating Job35 at 326.895
+Job35 requiring service 7.95072 arrives at time 326.895
+Job35 joins queue and waiting
+CPU completed service of Job Job23
+Job24 starts service at 329.128 with service 32.8963
+Job23 terminates at time 329.128
+Terminating Job23
+environment generating Job36 at 345.611
+Job36 requiring service 49.0707 arrives at time 345.611
+Job36 joins queue and waiting
+environment generating Job37 at 345.616
+Job37 requiring service 2.64678 arrives at time 345.616
+Job37 joins queue and waiting
+environment generating Job38 at 350.872
+Job38 requiring service 8.78226 arrives at time 350.872
+Job38 joins queue and waiting
+environment generating Job39 at 351.724
+Job39 requiring service 0.0158336 arrives at time 351.724
+Job39 joins queue and waiting
+environment generating Job40 at 355.278
+Job40 requiring service 1.89974 arrives at time 355.278
+Job40 joins queue and waiting
+environment generating Job41 at 357.175
+Job41 requiring service 15.5874 arrives at time 357.175
+Job41 joins queue and waiting
+environment generating Job42 at 359.52
+Job42 requiring service 15.5016 arrives at time 359.52
+Job42 joins queue and waiting
+environment generating Job43 at 361.226
+Job43 requiring service 2.44411 arrives at time 361.226
+Job43 joins queue and waiting
+CPU completed service of Job Job24
+Job25 starts service at 362.024 with service 9.94482
+Job24 terminates at time 362.024
+Terminating Job24
+environment generating Job44 at 367.776
+Job44 requiring service 0.165621 arrives at time 367.776
+Job44 joins queue and waiting
+CPU completed service of Job Job25
+Job26 starts service at 371.969 with service 14.941
+Job25 terminates at time 371.969
+Terminating Job25
+environment generating Job45 at 380.529
+Job45 requiring service 4.63482 arrives at time 380.529
+Job45 joins queue and waiting
+CPU completed service of Job Job26
+Job27 starts service at 386.91 with service 15.4837
+Job26 terminates at time 386.91
+Terminating Job26
+environment generating Job46 at 387.526
+Job46 requiring service 1.86568 arrives at time 387.526
+Job46 joins queue and waiting
+CPU completed service of Job Job27
+Job28 starts service at 402.394 with service 41.9614
+Job27 terminates at time 402.394
+Terminating Job27
+environment generating Job47 at 421.819
+Job47 requiring service 1.87226 arrives at time 421.819
+Job47 joins queue and waiting
+environment generating Job48 at 423.455
+Job48 requiring service 9.55015 arrives at time 423.455
+Job48 joins queue and waiting
+environment generating Job49 at 427.064
+Job49 requiring service 11.8303 arrives at time 427.064
+Job49 joins queue and waiting
+environment generating Job50 at 427.573
+Job50 requiring service 28.3318 arrives at time 427.573
+Job50 joins queue and waiting
+environment generating Job51 at 436.963
+Job51 requiring service 0.756752 arrives at time 436.963
+Job51 joins queue and waiting
+environment generating Job52 at 438.958
+Job52 requiring service 3.76518 arrives at time 438.958
+Job52 joins queue and waiting
+CPU completed service of Job Job28
+Job29 starts service at 444.355 with service 11.9495
+Job28 terminates at time 444.355
+Terminating Job28
+CPU completed service of Job Job29
+Job30 starts service at 456.304 with service 19.4475
+Job29 terminates at time 456.304
+Terminating Job29
+environment generating Job53 at 458.61
+Job53 requiring service 6.60451 arrives at time 458.61
+Job53 joins queue and waiting
+environment generating Job54 at 465.329
+Job54 requiring service 25.7324 arrives at time 465.329
+Job54 joins queue and waiting
+environment generating Job55 at 471.068
+Job55 requiring service 10.6958 arrives at time 471.068
+Job55 joins queue and waiting
+CPU completed service of Job Job30
+Job31 starts service at 475.752 with service 0.523569
+Job30 terminates at time 475.752
+Terminating Job30
+CPU completed service of Job Job31
+Job32 starts service at 476.275 with service 1.18736
+Job31 terminates at time 476.275
+Terminating Job31
+CPU completed service of Job Job32
+Job33 starts service at 477.463 with service 38.9095
+Job32 terminates at time 477.463
+Terminating Job32
+environment generating Job56 at 490.055
+Job56 requiring service 0.722062 arrives at time 490.055
+Job56 joins queue and waiting
+environment generating Job57 at 492.8
+Job57 requiring service 0.213399 arrives at time 492.8
+Job57 joins queue and waiting
+environment generating Job58 at 510.449
+Job58 requiring service 2.21089 arrives at time 510.449
+Job58 joins queue and waiting
+CPU completed service of Job Job33
+Job34 starts service at 516.372 with service 4.91868
+Job33 terminates at time 516.372
+Terminating Job33
+CPU completed service of Job Job34
+Job35 starts service at 521.291 with service 7.95072
+Job34 terminates at time 521.291
+Terminating Job34
+CPU completed service of Job Job35
+Job36 starts service at 529.242 with service 49.0707
+Job35 terminates at time 529.242
+Terminating Job35
+environment generating Job59 at 534.335
+Job59 requiring service 7.56492 arrives at time 534.335
+Job59 joins queue and waiting
+environment generating Job60 at 576.199
+Job60 requiring service 8.69615 arrives at time 576.199
+Job60 joins queue and waiting
+CPU completed service of Job Job36
+Job37 starts service at 578.312 with service 2.64678
+Job36 terminates at time 578.312
+Terminating Job36
+environment generating Job61 at 578.627
+Job61 requiring service 1.1448 arrives at time 578.627
+Job61 joins queue and waiting
+environment generating Job62 at 580.198
+Job62 requiring service 3.78842 arrives at time 580.198
+Job62 joins queue and waiting
+CPU completed service of Job Job37
+Job38 starts service at 580.959 with service 8.78226
+Job37 terminates at time 580.959
+Terminating Job37
+CPU completed service of Job Job38
+Job39 starts service at 589.741 with service 0.0158336
+Job38 terminates at time 589.741
+Terminating Job38
+CPU completed service of Job Job39
+Job40 starts service at 589.757 with service 1.89974
+Job39 terminates at time 589.757
+Terminating Job39
+CPU completed service of Job Job40
+Job41 starts service at 591.657 with service 15.5874
+Job40 terminates at time 591.657
+Terminating Job40
+environment generating Job63 at 596.056
+Job63 requiring service 1.38279 arrives at time 596.056
+Job63 joins queue and waiting
+environment generating Job64 at 605.525
+Job64 requiring service 10.8132 arrives at time 605.525
+Job64 joins queue and waiting
+CPU completed service of Job Job41
+Job42 starts service at 607.244 with service 15.5016
+Job41 terminates at time 607.244
+Terminating Job41
+environment generating Job65 at 611.278
+Job65 requiring service 65.1252 arrives at time 611.278
+Job65 joins queue and waiting
+environment generating Job66 at 619.819
+Job66 requiring service 22.3297 arrives at time 619.819
+Job66 joins queue and waiting
+CPU completed service of Job Job42
+Job43 starts service at 622.746 with service 2.44411
+Job42 terminates at time 622.746
+Terminating Job42
+CPU completed service of Job Job43
+Job44 starts service at 625.19 with service 0.165621
+Job43 terminates at time 625.19
+Terminating Job43
+CPU completed service of Job Job44
+Job45 starts service at 625.356 with service 4.63482
+Job44 terminates at time 625.356
+Terminating Job44
+CPU completed service of Job Job45
+Job46 starts service at 629.991 with service 1.86568
+Job45 terminates at time 629.991
+Terminating Job45
+CPU completed service of Job Job46
+Job47 starts service at 631.856 with service 1.87226
+Job46 terminates at time 631.856
+Terminating Job46
+CPU completed service of Job Job47
+Job48 starts service at 633.729 with service 9.55015
+Job47 terminates at time 633.729
+Terminating Job47
+environment generating Job67 at 638.313
+Job67 requiring service 0.754868 arrives at time 638.313
+Job67 joins queue and waiting
+environment generating Job68 at 641.154
+Job68 requiring service 25.8311 arrives at time 641.154
+Job68 joins queue and waiting
+environment generating Job69 at 643.189
+Job69 requiring service 18.3895 arrives at time 643.189
+Job69 joins queue and waiting
+CPU completed service of Job Job48
+Job49 starts service at 643.279 with service 11.8303
+Job48 terminates at time 643.279
+Terminating Job48
+CPU completed service of Job Job49
+Job50 starts service at 655.109 with service 28.3318
+Job49 terminates at time 655.109
+Terminating Job49
+environment generating Job70 at 656.702
+Job70 requiring service 17.4053 arrives at time 656.702
+Job70 joins queue and waiting
+environment generating Job71 at 658.573
+Job71 requiring service 38.6648 arrives at time 658.573
+Job71 joins queue and waiting
+environment generating Job72 at 669.983
+Job72 requiring service 1.21143 arrives at time 669.983
+Job72 joins queue and waiting
+environment generating Job73 at 675.67
+Job73 requiring service 25.7004 arrives at time 675.67
+Job73 joins queue and waiting
+CPU completed service of Job Job50
+Job51 starts service at 683.441 with service 0.756752
+Job50 terminates at time 683.441
+Terminating Job50
+CPU completed service of Job Job51
+Job52 starts service at 684.198 with service 3.76518
+Job51 terminates at time 684.198
+Terminating Job51
+environment generating Job74 at 684.804
+Job74 requiring service 7.82564 arrives at time 684.804
+Job74 joins queue and waiting
+CPU completed service of Job Job52
+Job53 starts service at 687.963 with service 6.60451
+Job52 terminates at time 687.963
+Terminating Job52
+CPU completed service of Job Job53
+Job54 starts service at 694.567 with service 25.7324
+Job53 terminates at time 694.567
+Terminating Job53
+environment generating Job75 at 694.765
+Job75 requiring service 26.9949 arrives at time 694.765
+Job75 joins queue and waiting
+environment generating Job76 at 697.298
+Job76 requiring service 7.25822 arrives at time 697.298
+Job76 joins queue and waiting
+environment generating Job77 at 718.93
+Job77 requiring service 3.86632 arrives at time 718.93
+Job77 joins queue and waiting
+CPU completed service of Job Job54
+Job55 starts service at 720.3 with service 10.6958
+Job54 terminates at time 720.3
+Terminating Job54
+environment generating Job78 at 727.26
+Job78 requiring service 8.75407 arrives at time 727.26
+Job78 joins queue and waiting
+CPU completed service of Job Job55
+Job56 starts service at 730.995 with service 0.722062
+Job55 terminates at time 730.995
+Terminating Job55
+CPU completed service of Job Job56
+Job57 starts service at 731.717 with service 0.213399
+Job56 terminates at time 731.717
+Terminating Job56
+CPU completed service of Job Job57
+Job58 starts service at 731.931 with service 2.21089
+Job57 terminates at time 731.931
+Terminating Job57
+environment generating Job79 at 732.319
+Job79 requiring service 14.2115 arrives at time 732.319
+Job79 joins queue and waiting
+CPU completed service of Job Job58
+Job59 starts service at 734.142 with service 7.56492
+Job58 terminates at time 734.142
+Terminating Job58
+CPU completed service of Job Job59
+Job60 starts service at 741.707 with service 8.69615
+Job59 terminates at time 741.707
+Terminating Job59
+environment generating Job80 at 743.889
+Job80 requiring service 6.39995 arrives at time 743.889
+Job80 joins queue and waiting
+environment generating Job81 at 750.162
+Job81 requiring service 10.3732 arrives at time 750.162
+Job81 joins queue and waiting
+CPU completed service of Job Job60
+Job61 starts service at 750.403 with service 1.1448
+Job60 terminates at time 750.403
+Terminating Job60
+CPU completed service of Job Job61
+Job62 starts service at 751.548 with service 3.78842
+Job61 terminates at time 751.548
+Terminating Job61
+environment generating Job82 at 754.183
+Job82 requiring service 3.15087 arrives at time 754.183
+Job82 joins queue and waiting
+CPU completed service of Job Job62
+Job63 starts service at 755.336 with service 1.38279
+Job62 terminates at time 755.336
+Terminating Job62
+CPU completed service of Job Job63
+Job64 starts service at 756.719 with service 10.8132
+Job63 terminates at time 756.719
+Terminating Job63
+environment generating Job83 at 760.386
+Job83 requiring service 12.826 arrives at time 760.386
+Job83 joins queue and waiting
+CPU completed service of Job Job64
+Job65 starts service at 767.532 with service 65.1252
+Job64 terminates at time 767.532
+Terminating Job64
+environment generating Job84 at 772.262
+Job84 requiring service 3.08581 arrives at time 772.262
+Job84 joins queue and waiting
+environment generating Job85 at 779.188
+Job85 requiring service 22.2288 arrives at time 779.188
+Job85 joins queue and waiting
+environment generating Job86 at 782.671
+Job86 requiring service 0.528298 arrives at time 782.671
+Job86 joins queue and waiting
+environment generating Job87 at 808.071
+Job87 requiring service 30.7774 arrives at time 808.071
+Job87 joins queue and waiting
+environment generating Job88 at 817.65
+Job88 requiring service 7.75209 arrives at time 817.65
+Job88 joins queue and waiting
+environment generating Job89 at 819.408
+Job89 requiring service 23.1114 arrives at time 819.408
+Job89 joins queue and waiting
+environment generating Job90 at 826.242
+Job90 requiring service 8.89821 arrives at time 826.242
+Job90 joins queue and waiting
+CPU completed service of Job Job65
+Job66 starts service at 832.657 with service 22.3297
+Job65 terminates at time 832.657
+Terminating Job65
+environment generating Job91 at 834.604
+Job91 requiring service 38.7679 arrives at time 834.604
+Job91 joins queue and waiting
+environment generating Job92 at 843.531
+Job92 requiring service 3.98618 arrives at time 843.531
+Job92 joins queue and waiting
+CPU completed service of Job Job66
+Job67 starts service at 854.987 with service 0.754868
+Job66 terminates at time 854.987
+Terminating Job66
+CPU completed service of Job Job67
+Job68 starts service at 855.742 with service 25.8311
+Job67 terminates at time 855.742
+Terminating Job67
+environment generating Job93 at 855.744
+Job93 requiring service 15.87 arrives at time 855.744
+Job93 joins queue and waiting
+environment generating Job94 at 867.426
+Job94 requiring service 6.26079 arrives at time 867.426
+Job94 joins queue and waiting
+environment generating Job95 at 868.71
+Job95 requiring service 25.9741 arrives at time 868.71
+Job95 joins queue and waiting
+environment generating Job96 at 874.852
+Job96 requiring service 2.09908 arrives at time 874.852
+Job96 joins queue and waiting
+environment generating Job97 at 877.267
+Job97 requiring service 0.821315 arrives at time 877.267
+Job97 joins queue and waiting
+environment generating Job98 at 880.042
+Job98 requiring service 13.6287 arrives at time 880.042
+Job98 joins queue and waiting
+CPU completed service of Job Job68
+Job69 starts service at 881.573 with service 18.3895
+Job68 terminates at time 881.573
+Terminating Job68
+environment generating Job99 at 894.982
+Job99 requiring service 21.2139 arrives at time 894.982
+Job99 joins queue and waiting
+CPU completed service of Job Job69
+Job70 starts service at 899.962 with service 17.4053
+Job69 terminates at time 899.962
+Terminating Job69
+CPU completed service of Job Job70
+Job71 starts service at 917.368 with service 38.6648
+Job70 terminates at time 917.368
+Terminating Job70
+environment generating Job100 at 928.502
+Job100 requiring service 4.32942 arrives at time 928.502
+Job100 joins queue and waiting
+environment generating Job101 at 937.074
+Job101 requiring service 22.9619 arrives at time 937.074
+Job101 joins queue and waiting
+environment generating Job102 at 950.274
+Job102 requiring service 6.63392 arrives at time 950.274
+Job102 joins queue and waiting
+environment generating Job103 at 951.291
+Job103 requiring service 1.24714 arrives at time 951.291
+Job103 joins queue and waiting
+environment generating Job104 at 952.487
+Job104 requiring service 18.2345 arrives at time 952.487
+Job104 joins queue and waiting
+CPU completed service of Job Job71
+Job72 starts service at 956.032 with service 1.21143
+Job71 terminates at time 956.032
+Terminating Job71
+environment generating Job105 at 956.852
+Job105 requiring service 26.6146 arrives at time 956.852
+Job105 joins queue and waiting
+CPU completed service of Job Job72
+Job73 starts service at 957.244 with service 25.7004
+Job72 terminates at time 957.244
+Terminating Job72
+environment generating Job106 at 962.207
+Job106 requiring service 4.86618 arrives at time 962.207
+Job106 joins queue and waiting
+environment generating Job107 at 969.48
+Job107 requiring service 9.38917 arrives at time 969.48
+Job107 joins queue and waiting
+environment generating Job108 at 977.015
+Job108 requiring service 17.8035 arrives at time 977.015
+Job108 joins queue and waiting
+CPU completed service of Job Job73
+Job74 starts service at 982.944 with service 7.82564
+Job73 terminates at time 982.944
+Terminating Job73
+CPU completed service of Job Job74
+Job75 starts service at 990.77 with service 26.9949
+Job74 terminates at time 990.77
+Terminating Job74
+CPU completed service of Job Job75
+Job76 starts service at 1017.76 with service 7.25822
+Job75 terminates at time 1017.76
+Terminating Job75
+Terminating environment 
+CPU completed service of Job Job76
+Job77 starts service at 1025.02 with service 3.86632
+Job76 terminates at time 1025.02
+Terminating Job76
+CPU completed service of Job Job77
+Job78 starts service at 1028.89 with service 8.75407
+Job77 terminates at time 1028.89
+Terminating Job77
+CPU completed service of Job Job78
+Job79 starts service at 1037.64 with service 14.2115
+Job78 terminates at time 1037.64
+Terminating Job78
+CPU completed service of Job Job79
+Job80 starts service at 1051.85 with service 6.39995
+Job79 terminates at time 1051.85
+Terminating Job79
+CPU completed service of Job Job80
+Job81 starts service at 1058.25 with service 10.3732
+Job80 terminates at time 1058.25
+Terminating Job80
+CPU completed service of Job Job81
+Job82 starts service at 1068.63 with service 3.15087
+Job81 terminates at time 1068.63
+Terminating Job81
+CPU completed service of Job Job82
+Job83 starts service at 1071.78 with service 12.826
+Job82 terminates at time 1071.78
+Terminating Job82
+CPU completed service of Job Job83
+Job84 starts service at 1084.61 with service 3.08581
+Job83 terminates at time 1084.61
+Terminating Job83
+CPU completed service of Job Job84
+Job85 starts service at 1087.69 with service 22.2288
+Job84 terminates at time 1087.69
+Terminating Job84
+CPU completed service of Job Job85
+Job86 starts service at 1109.92 with service 0.528298
+Job85 terminates at time 1109.92
+Terminating Job85
+CPU completed service of Job Job86
+Job87 starts service at 1110.45 with service 30.7774
+Job86 terminates at time 1110.45
+Terminating Job86
+CPU completed service of Job Job87
+Job88 starts service at 1141.23 with service 7.75209
+Job87 terminates at time 1141.23
+Terminating Job87
+CPU completed service of Job Job88
+Job89 starts service at 1148.98 with service 23.1114
+Job88 terminates at time 1148.98
+Terminating Job88
+CPU completed service of Job Job89
+Job90 starts service at 1172.09 with service 8.89821
+Job89 terminates at time 1172.09
+Terminating Job89
+CPU completed service of Job Job90
+Job91 starts service at 1180.99 with service 38.7679
+Job90 terminates at time 1180.99
+Terminating Job90
+CPU completed service of Job Job91
+Job92 starts service at 1219.75 with service 3.98618
+Job91 terminates at time 1219.75
+Terminating Job91
+CPU completed service of Job Job92
+Job93 starts service at 1223.74 with service 15.87
+Job92 terminates at time 1223.74
+Terminating Job92
+CPU completed service of Job Job93
+Job94 starts service at 1239.61 with service 6.26079
+Job93 terminates at time 1239.61
+Terminating Job93
+CPU completed service of Job Job94
+Job95 starts service at 1245.87 with service 25.9741
+Job94 terminates at time 1245.87
+Terminating Job94
+CPU completed service of Job Job95
+Job96 starts service at 1271.85 with service 2.09908
+Job95 terminates at time 1271.85
+Terminating Job95
+CPU completed service of Job Job96
+Job97 starts service at 1273.95 with service 0.821315
+Job96 terminates at time 1273.95
+Terminating Job96
+CPU completed service of Job Job97
+Job98 starts service at 1274.77 with service 13.6287
+Job97 terminates at time 1274.77
+Terminating Job97
+CPU completed service of Job Job98
+Job99 starts service at 1288.4 with service 21.2139
+Job98 terminates at time 1288.4
+Terminating Job98
+CPU completed service of Job Job99
+Job100 starts service at 1309.61 with service 4.32942
+Job99 terminates at time 1309.61
+Terminating Job99
+CPU completed service of Job Job100
+Job101 starts service at 1313.94 with service 22.9619
+Job100 terminates at time 1313.94
+Terminating Job100
+CPU completed service of Job Job101
+Job102 starts service at 1336.9 with service 6.63392
+Job101 terminates at time 1336.9
+Terminating Job101
+CPU completed service of Job Job102
+Job103 starts service at 1343.53 with service 1.24714
+Job102 terminates at time 1343.53
+Terminating Job102
+CPU completed service of Job Job103
+Job104 starts service at 1344.78 with service 18.2345
+Job103 terminates at time 1344.78
+Terminating Job103
+CPU completed service of Job Job104
+Job105 starts service at 1363.02 with service 26.6146
+Job104 terminates at time 1363.02
+Terminating Job104
+CPU completed service of Job Job105
+Job106 starts service at 1389.63 with service 4.86618
+Job105 terminates at time 1389.63
+Terminating Job105
+CPU completed service of Job Job106
+Job107 starts service at 1394.5 with service 9.38917
+Job106 terminates at time 1394.5
+Terminating Job106
+CPU completed service of Job Job107
+Job108 starts service at 1403.89 with service 17.8035
+Job107 terminates at time 1403.89
+Terminating Job107
+CPU completed service of Job Job108
+CPU goes idle at 1421.69
+Job108 terminates at time 1421.69
+Terminating Job108
+
+Service factor: 0.0535667
+Processor utilization: 0.46159
+Total jobs arrived: 109
+Total jobs rejected: 0
+Throughput (jobs completed): 109
+Proportion Rejected: 0
+Average job wait period: 224.464
+Average memory used: 8.32324
+---------------------------------------------------------------
+ End of simulation Simple Batch System Mon Aug 28 22:13:01 2017
+
+

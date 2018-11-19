@@ -1,0 +1,47 @@
+Batch Multiprogramming System with FCFS Scheduling
+System Parameters
+Simulation period: 1800.65
+Close arrivals time: 800.5
+Total memory: 1200, queue sizes: 300
+Degree of mult.: 30
+Workload Parameters
+Mean arrival: 0, mean CPU per: 0
+Upper memory demand: 40 lower mem demand: 5
+
+Psim3 project: Batch Multiprogramming FCFS Scheduling
+Simulation date: Mon Sep 18 15:13:34 2017
+
+-------------------------------------------------------------
+Memory % usage: 0.540035 avg num items used: 650.83
+% of time spent in res usage: 0.995715
+
+-------------------------------------------------------------
+
+------------------------------------------
+Service factor: 0.0418629
+Total number of jobs that arrived: 212
+Total number of rejected jobs: 0
+Total number of completed jobs: 69
+Maximum number of jobs in memory: 30
+The proportion of rejected jobs is: 0
+Average sojourn time: 626.251
+Average total wait time: 600.266
+CPU utilization: 0.998907
+Number of completed jobs of type 0: 15
+Average sojourn time for type 0: 666.322
+Average waiting time for type 0: 658.598
+Number of completed jobs of type 1: 18
+Average sojourn time for type 1: 673.173
+Average waiting time for type 1: 653.65
+Number of completed jobs of type 2: 14
+Average sojourn time for type 2: 593.262
+Average waiting time for type 2: 562.829
+Number of completed jobs of type 3: 15
+Average sojourn time for type 3: 599.229
+Average waiting time for type 3: 566.517
+Number of completed jobs of type 4: 7
+Average sojourn time for type 4: 543.612
+Average waiting time for type 4: 485.193
+-------------------------------------------------------------
+End of simulation Batch Multiprogramming FCFS Scheduling Mon Sep 18 15:13:34 2017
+

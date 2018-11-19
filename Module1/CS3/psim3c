@@ -1,0 +1,1 @@
+g++ -Wall -I /home/jgarrido/psim3 $1 /home/jgarrido/psim3/libpsim3.a -lpthread -lm

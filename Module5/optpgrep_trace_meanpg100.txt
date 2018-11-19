@@ -1,0 +1,720 @@
+Psim3 project: Optimal Page Replacement Algorithm
+Simulation date: Tue Oct 24 12:11:20 2017
+
+17 9 17 17 28 10 22 15 1 5 11 5 20 8 23 28 19 21 18 28 13 21 22 6 15 29 21 20 26 16 19 12 18 9 22 17 16 33 8 19 16 23 23 28 19 6 19 8 2 12 24 19 16 35 19 20 1 29 23 9 27 18 21 17 28 17 25 5 18 6 16 16 12 23 31 17 17 17 10 35 19 14 8 15 16 25 19 10 13 13 8 17 22 24 15 28 16 25 17 5 9 13 6 9 10 25 13 19 25 17 20 17 16 27 14 26 21 23 21 15 19 33 11 12 21 5 20 20 26 21 13 16 19 10 31 18 26 4 13 17 9 9 20 25 34 23 4 17 11 5 21 9 19 18 27 25 22 12 15 12 14 10 20 19 29 12 22 2 23 25 9 23 7 23 17 13 10 6 10 17 20 5 33 18 11 24 26 16 9 8 22 25 17 17 15 1 13 29 17 12 15 2 26 34 25 20 19 10 15 5 17 25 9 26 19 5 12 22 10 21 18 33 29 29 10 18 28 24 30 8 19 14 22 2 14 17 16 16 12 6 14 24 13 24 17 22 11 7 18 18 23 22 5 3 10 15 25 29 8 25 24 18 17 17 22 23 7 12 26 23 13 12 18 18 10 17 11 16 26 16 3 20 9 25 22 13 7 18 15 20 12 14 12 14 14 13 16 15 23 5 Page referenced: 17
+Number of pages in mem: 0
+List of pages in mem: Page fault, accum pg faults: 1
+Page referenced: 9
+Number of pages in mem: 1
+List of pages in mem: 17 Page fault, accum pg faults: 2
+Page referenced: 17
+Number of pages in mem: 2
+List of pages in mem: 17 9 Page referenced: 17
+Number of pages in mem: 2
+List of pages in mem: 17 9 Page referenced: 28
+Number of pages in mem: 2
+List of pages in mem: 9 17 Page fault, accum pg faults: 3
+Page referenced: 10
+Number of pages in mem: 3
+List of pages in mem: 28 9 17 Page fault, accum pg faults: 4
+Page referenced: 22
+Number of pages in mem: 4
+List of pages in mem: 28 9 17 10 Page fault, accum pg faults: 5
+Page referenced: 15
+Number of pages in mem: 5
+List of pages in mem: 28 22 9 17 10 Page fault, accum pg faults: 6
+Page referenced: 1
+Number of pages in mem: 6
+List of pages in mem: 28 22 15 9 17 10 Page fault, accum pg faults: 7
+Page referenced: 5
+Number of pages in mem: 7
+List of pages in mem: 28 22 15 9 17 1 10 Page fault, accum pg faults: 8
+Page referenced: 11
+Number of pages in mem: 8
+List of pages in mem: 5 28 22 15 9 17 1 10 Page fault, accum pg faults: 9
+Page referenced: 5
+Number of pages in mem: 9
+List of pages in mem: 5 28 22 15 9 17 1 10 11 Page referenced: 20
+Number of pages in mem: 9
+List of pages in mem: 28 22 15 9 17 1 5 10 11 Page fault, accum pg faults: 10
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 28 22 15 20 9 17 1 5 10 11 Page fault, accum pg faults: 11
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 28 22 15 20 9 17 8 1 5 10 Page fault, accum pg faults: 12
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 28 22 15 20 9 17 8 23 1 5 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 28 22 15 20 9 17 8 23 1 5 Page fault, accum pg faults: 13
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 28 22 15 20 19 9 17 8 23 1 Page fault, accum pg faults: 14
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 28 21 22 15 20 19 9 17 8 23 Page fault, accum pg faults: 15
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 28 21 22 15 20 19 18 9 17 8 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 21 22 15 20 19 18 9 17 8 28 Page fault, accum pg faults: 16
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 22 15 20 19 18 9 17 8 13 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 15 21 20 19 18 9 17 8 13 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 15 21 20 19 18 9 22 17 8 13 Page fault, accum pg faults: 17
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 21 20 19 18 9 22 17 8 6 Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 21 20 19 18 9 22 17 8 6 15 Page fault, accum pg faults: 18
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 20 19 18 9 22 17 8 6 29 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 19 18 9 22 17 8 6 29 21 Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 19 18 9 22 17 8 6 20 29 21 Page fault, accum pg faults: 19
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 19 18 9 22 17 8 6 20 29 26 Page fault, accum pg faults: 20
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 18 9 22 17 16 8 6 20 29 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 18 9 22 17 16 8 19 6 20 29 Page fault, accum pg faults: 21
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 9 22 17 16 8 19 6 12 20 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 22 17 16 8 19 6 12 20 18 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 17 16 8 19 6 12 20 9 18 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 16 8 19 6 12 20 9 18 22 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 8 19 6 12 20 9 18 17 22 Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 8 19 16 6 12 20 9 18 17 22 Page fault, accum pg faults: 22
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 8 19 16 6 12 20 9 18 17 33 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 16 6 8 12 20 9 18 17 33 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 19 6 8 12 20 9 18 17 33 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 19 6 8 12 16 20 9 18 17 33 Page fault, accum pg faults: 23
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 19 6 8 12 16 20 9 18 17 Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 19 6 8 12 16 20 23 9 18 17 Page fault, accum pg faults: 24
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 6 8 12 16 20 23 9 18 28 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 6 19 8 12 16 20 23 9 18 28 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 8 12 16 20 23 9 18 28 6 Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 8 12 19 16 20 23 9 18 28 6 Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 12 19 16 20 23 9 18 28 6 8 Page fault, accum pg faults: 25
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 19 16 20 23 9 18 28 6 2 Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 19 16 20 23 9 18 28 6 12 2 Page fault, accum pg faults: 26
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 16 20 23 9 18 28 6 12 24 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 19 20 23 9 18 28 6 12 24 Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 19 20 23 9 18 28 6 16 12 24 Page fault, accum pg faults: 27
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 20 23 9 18 28 6 16 12 35 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 23 9 18 28 6 16 12 35 19 Page referenced: 1
+Number of pages in mem: 10
+List of pages in mem: 23 9 18 28 6 16 12 35 19 20 Page fault, accum pg faults: 28
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 23 9 18 28 6 16 12 35 19 1 Page fault, accum pg faults: 29
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 9 18 28 6 16 12 35 19 29 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 18 28 6 16 12 23 35 19 29 Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 18 28 6 16 12 23 35 19 9 29 Page fault, accum pg faults: 30
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 28 6 16 12 23 35 19 9 27 Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 28 18 6 16 12 23 35 19 9 27 Page fault, accum pg faults: 31
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 28 18 6 16 12 23 35 19 9 21 Page fault, accum pg faults: 32
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 28 17 18 6 16 12 23 35 19 9 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 18 6 16 12 23 35 19 28 9 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 18 6 16 12 23 17 35 19 28 9 Page fault, accum pg faults: 33
+Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 18 6 16 12 23 17 35 19 25 28 Page fault, accum pg faults: 34
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 6 16 12 23 17 35 19 25 5 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 6 16 12 23 17 35 19 25 5 18 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 12 23 17 35 19 25 5 6 18 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 12 23 17 35 19 25 5 6 18 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 23 17 35 19 16 25 5 6 18 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 17 35 19 16 25 5 6 12 18 Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 17 35 19 16 25 5 6 23 12 18 Page fault, accum pg faults: 35
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 35 19 16 25 5 6 23 12 31 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 35 19 16 25 5 6 23 12 31 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 35 19 16 25 5 6 23 12 31 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 35 19 16 25 17 5 6 23 12 31 Page fault, accum pg faults: 36
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 35 19 16 25 10 17 5 6 23 12 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 16 25 10 17 5 6 23 12 35 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 16 25 19 10 17 5 6 23 12 35 Page fault, accum pg faults: 37
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 16 25 19 10 17 5 6 14 23 12 Page fault, accum pg faults: 38
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 16 25 19 10 8 17 5 6 14 23 Page fault, accum pg faults: 39
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 25 19 10 8 17 15 5 6 14 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 19 10 8 17 15 16 5 6 14 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 10 8 17 15 16 25 5 6 14 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 8 17 15 16 25 5 6 19 14 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 8 17 15 16 25 5 6 10 19 14 Page fault, accum pg faults: 40
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 8 17 15 16 25 5 6 10 19 Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 8 17 15 16 25 5 13 6 10 19 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 15 16 25 5 13 6 10 19 8 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 15 16 25 17 5 13 6 10 19 8 Page fault, accum pg faults: 41
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 15 16 25 17 5 13 6 10 19 22 Page fault, accum pg faults: 42
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 16 25 17 5 13 6 10 19 24 Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 16 25 17 5 13 6 10 19 15 24 Page fault, accum pg faults: 43
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 25 17 5 13 6 10 19 15 28 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 17 5 13 6 10 19 16 15 28 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 5 13 6 10 25 19 16 15 28 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 13 6 10 25 19 17 16 15 28 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 13 6 10 25 19 17 16 15 5 28 Page fault, accum pg faults: 44
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 6 9 10 25 19 17 16 15 5 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 6 9 10 25 13 19 17 16 15 5 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 10 25 13 19 17 16 15 5 6 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 25 13 19 17 16 15 5 9 6 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 13 19 17 16 15 5 10 9 6 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 19 25 17 16 15 5 10 9 6 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 25 17 16 15 5 13 10 9 6 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 17 16 15 19 5 13 10 9 6 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 16 15 19 5 13 10 9 25 6 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 17 16 15 19 5 13 10 9 25 6 Page fault, accum pg faults: 45
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 16 15 19 5 20 13 10 9 25 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 15 19 5 20 13 10 17 9 25 Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 15 19 5 20 13 16 10 17 9 25 Page fault, accum pg faults: 46
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 15 19 5 20 13 16 10 17 9 27 Page fault, accum pg faults: 47
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 15 19 5 20 13 16 10 17 9 14 Page fault, accum pg faults: 48
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 15 19 5 20 26 13 16 10 17 9 Page fault, accum pg faults: 49
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 21 15 19 5 20 26 13 16 10 17 Page fault, accum pg faults: 50
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 15 19 5 20 26 13 16 10 23 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 19 21 5 20 26 13 16 10 23 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 21 5 20 26 13 16 10 23 15 Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 21 5 20 26 13 16 19 10 23 15 Page fault, accum pg faults: 51
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 21 5 20 26 13 16 19 10 23 33 Page fault, accum pg faults: 52
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 21 5 20 26 13 16 19 10 23 11 Page fault, accum pg faults: 53
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 5 20 26 13 16 19 10 23 12 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 20 26 21 13 16 19 10 23 12 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 26 21 13 16 19 10 23 5 12 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 26 21 13 16 19 10 23 5 12 Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 21 13 16 19 10 20 23 5 12 Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 13 16 19 10 26 20 23 5 12 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 16 19 10 26 20 23 5 21 12 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 19 10 26 13 20 23 5 21 12 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 10 26 13 20 23 5 21 12 16 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 26 13 20 23 5 21 19 12 16 Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 26 13 20 23 5 21 19 12 10 16 Page fault, accum pg faults: 54
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 26 13 20 23 5 21 19 12 10 31 Page fault, accum pg faults: 55
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 13 20 23 5 21 19 18 12 10 Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 13 20 23 5 21 19 18 12 10 26 Page fault, accum pg faults: 56
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 20 23 4 5 21 19 18 12 10 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 20 23 4 5 21 19 18 12 10 13 Page fault, accum pg faults: 57
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 20 23 4 17 5 21 19 18 12 10 Page fault, accum pg faults: 58
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 20 23 4 17 5 21 19 18 12 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 23 4 17 5 21 9 19 18 12 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 23 4 17 5 21 9 19 18 12 20 Page fault, accum pg faults: 59
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 23 4 17 5 21 9 19 18 25 12 Page fault, accum pg faults: 60
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 4 17 5 21 9 19 18 25 34 Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 4 17 5 21 9 19 18 25 23 34 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 5 21 9 19 18 25 23 34 4 Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 5 21 9 19 18 25 23 17 34 4 Page fault, accum pg faults: 61
+Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 21 9 19 18 25 23 17 11 34 Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 9 19 18 25 23 17 5 11 34 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 19 18 25 23 17 5 11 34 21 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 18 25 23 9 17 5 11 34 21 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 25 19 23 9 17 5 11 34 21 Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 25 19 23 9 17 5 18 11 34 21 Page fault, accum pg faults: 62
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 19 23 9 17 5 18 11 34 27 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 19 23 25 9 17 5 18 11 34 27 Page fault, accum pg faults: 63
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 19 22 23 25 9 17 5 18 11 34 Page fault, accum pg faults: 64
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 12 19 22 23 25 9 17 5 18 11 Page fault, accum pg faults: 65
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 19 22 23 25 9 17 5 18 15 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 19 12 22 23 25 9 17 5 18 15 Page fault, accum pg faults: 66
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 19 12 22 23 25 9 17 5 18 14 Page fault, accum pg faults: 67
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 19 12 22 23 25 9 17 10 5 18 Page fault, accum pg faults: 68
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 12 22 23 25 9 17 10 20 5 Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 12 22 23 25 9 17 10 20 5 19 Page fault, accum pg faults: 69
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 22 23 25 9 17 10 20 5 29 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 23 25 9 17 10 20 5 29 12 Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 23 25 9 17 10 20 5 22 29 12 Page fault, accum pg faults: 70
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 25 9 17 10 20 5 22 29 2 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 9 23 17 10 20 5 22 29 2 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 23 17 10 20 5 22 25 29 2 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 17 10 20 5 9 22 25 29 2 Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 23 17 10 20 5 9 22 25 29 2 Page fault, accum pg faults: 71
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 17 10 20 5 9 22 25 29 7 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 10 20 5 9 22 25 29 7 23 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 10 17 20 5 9 22 25 29 7 23 Page fault, accum pg faults: 72
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 17 20 5 9 22 25 13 29 7 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 10 17 20 5 9 22 25 13 29 7 Page fault, accum pg faults: 73
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 17 20 5 9 22 25 13 29 6 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 20 5 9 22 25 13 29 10 6 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 5 9 22 25 17 13 29 10 6 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 9 22 25 17 13 29 20 10 6 Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 20 10 5 6 Page fault, accum pg faults: 74
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 20 10 5 33 Page fault, accum pg faults: 75
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 20 10 5 18 Page fault, accum pg faults: 76
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 20 10 5 11 Page fault, accum pg faults: 77
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 20 10 5 24 Page fault, accum pg faults: 78
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 26 20 10 5 Page fault, accum pg faults: 79
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 22 25 17 13 29 26 20 10 16 Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 22 25 17 13 29 26 20 10 9 16 Page fault, accum pg faults: 80
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 25 17 13 29 26 20 10 9 8 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 17 13 29 26 20 10 9 22 8 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 13 29 26 25 20 10 9 22 8 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 13 29 26 25 20 10 9 22 8 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 13 29 17 26 25 20 10 9 22 8 Page fault, accum pg faults: 81
+Page referenced: 1
+Number of pages in mem: 10
+List of pages in mem: 13 29 17 15 26 25 20 10 9 22 Page fault, accum pg faults: 82
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 29 17 15 26 25 20 10 9 1 Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 29 17 15 26 25 20 10 9 13 1 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 15 26 25 20 10 9 29 13 1 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 15 26 25 20 10 17 9 29 13 1 Page fault, accum pg faults: 83
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 26 25 20 10 17 9 12 29 13 Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 26 25 20 10 15 17 9 12 29 13 Page fault, accum pg faults: 84
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 25 20 10 15 17 9 12 29 2 Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 25 20 10 15 17 9 26 12 29 2 Page fault, accum pg faults: 85
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 20 10 15 17 9 26 12 29 34 Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 10 15 17 25 9 26 12 29 34 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 10 15 17 25 9 26 12 29 20 34 Page fault, accum pg faults: 86
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 15 17 25 9 26 19 12 29 20 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 17 25 9 26 19 12 10 29 20 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 17 25 9 26 19 12 10 29 15 20 Page fault, accum pg faults: 87
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 25 9 26 19 5 12 10 29 15 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 9 26 19 5 12 10 29 17 15 Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 9 26 19 5 12 10 29 17 15 25 Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 19 5 12 10 29 17 15 25 9 Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 5 12 10 29 17 15 25 26 9 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 12 10 29 19 17 15 25 26 9 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 10 29 19 17 5 15 25 26 9 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 10 29 19 17 12 5 15 25 26 9 Page fault, accum pg faults: 88
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 29 19 22 17 12 5 15 25 26 Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 29 10 19 22 17 12 5 15 25 26 Page fault, accum pg faults: 89
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 29 10 19 22 17 12 5 15 25 21 Page fault, accum pg faults: 90
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 29 10 18 19 22 17 12 5 15 25 Page fault, accum pg faults: 91
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 29 10 18 19 22 17 12 5 15 33 Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 29 10 18 19 22 17 12 5 15 33 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 18 19 22 17 12 5 15 29 33 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 19 22 17 12 5 10 15 29 33 Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 19 22 17 12 18 5 10 15 29 33 Page fault, accum pg faults: 92
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 19 22 17 12 18 5 10 15 29 28 Page fault, accum pg faults: 93
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 19 22 17 12 24 18 5 10 15 29 Page fault, accum pg faults: 94
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 19 22 17 12 24 18 5 10 15 30 Page fault, accum pg faults: 95
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 19 22 17 12 24 18 5 10 15 8 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 22 17 12 24 18 5 10 15 8 19 Page fault, accum pg faults: 96
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 14 17 12 24 18 5 10 15 8 Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 14 17 12 24 22 18 5 10 15 8 Page fault, accum pg faults: 97
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 14 17 12 24 22 18 5 10 15 2 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 12 14 24 22 18 5 10 15 2 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 12 14 24 17 22 18 5 10 15 2 Page fault, accum pg faults: 98
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 12 14 24 17 22 18 5 10 15 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 14 24 17 22 18 5 10 15 16 Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 14 24 17 22 18 5 10 15 12 16 Page fault, accum pg faults: 99
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 14 24 17 22 18 5 10 15 12 6 Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 24 17 22 18 5 10 15 12 14 6 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 24 17 22 18 5 10 15 12 14 6 Page fault, accum pg faults: 100
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 24 17 22 18 5 10 15 12 13 14 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 22 18 5 10 15 24 12 13 14 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 18 5 10 15 24 17 12 13 14 Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 18 22 5 10 15 24 17 12 13 14 Page fault, accum pg faults: 101
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 18 22 5 10 15 24 17 12 13 11 Page fault, accum pg faults: 102
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 22 5 10 15 24 17 7 12 13 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 22 5 10 15 24 17 7 12 13 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 22 5 10 15 24 18 17 7 12 13 Page fault, accum pg faults: 103
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 5 10 15 24 18 17 23 7 12 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 5 10 15 24 18 17 22 23 7 12 Page referenced: 3
+Number of pages in mem: 10
+List of pages in mem: 10 15 24 18 17 22 23 7 12 5 Page fault, accum pg faults: 104
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 15 24 18 17 22 23 7 12 3 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 24 18 17 22 23 7 12 10 3 Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 24 18 17 22 23 7 12 10 3 15 Page fault, accum pg faults: 105
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 25 24 18 17 22 23 7 12 10 3 Page fault, accum pg faults: 106
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 25 24 18 17 22 23 7 12 10 29 Page fault, accum pg faults: 107
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 24 18 17 22 23 7 12 10 8 Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 24 18 17 22 23 7 12 10 25 8 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 17 22 23 7 12 10 25 8 24 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 22 23 7 12 18 10 25 8 24 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 22 23 7 12 18 10 25 8 24 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 23 7 12 18 10 17 25 8 24 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 7 12 18 10 17 25 22 8 24 Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 7 12 23 18 10 17 25 22 8 24 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 23 18 10 17 25 22 7 8 24 Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 23 12 18 10 17 25 22 7 8 24 Page fault, accum pg faults: 108
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 12 18 10 17 26 25 22 7 8 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 12 18 10 17 26 25 22 7 23 8 Page fault, accum pg faults: 109
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 18 10 17 26 25 22 13 7 23 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 10 17 26 25 22 13 7 12 23 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 10 17 26 25 22 13 7 12 23 Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 10 17 26 25 22 13 7 18 12 23 Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 26 25 22 13 7 18 12 23 10 Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 26 25 22 13 7 18 12 23 10 17 Page fault, accum pg faults: 110
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 26 25 22 13 7 18 12 23 10 11 Page fault, accum pg faults: 111
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 16 25 22 13 7 18 12 23 10 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 25 22 13 7 18 12 23 10 26 Page referenced: 3
+Number of pages in mem: 10
+List of pages in mem: 25 22 13 7 18 12 16 23 10 26 Page fault, accum pg faults: 112
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 25 22 13 7 18 12 16 23 10 3 Page fault, accum pg faults: 113
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 25 22 13 7 18 20 12 16 23 10 Page fault, accum pg faults: 114
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 25 22 13 7 18 20 12 16 23 9 Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 22 13 7 18 20 12 16 23 9 25 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 7 18 20 12 16 23 9 25 22 Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 7 18 20 12 13 16 23 9 25 22 Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 18 20 12 13 16 23 9 25 22 7 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 20 12 13 16 23 9 25 22 7 18 Page fault, accum pg faults: 115
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 12 13 16 15 23 9 25 22 7 Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 13 16 15 23 9 25 22 7 20 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 12 13 16 15 23 9 25 22 7 20 Page fault, accum pg faults: 116
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 14 13 16 15 23 9 25 22 7 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 14 13 16 15 23 9 25 22 7 12 Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 14 13 16 15 23 9 25 22 7 12 Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 13 16 15 23 9 25 22 7 12 14 Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 16 15 23 9 25 22 7 12 14 13 Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 15 23 9 25 22 7 12 14 13 16 Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 23 9 25 22 7 12 14 13 16 15 Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 9 25 22 7 12 14 13 16 15 23 Page fault, accum pg faults: 117

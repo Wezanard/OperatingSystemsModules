@@ -1,0 +1,34 @@
+Batch Multiprogramming System with I/O
+System Parameters
+Simulation period: 1750
+Close arrivals time: 800
+Total memory: 255, queue sizes: 100
+Degree of mult.: 15
+Workload Parameters
+Mean arrival: 7.3, mean CPU per: 11.5, mean I/O per: 11
+Upper memory demand: 60 lower mem demand: 10
+
+Starting Simulation Run
+Psim3 project: Batch Multiprogramming System 
+Simulation date: Mon Sep 18 11:28:46 2017
+
+-------------------------------------------------------------
+Memory % usage: 0.856225 avg num items used: 231.245
+% of time spent in res usage: 0.944181
+% of time spent waiting: 0.881108
+-------------------------------------------------------------
+
+------------------------------------------
+Service factor: 0.0205564
+Total number of jobs that arrived: 115
+Total number of rejected jobs: 0
+Total number of completed jobs: 115
+Average number of jobs in input queue: 26.7041
+Maximum number of jobs in memory: 15
+Average sojourn time: 501.089
+Average total wait time: 481.18
+CPU utilization: 0.73189
+DISK utilization: 0.686433
+-------------------------------------------------------------
+End of simulation Batch Multiprogramming System  Mon Sep 18 11:28:46 2017
+

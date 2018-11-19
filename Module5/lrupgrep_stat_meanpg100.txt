@@ -1,0 +1,11 @@
+Psim3 project: LRU Page Replacement Algorithm
+Simulation date: Tue Oct 24 12:09:39 2017
+
+
+LRU - Total page faults: 206
+Total number of page references: 300
+Proportion of pg faults to pg refs.: 0.686667
+
+-------------------------------------------------------------
+End of simulation LRU Page Replacement Algorithm Tue Oct 24 12:09:39 2017
+

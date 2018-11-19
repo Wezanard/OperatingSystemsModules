@@ -1,0 +1,323 @@
+Simulation of Concurrent Philosophers - Circular Wait
+-----------------------------------------------------------
+Psim3 project: Concurrent Philosophers Problem Circular Wait
+Simulation date: Tue Oct 10 11:36:46 2017
+
+Philosopher0 thinking interval = 15.1727
+Philosopher3 thinking interval = 5.33003
+Philosopher2 thinking interval = 57.1515
+Philosopher4 thinking interval = 4.2806
+Philosopher1 thinking interval = 8.71351
+Philosopher4 attempting CS at: 4.2806
+Philosopher4 requesting right fork at: 4.7806
+Philosopher4 requesting left fork at: 4.7806
+Philosopher4 acquired left fork at 4.7806
+Philosopher4 starts eating at 4.7806
+Philosopher4 eating period = 10.6344
+Philosopher3 attempting CS at: 5.33003
+Philosopher3 requesting left fork at: 5.83003
+Philosopher3 acquired left fork at 5.83003
+Philosopher3 requesting right fork at: 5.83003
+Philosopher1 attempting CS at: 8.71351
+Philosopher1 requesting left fork at: 9.21351
+Philosopher1 acquired left fork at 9.21351
+Philosopher1 requesting right fork at: 9.21351
+Philosopher1 acquired right fork at 9.21351
+Philosopher1 starts eating at 9.21351
+Philosopher1 eating period = 7.95247
+Philosopher0 attempting CS at: 15.1727
+Philosopher4 released forks at: 15.415
+Philosopher4 thinking interval = 0.153414
+Philosopher3 acquired right fork at 15.415
+Philosopher3 starts eating at 15.415
+Philosopher3 eating period = 15.4819
+Philosopher4 attempting CS at: 15.5685
+Philosopher0 requesting left fork at: 15.6727
+Philosopher0 acquired left fork at 15.6727
+Philosopher0 requesting right fork at: 15.6727
+Philosopher4 requesting right fork at: 16.0685
+Philosopher1 released forks at: 17.166
+Philosopher1 thinking interval = 58.1499
+Philosopher0 acquired right fork at 17.166
+Philosopher0 starts eating at 17.166
+Philosopher0 eating period = 15.6806
+Philosopher3 released forks at: 30.897
+Philosopher3 thinking interval = 2.02248
+Philosopher0 released forks at: 32.8466
+Philosopher0 thinking interval = 12.8856
+Philosopher4 requesting left fork at: 32.8466
+Philosopher4 acquired left fork at 32.8466
+Philosopher4 starts eating at 32.8466
+Philosopher4 eating period = 4.91384
+Philosopher3 attempting CS at: 32.9194
+Philosopher3 requesting left fork at: 33.4194
+Philosopher3 acquired left fork at 33.4194
+Philosopher3 requesting right fork at: 33.4194
+Philosopher4 released forks at: 37.7604
+Philosopher4 thinking interval = 27.8951
+Philosopher3 acquired right fork at 37.7604
+Philosopher3 starts eating at 37.7604
+Philosopher3 eating period = 2.25647
+Philosopher3 released forks at: 40.0169
+Philosopher3 thinking interval = 10.2779
+Philosopher0 attempting CS at: 45.7322
+Philosopher0 requesting left fork at: 46.2322
+Philosopher0 acquired left fork at 46.2322
+Philosopher0 requesting right fork at: 46.2322
+Philosopher0 acquired right fork at 46.2322
+Philosopher0 starts eating at 46.2322
+Philosopher0 eating period = 27.7011
+Philosopher3 attempting CS at: 50.2948
+Philosopher3 requesting left fork at: 50.7948
+Philosopher3 acquired left fork at 50.7948
+Philosopher3 requesting right fork at: 50.7948
+Philosopher3 acquired right fork at 50.7948
+Philosopher3 starts eating at 50.7948
+Philosopher3 eating period = 13.0138
+Philosopher2 attempting CS at: 57.1515
+Philosopher2 requesting left fork at: 57.6515
+Philosopher2 acquired left fork at 57.6515
+Philosopher2 requesting right fork at: 57.6515
+Philosopher3 released forks at: 63.8086
+Philosopher3 thinking interval = 2.95617
+Philosopher2 acquired right fork at 63.8086
+Philosopher2 starts eating at 63.8086
+Philosopher2 eating period = 14.8846
+Philosopher4 attempting CS at: 65.6555
+Philosopher4 requesting right fork at: 66.1555
+Philosopher3 attempting CS at: 66.7647
+Philosopher3 requesting left fork at: 67.2647
+Philosopher0 released forks at: 73.9333
+Philosopher0 thinking interval = 1.51534
+Philosopher4 requesting left fork at: 73.9333
+Philosopher4 acquired left fork at 73.9333
+Philosopher4 starts eating at 73.9333
+Philosopher4 eating period = 12.5566
+Philosopher1 attempting CS at: 75.3159
+Philosopher0 attempting CS at: 75.4486
+Philosopher1 requesting left fork at: 75.8159
+Philosopher1 acquired left fork at 75.8159
+Philosopher1 requesting right fork at: 75.8159
+Philosopher0 requesting left fork at: 75.9486
+Philosopher2 released forks at: 78.6932
+Philosopher2 thinking interval = 1.40831
+Philosopher1 acquired right fork at 78.6932
+Philosopher1 starts eating at 78.6932
+Philosopher1 eating period = 25.7375
+Philosopher3 acquired left fork at 78.6932
+Philosopher3 requesting right fork at: 78.6932
+Philosopher2 attempting CS at: 80.1015
+Philosopher2 requesting left fork at: 80.6015
+Philosopher4 released forks at: 86.4899
+Philosopher4 thinking interval = 5.17151
+Philosopher3 acquired right fork at 86.4899
+Philosopher3 starts eating at 86.4899
+Philosopher3 eating period = 2.97161
+Philosopher0 acquired left fork at 86.4899
+Philosopher0 requesting right fork at: 86.4899
+Philosopher3 released forks at: 89.4615
+Philosopher3 thinking interval = 30.7097
+Philosopher4 attempting CS at: 91.6614
+Philosopher4 requesting right fork at: 92.1614
+Philosopher1 released forks at: 104.431
+Philosopher1 thinking interval = 2.07775
+Philosopher0 acquired right fork at 104.431
+Philosopher0 starts eating at 104.431
+Philosopher0 eating period = 8.77878
+Philosopher2 acquired left fork at 104.431
+Philosopher2 requesting right fork at: 104.431
+Philosopher2 acquired right fork at 104.431
+Philosopher2 starts eating at 104.431
+Philosopher2 eating period = 3.66683
+Philosopher1 attempting CS at: 106.508
+Philosopher1 requesting left fork at: 107.008
+Philosopher2 released forks at: 108.098
+Philosopher2 thinking interval = 22.2915
+Philosopher0 released forks at: 113.209
+Philosopher0 thinking interval = 36.7496
+Philosopher4 requesting left fork at: 113.209
+Philosopher4 acquired left fork at 113.209
+Philosopher4 starts eating at 113.209
+Philosopher4 eating period = 19.867
+Philosopher1 acquired left fork at 113.209
+Philosopher1 requesting right fork at: 113.209
+Philosopher1 acquired right fork at 113.209
+Philosopher1 starts eating at 113.209
+Philosopher1 eating period = 32.5018
+Philosopher3 attempting CS at: 120.171
+Philosopher3 requesting left fork at: 120.671
+Philosopher3 acquired left fork at 120.671
+Philosopher3 requesting right fork at: 120.671
+Philosopher2 attempting CS at: 130.389
+Philosopher2 requesting left fork at: 130.889
+Philosopher4 released forks at: 133.076
+Philosopher4 thinking interval = 1.19185
+Philosopher3 acquired right fork at 133.076
+Philosopher3 starts eating at 133.076
+Philosopher3 eating period = 8.88348
+Philosopher4 attempting CS at: 134.268
+Philosopher4 requesting right fork at: 134.768
+Philosopher4 requesting left fork at: 134.768
+Philosopher3 released forks at: 141.96
+Philosopher3 thinking interval = 22.1108
+Philosopher4 acquired left fork at 141.96
+Philosopher4 starts eating at 141.96
+Philosopher4 eating period = 7.52112
+Philosopher1 released forks at: 145.711
+Philosopher1 thinking interval = 12.1698
+Philosopher2 acquired left fork at 145.711
+Philosopher2 requesting right fork at: 145.711
+Philosopher2 acquired right fork at 145.711
+Philosopher2 starts eating at 145.711
+Philosopher2 eating period = 12.3284
+Philosopher4 released forks at: 149.481
+Philosopher4 thinking interval = 0.491632
+Philosopher0 attempting CS at: 149.959
+Philosopher4 attempting CS at: 149.973
+Philosopher0 requesting left fork at: 150.459
+Philosopher0 acquired left fork at 150.459
+Philosopher0 requesting right fork at: 150.459
+Philosopher0 acquired right fork at 150.459
+Philosopher0 starts eating at 150.459
+Philosopher0 eating period = 0.867485
+Philosopher4 requesting right fork at: 150.473
+Philosopher0 released forks at: 151.327
+Philosopher0 thinking interval = 0.0559164
+Philosopher4 requesting left fork at: 151.327
+Philosopher4 acquired left fork at 151.327
+Philosopher4 starts eating at 151.327
+Philosopher4 eating period = 0.450529
+Philosopher0 attempting CS at: 151.382
+Philosopher4 released forks at: 151.777
+Philosopher4 thinking interval = 2.07825
+Philosopher0 requesting left fork at: 151.882
+Philosopher0 acquired left fork at 151.882
+Philosopher0 requesting right fork at: 151.882
+Philosopher0 acquired right fork at 151.882
+Philosopher0 starts eating at 151.882
+Philosopher0 eating period = 43.693
+Philosopher4 attempting CS at: 153.855
+Philosopher4 requesting right fork at: 154.355
+Philosopher1 attempting CS at: 157.881
+Philosopher2 released forks at: 158.04
+Philosopher2 thinking interval = 11.8093
+Philosopher1 requesting left fork at: 158.381
+Philosopher3 attempting CS at: 164.071
+Philosopher3 requesting left fork at: 164.571
+Philosopher3 acquired left fork at 164.571
+Philosopher3 requesting right fork at: 164.571
+Philosopher3 acquired right fork at 164.571
+Philosopher3 starts eating at 164.571
+Philosopher3 eating period = 1.08841
+Philosopher3 released forks at: 165.659
+Philosopher3 thinking interval = 12.6593
+Philosopher2 attempting CS at: 169.849
+Philosopher2 requesting left fork at: 170.349
+Philosopher2 acquired left fork at 170.349
+Philosopher2 requesting right fork at: 170.349
+Philosopher2 acquired right fork at 170.349
+Philosopher2 starts eating at 170.349
+Philosopher2 eating period = 3.97022
+Philosopher2 released forks at: 174.319
+Philosopher2 thinking interval = 20.0958
+Philosopher3 attempting CS at: 178.318
+Philosopher3 requesting left fork at: 178.818
+Philosopher3 acquired left fork at 178.818
+Philosopher3 requesting right fork at: 178.818
+Philosopher3 acquired right fork at 178.818
+Philosopher3 starts eating at 178.818
+Philosopher3 eating period = 9.93556
+Philosopher3 released forks at: 188.754
+Philosopher3 thinking interval = 27.0749
+Philosopher2 attempting CS at: 194.415
+Philosopher2 requesting left fork at: 194.915
+Philosopher2 acquired left fork at 194.915
+Philosopher2 requesting right fork at: 194.915
+Philosopher2 acquired right fork at 194.915
+Philosopher2 starts eating at 194.915
+Philosopher2 eating period = 0.535969
+Philosopher2 released forks at: 195.451
+Philosopher2 thinking interval = 4.81241
+Philosopher0 released forks at: 195.575
+Philosopher0 thinking interval = 34.8366
+Philosopher4 requesting left fork at: 195.575
+Philosopher4 acquired left fork at 195.575
+Philosopher4 starts eating at 195.575
+Philosopher4 eating period = 1.1142
+Philosopher1 acquired left fork at 195.575
+Philosopher1 requesting right fork at: 195.575
+Philosopher1 acquired right fork at 195.575
+Philosopher1 starts eating at 195.575
+Philosopher1 eating period = 17.7032
+Philosopher4 released forks at: 196.69
+Philosopher4 thinking interval = 2.13028
+Philosopher4 attempting CS at: 198.82
+Philosopher4 requesting right fork at: 199.32
+Philosopher4 requesting left fork at: 199.32
+Philosopher4 acquired left fork at 199.32
+Philosopher4 starts eating at 199.32
+Philosopher4 eating period = 20.5797
+Philosopher2 attempting CS at: 200.263
+Philosopher2 requesting left fork at: 200.763
+Philosopher1 released forks at: 213.279
+Philosopher1 thinking interval = 49.2332
+Philosopher2 acquired left fork at 213.279
+Philosopher2 requesting right fork at: 213.279
+Philosopher2 acquired right fork at 213.279
+Philosopher2 starts eating at 213.279
+Philosopher2 eating period = 6.74078
+Philosopher3 attempting CS at: 215.829
+Philosopher3 requesting left fork at: 216.329
+Philosopher4 released forks at: 219.9
+Philosopher4 thinking interval = 4.48094
+Philosopher2 released forks at: 220.019
+Philosopher2 thinking interval = 20.6827
+Philosopher3 acquired left fork at 220.019
+Philosopher3 requesting right fork at: 220.019
+Philosopher3 acquired right fork at 220.019
+Philosopher3 starts eating at 220.019
+Philosopher3 eating period = 15.0968
+Philosopher4 attempting CS at: 224.381
+Philosopher4 requesting right fork at: 224.881
+Philosopher4 requesting left fork at: 224.881
+Philosopher0 attempting CS at: 230.412
+Philosopher0 requesting left fork at: 230.912
+Philosopher3 released forks at: 235.116
+Philosopher3 thinking interval = 12.9791
+Philosopher4 acquired left fork at 235.116
+Philosopher4 starts eating at 235.116
+Philosopher4 eating period = 6.65608
+Philosopher2 attempting CS at: 240.702
+Philosopher2 requesting left fork at: 241.202
+Philosopher2 acquired left fork at 241.202
+Philosopher2 requesting right fork at: 241.202
+Philosopher2 acquired right fork at 241.202
+Philosopher2 starts eating at 241.202
+Philosopher2 eating period = 1.5355
+Philosopher4 released forks at: 241.772
+Philosopher4 thinking interval = 81.4572
+Philosopher0 acquired left fork at 241.772
+Philosopher0 requesting right fork at: 241.772
+Philosopher0 acquired right fork at 241.772
+Philosopher0 starts eating at 241.772
+Philosopher0 eating period = 1.23061
+Philosopher2 released forks at: 242.738
+Philosopher2 thinking interval = 7.95586
+Philosopher0 released forks at: 243.003
+Philosopher0 thinking interval = 2.23505
+Philosopher0 attempting CS at: 245.238
+Philosopher0 requesting left fork at: 245.738
+Philosopher0 acquired left fork at 245.738
+Philosopher0 requesting right fork at: 245.738
+Philosopher0 acquired right fork at 245.738
+Philosopher0 starts eating at 245.738
+Philosopher0 eating period = 12.1548
+Philosopher3 attempting CS at: 248.095
+Philosopher3 requesting left fork at: 248.595
+Philosopher3 acquired left fork at 248.595
+Philosopher3 requesting right fork at: 248.595
+Philosopher3 acquired right fork at 248.595
+Philosopher3 starts eating at 248.595
+Philosopher3 eating period = 6.27596
+ ------------------------------------------------------------------
+End of simulation Concurrent Philosophers Circular Wait

@@ -1,0 +1,903 @@
+Psim3 project: LRU Page Replacement Algorithm
+Simulation date: Tue Oct 24 12:08:03 2017
+
+27 24 15 16 18 26 24 12 32 23 27 24 20 16 28 15 8 18 34 21 21 10 14 25 30 32 21 33 10 29 30 17 26 19 33 28 33 18 17 25 3 2 32 12 19 26 22 14 30 4 33 34 21 28 21 11 15 29 12 12 11 23 5 10 30 18 23 20 19 34 6 18 22 23 27 24 21 30 18 22 12 7 31 35 28 12 15 20 23 16 20 29 14 20 23 7 15 20 24 21 31 28 34 25 19 21 18 8 27 14 27 34 30 14 14 23 4 24 10 20 18 20 22 31 23 25 17 17 13 14 20 21 23 9 17 30 2 23 9 26 2 19 24 18 21 22 27 20 25 6 31 8 9 8 27 10 32 12 7 5 30 17 26 27 4 12 26 30 27 16 20 15 14 22 35 17 8 18 20 10 17 27 20 18 17 26 26 15 23 27 18 29 2 15 22 29 22 14 22 9 11 26 19 24 34 16 24 29 20 18 27 20 7 18 19 14 19 35 32 34 29 17 4 18 22 14 23 22 19 15 4 18 7 10 17 16 33 2 32 1 2 9 15 31 22 33 32 35 20 18 9 19 10 16 28 26 18 32 13 32 15 31 30 28 2 15 9 33 12 20 17 27 31 7 2 16 26 7 15 32 14 1 35 5 23 21 9 19 20 19 31 2 18 27 3 20 20 32 27 11 
+Page referenced: 27
+Number of pages in mem: 0
+List of pages in mem: Page referenced: 24
+Number of pages in mem: 1
+List of pages in mem: 27 
+Page referenced: 15
+Number of pages in mem: 2
+List of pages in mem: 24 27 
+Page referenced: 16
+Number of pages in mem: 3
+List of pages in mem: 15 24 27 
+Page referenced: 18
+Number of pages in mem: 4
+List of pages in mem: 16 15 24 27 
+Page referenced: 26
+Number of pages in mem: 5
+List of pages in mem: 18 16 15 24 27 
+Page referenced: 24
+Number of pages in mem: 6
+List of pages in mem: 26 18 16 15 24 27 
+Page referenced: 12
+Number of pages in mem: 6
+List of pages in mem: 24 26 18 16 15 27 
+Page referenced: 32
+Number of pages in mem: 7
+List of pages in mem: 12 24 26 18 16 15 27 
+Page referenced: 23
+Number of pages in mem: 8
+List of pages in mem: 32 12 24 26 18 16 15 27 
+Page referenced: 27
+Number of pages in mem: 9
+List of pages in mem: 23 32 12 24 26 18 16 15 27 
+Page referenced: 24
+Number of pages in mem: 9
+List of pages in mem: 27 23 32 12 24 26 18 16 15 
+Page referenced: 20
+Number of pages in mem: 9
+List of pages in mem: 24 27 23 32 12 26 18 16 15 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 20 24 27 23 32 12 26 18 16 15 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 16 20 24 27 23 32 12 26 18 15 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 28 16 20 24 27 23 32 12 26 18 
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 15 28 16 20 24 27 23 32 12 26 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 8 15 28 16 20 24 27 23 32 12 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 18 8 15 28 16 20 24 27 23 32 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 34 18 8 15 28 16 20 24 27 23 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 21 34 18 8 15 28 16 20 24 27 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 21 34 18 8 15 28 16 20 24 27 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 10 21 34 18 8 15 28 16 20 24 
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 14 10 21 34 18 8 15 28 16 20 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 25 14 10 21 34 18 8 15 28 16 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 30 25 14 10 21 34 18 8 15 28 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 32 30 25 14 10 21 34 18 8 15 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 21 32 30 25 14 10 34 18 8 15 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 33 21 32 30 25 14 10 34 18 8 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 10 33 21 32 30 25 14 34 18 8 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 29 10 33 21 32 30 25 14 34 18 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 30 29 10 33 21 32 25 14 34 18 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 17 30 29 10 33 21 32 25 14 34 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 26 17 30 29 10 33 21 32 25 14 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 19 26 17 30 29 10 33 21 32 25 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 33 19 26 17 30 29 10 21 32 25 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 28 33 19 26 17 30 29 10 21 32 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 33 28 19 26 17 30 29 10 21 32 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 18 33 28 19 26 17 30 29 10 21 
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 17 18 33 28 19 26 30 29 10 21 
+Page referenced: 3
+Number of pages in mem: 10
+List of pages in mem: 25 17 18 33 28 19 26 30 29 10 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 3 25 17 18 33 28 19 26 30 29 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 2 3 25 17 18 33 28 19 26 30 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 32 2 3 25 17 18 33 28 19 26 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 12 32 2 3 25 17 18 33 28 19 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 19 12 32 2 3 25 17 18 33 28 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 26 19 12 32 2 3 25 17 18 33 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 22 26 19 12 32 2 3 25 17 18 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 14 22 26 19 12 32 2 3 25 17 
+Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 30 14 22 26 19 12 32 2 3 25 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 4 30 14 22 26 19 12 32 2 3 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 33 4 30 14 22 26 19 12 32 2 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 34 33 4 30 14 22 26 19 12 32 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 21 34 33 4 30 14 22 26 19 12 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 28 21 34 33 4 30 14 22 26 19 
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 21 28 34 33 4 30 14 22 26 19 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 11 21 28 34 33 4 30 14 22 26 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 15 11 21 28 34 33 4 30 14 22 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 29 15 11 21 28 34 33 4 30 14 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 12 29 15 11 21 28 34 33 4 30 
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 12 29 15 11 21 28 34 33 4 30 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 11 12 29 15 21 28 34 33 4 30 
+Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 23 11 12 29 15 21 28 34 33 4 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 5 23 11 12 29 15 21 28 34 33 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 10 5 23 11 12 29 15 21 28 34 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 30 10 5 23 11 12 29 15 21 28 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 18 30 10 5 23 11 12 29 15 21 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 23 18 30 10 5 11 12 29 15 21 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 20 23 18 30 10 5 11 12 29 15 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 19 20 23 18 30 10 5 11 12 29 
+Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 34 19 20 23 18 30 10 5 11 12 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 6 34 19 20 23 18 30 10 5 11 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 18 6 34 19 20 23 30 10 5 11 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 22 18 6 34 19 20 23 30 10 5 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 23 22 18 6 34 19 20 30 10 5 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 27 23 22 18 6 34 19 20 30 10 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 24 27 23 22 18 6 34 19 20 30 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 21 24 27 23 22 18 6 34 19 20 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 30 21 24 27 23 22 18 6 34 19 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 18 30 21 24 27 23 22 6 34 19 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 22 18 30 21 24 27 23 6 34 19 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 12 22 18 30 21 24 27 23 6 34 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 7 12 22 18 30 21 24 27 23 6 
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 31 7 12 22 18 30 21 24 27 23 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 35 31 7 12 22 18 30 21 24 27 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 28 35 31 7 12 22 18 30 21 24 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 12 28 35 31 7 22 18 30 21 24 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 15 12 28 35 31 7 22 18 30 21 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 20 15 12 28 35 31 7 22 18 30 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 23 20 15 12 28 35 31 7 22 18 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 16 23 20 15 12 28 35 31 7 22 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 20 16 23 15 12 28 35 31 7 22 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 29 20 16 23 15 12 28 35 31 7 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 14 29 20 16 23 15 12 28 35 31 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 20 14 29 16 23 15 12 28 35 31 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 23 20 14 29 16 15 12 28 35 31 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 7 23 20 14 29 16 15 12 28 35 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 15 7 23 20 14 29 16 12 28 35 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 20 15 7 23 14 29 16 12 28 35 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 24 20 15 7 23 14 29 16 12 28 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 21 24 20 15 7 23 14 29 16 12 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 31 21 24 20 15 7 23 14 29 16 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 28 31 21 24 20 15 7 23 14 29 
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 34 28 31 21 24 20 15 7 23 14 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 25 34 28 31 21 24 20 15 7 23 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 19 25 34 28 31 21 24 20 15 7 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 21 19 25 34 28 31 24 20 15 7 
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 18 21 19 25 34 28 31 24 20 15 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 8 18 21 19 25 34 28 31 24 20 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 27 8 18 21 19 25 34 28 31 24 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 14 27 8 18 21 19 25 34 28 31 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 27 14 8 18 21 19 25 34 28 31 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 34 27 14 8 18 21 19 25 28 31 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 30 34 27 14 8 18 21 19 25 28 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 14 30 34 27 8 18 21 19 25 28 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 14 30 34 27 8 18 21 19 25 28 
+Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 23 14 30 34 27 8 18 21 19 25 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 4 23 14 30 34 27 8 18 21 19 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 24 4 23 14 30 34 27 8 18 21 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 10 24 4 23 14 30 34 27 8 18 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 20 10 24 4 23 14 30 34 27 8 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 18 20 10 24 4 23 14 30 34 27 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 20 18 10 24 4 23 14 30 34 27 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 22 20 18 10 24 4 23 14 30 34 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 31 22 20 18 10 24 4 23 14 30 
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 23 31 22 20 18 10 24 4 14 30 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 25 23 31 22 20 18 10 24 4 14 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 17 25 23 31 22 20 18 10 24 4 
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 17 25 23 31 22 20 18 10 24 4 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 13 17 25 23 31 22 20 18 10 24 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 14 13 17 25 23 31 22 20 18 10 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 20 14 13 17 25 23 31 22 18 10 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 21 20 14 13 17 25 23 31 22 18 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 23 21 20 14 13 17 25 31 22 18 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 9 23 21 20 14 13 17 25 31 22 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 17 9 23 21 20 14 13 25 31 22 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 30 17 9 23 21 20 14 13 25 31 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 2 30 17 9 23 21 20 14 13 25 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 23 2 30 17 9 21 20 14 13 25 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 9 23 2 30 17 21 20 14 13 25 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 26 9 23 2 30 17 21 20 14 13 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 2 26 9 23 30 17 21 20 14 13 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 19 2 26 9 23 30 17 21 20 14 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 24 19 2 26 9 23 30 17 21 20 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 18 24 19 2 26 9 23 30 17 21 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 21 18 24 19 2 26 9 23 30 17 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 22 21 18 24 19 2 26 9 23 30 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 27 22 21 18 24 19 2 26 9 23 
+Page referenced: 25
+Number of pages in mem: 10
+List of pages in mem: 20 27 22 21 18 24 19 2 26 9 
+Page referenced: 6
+Number of pages in mem: 10
+List of pages in mem: 25 20 27 22 21 18 24 19 2 26 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 6 25 20 27 22 21 18 24 19 2 
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 31 6 25 20 27 22 21 18 24 19 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 8 31 6 25 20 27 22 21 18 24 
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 9 8 31 6 25 20 27 22 21 18 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 8 9 31 6 25 20 27 22 21 18 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 27 8 9 31 6 25 20 22 21 18 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 10 27 8 9 31 6 25 20 22 21 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 32 10 27 8 9 31 6 25 20 22 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 12 32 10 27 8 9 31 6 25 20 
+Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 7 12 32 10 27 8 9 31 6 25 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 5 7 12 32 10 27 8 9 31 6 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 30 5 7 12 32 10 27 8 9 31 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 17 30 5 7 12 32 10 27 8 9 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 26 17 30 5 7 12 32 10 27 8 
+Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 27 26 17 30 5 7 12 32 10 8 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 4 27 26 17 30 5 7 12 32 10 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 12 4 27 26 17 30 5 7 32 10 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 26 12 4 27 17 30 5 7 32 10 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 30 26 12 4 27 17 5 7 32 10 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 27 30 26 12 4 17 5 7 32 10 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 16 27 30 26 12 4 17 5 7 32 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 20 16 27 30 26 12 4 17 5 7 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 15 20 16 27 30 26 12 4 17 5 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 14 15 20 16 27 30 26 12 4 17 
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 22 14 15 20 16 27 30 26 12 4 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 35 22 14 15 20 16 27 30 26 12 
+Page referenced: 8
+Number of pages in mem: 10
+List of pages in mem: 17 35 22 14 15 20 16 27 30 26 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 8 17 35 22 14 15 20 16 27 30 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 18 8 17 35 22 14 15 20 16 27 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 20 18 8 17 35 22 14 15 16 27 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 10 20 18 8 17 35 22 14 15 16 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 17 10 20 18 8 35 22 14 15 16 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 27 17 10 20 18 8 35 22 14 15 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 20 27 17 10 18 8 35 22 14 15 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 18 20 27 17 10 8 35 22 14 15 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 17 18 20 27 10 8 35 22 14 15 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 26 17 18 20 27 10 8 35 22 14 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 26 17 18 20 27 10 8 35 22 14 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 15 26 17 18 20 27 10 8 35 22 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 23 15 26 17 18 20 27 10 8 35 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 27 23 15 26 17 18 20 10 8 35 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 18 27 23 15 26 17 20 10 8 35 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 29 18 27 23 15 26 17 20 10 8 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 2 29 18 27 23 15 26 17 20 10 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 15 2 29 18 27 23 26 17 20 10 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 22 15 2 29 18 27 23 26 17 20 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 29 22 15 2 18 27 23 26 17 20 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 22 29 15 2 18 27 23 26 17 20 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 14 22 29 15 2 18 27 23 26 17 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 22 14 29 15 2 18 27 23 26 17 
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 9 22 14 29 15 2 18 27 23 26 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 11 9 22 14 29 15 2 18 27 23 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 26 11 9 22 14 29 15 2 18 27 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 19 26 11 9 22 14 29 15 2 18 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 24 19 26 11 9 22 14 29 15 2 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 34 24 19 26 11 9 22 14 29 15 
+Page referenced: 24
+Number of pages in mem: 10
+List of pages in mem: 16 34 24 19 26 11 9 22 14 29 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 24 16 34 19 26 11 9 22 14 29 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 29 24 16 34 19 26 11 9 22 14 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 20 29 24 16 34 19 26 11 9 22 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 18 20 29 24 16 34 19 26 11 9 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 27 18 20 29 24 16 34 19 26 11 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 20 27 18 29 24 16 34 19 26 11 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 7 20 27 18 29 24 16 34 19 26 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 18 7 20 27 29 24 16 34 19 26 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 19 18 7 20 27 29 24 16 34 26 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 14 19 18 7 20 27 29 24 16 34 
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 19 14 18 7 20 27 29 24 16 34 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 35 19 14 18 7 20 27 29 24 16 
+Page referenced: 34
+Number of pages in mem: 10
+List of pages in mem: 32 35 19 14 18 7 20 27 29 24 
+Page referenced: 29
+Number of pages in mem: 10
+List of pages in mem: 34 32 35 19 14 18 7 20 27 29 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 29 34 32 35 19 14 18 7 20 27 
+Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 17 29 34 32 35 19 14 18 7 20 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 4 17 29 34 32 35 19 14 18 7 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 18 4 17 29 34 32 35 19 14 7 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 22 18 4 17 29 34 32 35 19 14 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 14 22 18 4 17 29 34 32 35 19 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 23 14 22 18 4 17 29 34 32 35 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 22 23 14 18 4 17 29 34 32 35 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 19 22 23 14 18 4 17 29 34 32 
+Page referenced: 4
+Number of pages in mem: 10
+List of pages in mem: 15 19 22 23 14 18 4 17 29 34 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 4 15 19 22 23 14 18 17 29 34 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 18 4 15 19 22 23 14 17 29 34 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 7 18 4 15 19 22 23 14 17 29 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 10 7 18 4 15 19 22 23 14 17 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 17 10 7 18 4 15 19 22 23 14 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 16 17 10 7 18 4 15 19 22 23 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 33 16 17 10 7 18 4 15 19 22 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 2 33 16 17 10 7 18 4 15 19 
+Page referenced: 1
+Number of pages in mem: 10
+List of pages in mem: 32 2 33 16 17 10 7 18 4 15 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 1 32 2 33 16 17 10 7 18 4 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 2 1 32 33 16 17 10 7 18 4 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 9 2 1 32 33 16 17 10 7 18 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 15 9 2 1 32 33 16 17 10 7 
+Page referenced: 22
+Number of pages in mem: 10
+List of pages in mem: 31 15 9 2 1 32 33 16 17 10 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 22 31 15 9 2 1 32 33 16 17 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 33 22 31 15 9 2 1 32 16 17 
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 32 33 22 31 15 9 2 1 16 17 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 35 32 33 22 31 15 9 2 1 16 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 20 35 32 33 22 31 15 9 2 1 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 18 20 35 32 33 22 31 15 9 2 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 9 18 20 35 32 33 22 31 15 2 
+Page referenced: 10
+Number of pages in mem: 10
+List of pages in mem: 19 9 18 20 35 32 33 22 31 15 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 10 19 9 18 20 35 32 33 22 31 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 16 10 19 9 18 20 35 32 33 22 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 28 16 10 19 9 18 20 35 32 33 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 26 28 16 10 19 9 18 20 35 32 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 18 26 28 16 10 19 9 20 35 32 
+Page referenced: 13
+Number of pages in mem: 10
+List of pages in mem: 32 18 26 28 16 10 19 9 20 35 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 13 32 18 26 28 16 10 19 9 20 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 32 13 18 26 28 16 10 19 9 20 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 15 32 13 18 26 28 16 10 19 9 
+Page referenced: 30
+Number of pages in mem: 10
+List of pages in mem: 31 15 32 13 18 26 28 16 10 19 
+Page referenced: 28
+Number of pages in mem: 10
+List of pages in mem: 30 31 15 32 13 18 26 28 16 10 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 28 30 31 15 32 13 18 26 16 10 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 2 28 30 31 15 32 13 18 26 16 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 15 2 28 30 31 32 13 18 26 16 
+Page referenced: 33
+Number of pages in mem: 10
+List of pages in mem: 9 15 2 28 30 31 32 13 18 26 
+Page referenced: 12
+Number of pages in mem: 10
+List of pages in mem: 33 9 15 2 28 30 31 32 13 18 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 12 33 9 15 2 28 30 31 32 13 
+Page referenced: 17
+Number of pages in mem: 10
+List of pages in mem: 20 12 33 9 15 2 28 30 31 32 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 17 20 12 33 9 15 2 28 30 31 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 27 17 20 12 33 9 15 2 28 30 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 31 27 17 20 12 33 9 15 2 28 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 7 31 27 17 20 12 33 9 15 2 
+Page referenced: 16
+Number of pages in mem: 10
+List of pages in mem: 2 7 31 27 17 20 12 33 9 15 
+Page referenced: 26
+Number of pages in mem: 10
+List of pages in mem: 16 2 7 31 27 17 20 12 33 9 
+Page referenced: 7
+Number of pages in mem: 10
+List of pages in mem: 26 16 2 7 31 27 17 20 12 33 
+Page referenced: 15
+Number of pages in mem: 10
+List of pages in mem: 7 26 16 2 31 27 17 20 12 33 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 15 7 26 16 2 31 27 17 20 12 
+Page referenced: 14
+Number of pages in mem: 10
+List of pages in mem: 32 15 7 26 16 2 31 27 17 20 
+Page referenced: 1
+Number of pages in mem: 10
+List of pages in mem: 14 32 15 7 26 16 2 31 27 17 
+Page referenced: 35
+Number of pages in mem: 10
+List of pages in mem: 1 14 32 15 7 26 16 2 31 27 
+Page referenced: 5
+Number of pages in mem: 10
+List of pages in mem: 35 1 14 32 15 7 26 16 2 31 
+Page referenced: 23
+Number of pages in mem: 10
+List of pages in mem: 5 35 1 14 32 15 7 26 16 2 
+Page referenced: 21
+Number of pages in mem: 10
+List of pages in mem: 23 5 35 1 14 32 15 7 26 16 
+Page referenced: 9
+Number of pages in mem: 10
+List of pages in mem: 21 23 5 35 1 14 32 15 7 26 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 9 21 23 5 35 1 14 32 15 7 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 19 9 21 23 5 35 1 14 32 15 
+Page referenced: 19
+Number of pages in mem: 10
+List of pages in mem: 20 19 9 21 23 5 35 1 14 32 
+Page referenced: 31
+Number of pages in mem: 10
+List of pages in mem: 19 20 9 21 23 5 35 1 14 32 
+Page referenced: 2
+Number of pages in mem: 10
+List of pages in mem: 31 19 20 9 21 23 5 35 1 14 
+Page referenced: 18
+Number of pages in mem: 10
+List of pages in mem: 2 31 19 20 9 21 23 5 35 1 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 18 2 31 19 20 9 21 23 5 35 
+Page referenced: 3
+Number of pages in mem: 10
+List of pages in mem: 27 18 2 31 19 20 9 21 23 5 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 3 27 18 2 31 19 20 9 21 23 
+Page referenced: 20
+Number of pages in mem: 10
+List of pages in mem: 20 3 27 18 2 31 19 9 21 23 
+Page referenced: 32
+Number of pages in mem: 10
+List of pages in mem: 20 3 27 18 2 31 19 9 21 23 
+Page referenced: 27
+Number of pages in mem: 10
+List of pages in mem: 32 20 3 27 18 2 31 19 9 21 
+Page referenced: 11
+Number of pages in mem: 10
+List of pages in mem: 27 32 20 3 18 2 31 19 9 21 

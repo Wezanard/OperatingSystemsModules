@@ -1,0 +1,42 @@
+Psim3 project: Concurrent Philosophers Problem Circular Wait
+Simulation date: Tue Oct 10 11:16:30 2017
+
+-------------------------------------------------------------
+fork4 % usage: 0.556801 avg num items used: 1
+% of time spent in res usage: 0.556801
+% of time spent waiting: 0.328022
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork3 % usage: 0.500854 avg num items used: 1
+% of time spent in res usage: 0.500854
+% of time spent waiting: 0.246361
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork2 % usage: 0.531764 avg num items used: 1
+% of time spent in res usage: 0.531764
+% of time spent waiting: 0.225637
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork1 % usage: 0.662798 avg num items used: 1
+% of time spent in res usage: 0.662798
+% of time spent waiting: 0.180088
+-------------------------------------------------------------
+-------------------------------------------------------------
+fork0 % usage: 0.862022 avg num items used: 1
+% of time spent in res usage: 0.862022
+% of time spent waiting: 0.58038
+-------------------------------------------------------------
+Number of eating cycles phil 0 = 6
+Total waiting interval to eat phil 0 = 55.2432
+Number of eating cycles phil 1 = 7
+Total waiting interval to eat phil 1 = 79.6078
+Number of eating cycles phil 2 = 8
+Total waiting interval to eat phil 2 = 57.8665
+Number of eating cycles phil 3 = 7
+Total waiting interval to eat phil 3 = 78.877
+Number of eating cycles phil 4 = 9
+Total waiting interval to eat phil 4 = 101.148
+Average interval waiting to eat: 74.5484
+-------------------------------------------------------------
+End of simulation Concurrent Philosophers Problem Circular Wait Tue Oct 10 11:16:30 2017
+

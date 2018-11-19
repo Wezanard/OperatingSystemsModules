@@ -1,0 +1,2858 @@
+Psim3 project: Batch Multiprogramming System 
+Simulation date: Mon Sep 18 11:28:46 2017
+
+Job1 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job1 joining input queue at 1.44395
+Job1 acquired 10 memory at 1.44395 wait 0
+Job1 start CPU service at: 1.44395 for period = 9.38
+Job2 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job2 joining input queue at 5.58655
+CPU completed CPU service to Job1 at 10.824
+Job1 start Disk service at: 10.824 for period: 0.0188337
+Job2 acquired 42 memory at 10.824 wait 5.2374
+Job2 start CPU service at: 10.824 for period = 3.07616
+Disk completion disk burst of Job1 at: 10.8428
+CPU completed CPU service to Job2 at 13.9001
+Job2 start Disk service at: 13.9001 for period: 0.173578
+Job1 start CPU service at: 13.9001 for period = 11.3567
+Disk completion disk burst of Job2 at: 14.0737
+Job3 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job3 joining input queue at 20.0997
+CPU completed CPU service to Job1 at 25.2568
+Job1 start Disk service at: 25.2568 for period: 0.00447168
+Job3 acquired 40 memory at 25.2568 wait 5.15712
+Job2 start CPU service at: 25.2568 for period = 3.07616
+Disk completion disk burst of Job1 at: 25.2613
+CPU completed CPU service to Job2 at 28.333
+Job2 start Disk service at: 28.333 for period: 0.173578
+Job3 start CPU service at: 28.333 for period = 0.0375444
+CPU completed CPU service to Job3 at 28.3705
+Job1 start CPU service at: 28.3705 for period = 1.27342
+Disk completion disk burst of Job2 at: 28.5066
+Job3 start Disk service at: 28.5066 for period: 6.84352
+CPU completed CPU service to Job1 at 29.644
+Job2 start CPU service at: 29.644 for period = 1.34564
+CPU completed CPU service to Job2 at 30.9896
+Disk completion disk burst of Job3 at: 35.3501
+Job1 start Disk service at: 35.3501 for period: 0.0287089
+Job3 start CPU service at: 35.3501 for period = 0.00467494
+CPU completed CPU service to Job3 at 35.3548
+Disk completion disk burst of Job1 at: 35.3788
+Job2 start Disk service at: 35.3788 for period: 1.00991
+Job1 start CPU service at: 35.3788 for period = 0.853065
+Job4 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job4 joining input queue at 36.1208
+CPU completed CPU service to Job1 at 36.2319
+Job4 acquired 55 memory at 36.2319 wait 0.111044
+Job4 start CPU service at: 36.2319 for period = 2.6774
+Disk completion disk burst of Job2 at: 36.3887
+Job3 start Disk service at: 36.3887 for period: 1.65314
+Disk completion disk burst of Job3 at: 38.0419
+Job1 start Disk service at: 38.0419 for period: 0.0202834
+Disk completion disk burst of Job1 at: 38.0621
+Job1 terminating at: 38.0621 sojourn time: 36.6182 wait time: 13.6827
+CPU completed CPU service to Job4 at 38.9093
+Job4 start Disk service at: 38.9093 for period: 0.399461
+Job2 start CPU service at: 38.9093 for period = 0
+CPU completed CPU service to Job2 at 38.9093
+Job3 start CPU service at: 38.9093 for period = 0.0196898
+CPU completed CPU service to Job3 at 38.929
+Job5 int_arr 3.00502 cpuper 8.37116 diskper 19.2426 memreq 33
+Job5 joining input queue at 39.1258
+Job5 acquired 33 memory at 39.1258 wait 0
+Job5 start CPU service at: 39.1258 for period = 3.4344
+Disk completion disk burst of Job4 at: 39.3087
+Job2 start Disk service at: 39.3087 for period: 0.173578
+Disk completion disk burst of Job2 at: 39.4823
+Job3 start Disk service at: 39.4823 for period: 11.9916
+Job6 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job6 joining input queue at 40.808
+CPU completed CPU service to Job5 at 42.5602
+Job6 acquired 37 memory at 42.5602 wait 1.7522
+Job4 start CPU service at: 42.5602 for period = 2.6774
+CPU completed CPU service to Job4 at 45.2376
+Job2 start CPU service at: 45.2376 for period = 0
+CPU completed CPU service to Job2 at 45.2376
+Job6 start CPU service at: 45.2376 for period = 11.9381
+Disk completion disk burst of Job3 at: 51.4739
+Job5 start Disk service at: 51.4739 for period: 1.07177
+Disk completion disk burst of Job5 at: 52.5457
+Job4 start Disk service at: 52.5457 for period: 2.03308
+Disk completion disk burst of Job4 at: 54.5788
+Job2 start Disk service at: 54.5788 for period: 0.660325
+Disk completion disk burst of Job2 at: 55.2391
+Job7 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job7 joining input queue at 56.8291
+CPU completed CPU service to Job6 at 57.1757
+Job6 start Disk service at: 57.1757 for period: 0.827607
+Job3 start CPU service at: 57.1757 for period = 0.0136748
+CPU completed CPU service to Job3 at 57.1894
+Job5 start CPU service at: 57.1894 for period = 0.573235
+CPU completed CPU service to Job5 at 57.7626
+Job4 start CPU service at: 57.7626 for period = 1.17121
+Disk completion disk burst of Job6 at: 58.0033
+Job3 start Disk service at: 58.0033 for period: 1.34462
+Job8 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job8 joining input queue at 58.5113
+CPU completed CPU service to Job4 at 58.9339
+Job2 start CPU service at: 58.9339 for period = 0
+CPU completed CPU service to Job2 at 58.9339
+Job6 start CPU service at: 58.9339 for period = 1.64576
+Disk completion disk burst of Job3 at: 59.348
+Job5 start Disk service at: 59.348 for period: 9.55828
+CPU completed CPU service to Job6 at 60.5796
+Job3 start CPU service at: 60.5796 for period = 0
+CPU completed CPU service to Job3 at 60.5796
+Job9 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job9 joining input queue at 62.6539
+Job10 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job10 joining input queue at 66.7965
+Job11 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job11 joining input queue at 68.2405
+Disk completion disk burst of Job5 at: 68.9062
+Job4 start Disk service at: 68.9062 for period: 2.94242
+Job5 start CPU service at: 68.9062 for period = 0.573235
+CPU completed CPU service to Job5 at 69.4795
+Job12 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job12 joining input queue at 69.6844
+Job13 int_arr 0.0479793 cpuper 25.2387 diskper 6.24227 memreq 57
+Job13 joining input queue at 69.7324
+Job14 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job14 joining input queue at 71.1764
+Disk completion disk burst of Job4 at: 71.8487
+Job2 start Disk service at: 71.8487 for period: 0.343847
+Job4 start CPU service at: 71.8487 for period = 0
+CPU completed CPU service to Job4 at 71.8487
+Disk completion disk burst of Job2 at: 72.1925
+Job2 terminating at: 72.1925 sojourn time: 66.606 wait time: 56.5732
+Job6 start Disk service at: 72.1925 for period: 1.24092
+Job7 acquired 55 memory at 72.1925 wait 15.3634
+Job7 start CPU service at: 72.1925 for period = 0.363483
+CPU completed CPU service to Job7 at 72.556
+Job15 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job15 joining input queue at 72.6203
+Disk completion disk burst of Job6 at: 73.4334
+Job3 start Disk service at: 73.4334 for period: 2.3085
+Job6 start CPU service at: 73.4334 for period = 1.64576
+CPU completed CPU service to Job6 at 75.0792
+Disk completion disk burst of Job3 at: 75.7419
+Job3 terminating at: 75.7419 sojourn time: 55.6422 wait time: 31.4252
+Job5 start Disk service at: 75.7419 for period: 8.61257
+Job8 acquired 37 memory at 75.7419 wait 17.2306
+Job8 start CPU service at: 75.7419 for period = 1.33861
+Job16 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job16 joining input queue at 76.7629
+CPU completed CPU service to Job8 at 77.0805
+Job17 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job17 joining input queue at 80.9055
+Job18 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job18 joining input queue at 82.3495
+Job19 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job19 joining input queue at 83.7934
+Disk completion disk burst of Job5 at: 84.3545
+Job4 start Disk service at: 84.3545 for period: 1.79701
+Job5 start CPU service at: 84.3545 for period = 2.1807
+Job20 int_arr 1.44395 cpuper 22.8632 diskper 0.0722976 memreq 10
+Job20 joining input queue at 85.2374
+Disk completion disk burst of Job4 at: 86.1515
+Job4 terminating at: 86.1515 sojourn time: 50.0307 wait time: 36.3327
+Job7 start Disk service at: 86.1515 for period: 2.37592
+Job9 acquired 42 memory at 86.1515 wait 23.4976
+Job10 acquired 42 memory at 86.1515 wait 19.355
+CPU completed CPU service to Job5 at 86.5352
+Job9 start CPU service at: 86.5352 for period = 3.07616
+Job21 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job21 joining input queue at 86.9196
+Disk completion disk burst of Job7 at: 88.5274
+Job6 start Disk service at: 88.5274 for period: 0.429684
+Disk completion disk burst of Job6 at: 88.9571
+Job8 start Disk service at: 88.9571 for period: 0.992023
+CPU completed CPU service to Job9 at 89.6114
+Job10 start CPU service at: 89.6114 for period = 0.463757
+Disk completion disk burst of Job8 at: 89.9491
+Job5 start Disk service at: 89.9491 for period: 0
+Disk completion disk burst of Job5 at: 89.9491
+Job9 start Disk service at: 89.9491 for period: 0.213736
+CPU completed CPU service to Job10 at 90.0751
+Job7 start CPU service at: 90.0751 for period = 2.16193
+Disk completion disk burst of Job9 at: 90.1629
+Job10 start Disk service at: 90.1629 for period: 0.612044
+Disk completion disk burst of Job10 at: 90.7749
+CPU completed CPU service to Job7 at 92.2371
+Job7 start Disk service at: 92.2371 for period: 0.623569
+Job6 start CPU service at: 92.2371 for period = 8.21208
+Disk completion disk burst of Job7 at: 92.8606
+CPU completed CPU service to Job6 at 100.449
+Job6 start Disk service at: 100.449 for period: 0
+Job8 start CPU service at: 100.449 for period = 11.7518
+Disk completion disk burst of Job6 at: 100.449
+Job22 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job22 joining input queue at 101.433
+Job23 int_arr 7.36987 cpuper 4.60986 diskper 1.85078 memreq 55
+Job23 joining input queue at 108.803
+Job24 int_arr 0.491023 cpuper 8.69654 diskper 4.13174 memreq 35
+Job24 joining input queue at 109.294
+CPU completed CPU service to Job8 at 112.201
+Job8 start Disk service at: 112.201 for period: 0.488675
+Job5 start CPU service at: 112.201 for period = 1.60958
+Disk completion disk burst of Job8 at: 112.69
+CPU completed CPU service to Job5 at 113.811
+Job5 start Disk service at: 113.811 for period: 0
+Job9 start CPU service at: 113.811 for period = 0.793854
+Disk completion disk burst of Job5 at: 113.811
+Job5 terminating at: 113.811 sojourn time: 74.6847 wait time: 47.0709
+Job11 acquired 10 memory at 113.811 wait 45.57
+Job12 acquired 10 memory at 113.811 wait 44.1261
+CPU completed CPU service to Job9 at 114.604
+Job9 start Disk service at: 114.604 for period: 1.24091
+Job10 start CPU service at: 114.604 for period = 3.07616
+Disk completion disk burst of Job9 at: 115.845
+CPU completed CPU service to Job10 at 117.681
+Job10 start Disk service at: 117.681 for period: 0.173578
+Job7 start CPU service at: 117.681 for period = 3.24163
+Disk completion disk burst of Job10 at: 117.854
+Job25 int_arr 9.75965 cpuper 28.3668 diskper 9.46295 memreq 34
+Job25 joining input queue at 119.053
+CPU completed CPU service to Job7 at 120.922
+Job7 start Disk service at: 120.922 for period: 0.443593
+Job6 start CPU service at: 120.922 for period = 0.591934
+Disk completion disk burst of Job7 at: 121.366
+CPU completed CPU service to Job6 at 121.514
+Job6 start Disk service at: 121.514 for period: 0
+Job8 start CPU service at: 121.514 for period = 7.96184
+Disk completion disk burst of Job6 at: 121.514
+Job6 terminating at: 121.514 sojourn time: 80.7061 wait time: 54.1742
+Job13 acquired 57 memory at 121.514 wait 51.7817
+CPU completed CPU service to Job8 at 129.476
+Job8 start Disk service at: 129.476 for period: 0.603206
+Job11 start CPU service at: 129.476 for period = 9.38
+Disk completion disk burst of Job8 at: 130.079
+Job26 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job26 joining input queue at 135.074
+CPU completed CPU service to Job11 at 138.856
+Job11 start Disk service at: 138.856 for period: 0.0188337
+Job12 start CPU service at: 138.856 for period = 9.07881
+Disk completion disk burst of Job11 at: 138.875
+CPU completed CPU service to Job12 at 147.935
+Job12 start Disk service at: 147.935 for period: 0.00447168
+Job9 start CPU service at: 147.935 for period = 2.98731
+Disk completion disk burst of Job12 at: 147.939
+Job27 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job27 joining input queue at 149.588
+CPU completed CPU service to Job9 at 150.922
+Job9 start Disk service at: 150.922 for period: 0.866126
+Job10 start CPU service at: 150.922 for period = 2.27135
+Disk completion disk burst of Job9 at: 151.788
+CPU completed CPU service to Job10 at 153.193
+Job10 start Disk service at: 153.193 for period: 1.23946
+Job7 start CPU service at: 153.193 for period = 0.758967
+CPU completed CPU service to Job7 at 153.952
+Job13 start CPU service at: 153.952 for period = 8.45176
+Disk completion disk burst of Job10 at: 154.433
+Job7 start Disk service at: 154.433 for period: 3.03066
+Disk completion disk burst of Job7 at: 157.464
+CPU completed CPU service to Job13 at 162.404
+Job13 start Disk service at: 162.404 for period: 0.788483
+Job8 start CPU service at: 162.404 for period = 2.98137
+Job28 int_arr 12.9939 cpuper 4.73394 diskper 8.00719 memreq 59
+Job28 joining input queue at 162.581
+Disk completion disk burst of Job13 at: 163.193
+CPU completed CPU service to Job8 at 165.386
+Job8 start Disk service at: 165.386 for period: 0.106008
+Job11 start CPU service at: 165.386 for period = 4.83612
+Disk completion disk burst of Job8 at: 165.492
+Job29 int_arr 5.52041 cpuper 4.31955 diskper 2.51614 memreq 14
+Job29 joining input queue at 168.102
+CPU completed CPU service to Job11 at 170.222
+Job11 start Disk service at: 170.222 for period: 0.00765457
+Job12 start CPU service at: 170.222 for period = 11.1926
+Disk completion disk burst of Job11 at: 170.229
+Job30 int_arr 12.9041 cpuper 10.7926 diskper 1.88994 memreq 58
+Job30 joining input queue at 181.006
+CPU completed CPU service to Job12 at 181.414
+Job12 start Disk service at: 181.414 for period: 0.00424143
+Job9 start CPU service at: 181.414 for period = 0.640638
+Disk completion disk burst of Job12 at: 181.418
+CPU completed CPU service to Job9 at 182.055
+Job9 start Disk service at: 182.055 for period: 0.214047
+Job10 start CPU service at: 182.055 for period = 1.07211
+Disk completion disk burst of Job9 at: 182.269
+Job9 terminating at: 182.269 sojourn time: 119.615 wait time: 109.582
+Job14 acquired 10 memory at 182.269 wait 111.093
+Job15 acquired 10 memory at 182.269 wait 109.649
+CPU completed CPU service to Job10 at 183.127
+Job10 start Disk service at: 183.127 for period: 0.421167
+Job7 start CPU service at: 183.127 for period = 0
+CPU completed CPU service to Job7 at 183.127
+Job13 start CPU service at: 183.127 for period = 1.72828
+Disk completion disk burst of Job10 at: 183.548
+Job7 start Disk service at: 183.548 for period: 0.698223
+Disk completion disk burst of Job7 at: 184.246
+Job7 terminating at: 184.246 sojourn time: 127.417 wait time: 113.719
+Job16 acquired 42 memory at 184.246 wait 107.483
+Job31 int_arr 3.59239 cpuper 12.991 diskper 6.6556 memreq 45
+Job31 joining input queue at 184.598
+CPU completed CPU service to Job13 at 184.855
+Job13 start Disk service at: 184.855 for period: 0.38609
+Job8 start CPU service at: 184.855 for period = 0
+CPU completed CPU service to Job8 at 184.855
+Job11 start CPU service at: 184.855 for period = 1.56561
+Disk completion disk burst of Job13 at: 185.241
+Job8 start Disk service at: 185.241 for period: 0.308304
+Disk completion disk burst of Job8 at: 185.55
+Job8 terminating at: 185.55 sojourn time: 127.038 wait time: 100.506
+Job17 acquired 42 memory at 185.55 wait 104.644
+Job18 acquired 10 memory at 185.55 wait 103.2
+Job19 acquired 10 memory at 185.55 wait 101.756
+Job20 acquired 10 memory at 185.55 wait 100.312
+CPU completed CPU service to Job11 at 186.421
+Job11 start Disk service at: 186.421 for period: 0.0040268
+Job12 start CPU service at: 186.421 for period = 2.5918
+Disk completion disk burst of Job11 at: 186.425
+CPU completed CPU service to Job12 at 189.013
+Job12 start Disk service at: 189.013 for period: 0.00495075
+Job14 start CPU service at: 189.013 for period = 11.3567
+Disk completion disk burst of Job12 at: 189.018
+CPU completed CPU service to Job14 at 200.369
+Job14 start Disk service at: 200.369 for period: 0.0040268
+Job15 start CPU service at: 200.369 for period = 6.48118
+Disk completion disk burst of Job14 at: 200.373
+Job32 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job32 joining input queue at 200.619
+Job33 int_arr 4.75958 cpuper 2.65004 diskper 22.9887 memreq 18
+Job33 joining input queue at 205.379
+CPU completed CPU service to Job15 at 206.851
+Job15 start Disk service at: 206.851 for period: 0.0247035
+Job10 start CPU service at: 206.851 for period = 0.614593
+Disk completion disk burst of Job15 at: 206.875
+CPU completed CPU service to Job10 at 207.465
+Job10 start Disk service at: 207.465 for period: 0.0885719
+Job16 start CPU service at: 207.465 for period = 1.36604
+Disk completion disk burst of Job10 at: 207.554
+Job10 terminating at: 207.554 sojourn time: 140.757 wait time: 130.724
+Job21 acquired 37 memory at 207.554 wait 120.634
+CPU completed CPU service to Job16 at 208.831
+Job16 start Disk service at: 208.831 for period: 0.848842
+Job13 start CPU service at: 208.831 for period = 10.3546
+Disk completion disk burst of Job16 at: 209.68
+Job34 int_arr 12.9939 cpuper 4.73394 diskper 8.00719 memreq 59
+Job34 joining input queue at 218.373
+CPU completed CPU service to Job13 at 219.186
+Job13 start Disk service at: 219.186 for period: 1.62612
+Job17 start CPU service at: 219.186 for period = 2.97739
+Disk completion disk burst of Job13 at: 220.812
+CPU completed CPU service to Job17 at 222.163
+Job17 start Disk service at: 222.163 for period: 0.156781
+Job18 start CPU service at: 222.163 for period = 9.10908
+Disk completion disk burst of Job17 at: 222.32
+CPU completed CPU service to Job18 at 231.272
+Job18 start Disk service at: 231.272 for period: 0.00609613
+Job19 start CPU service at: 231.272 for period = 7.5741
+Disk completion disk burst of Job18 at: 231.278
+Job35 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job35 joining input queue at 232.886
+Job36 int_arr 5.31386 cpuper 20.1173 diskper 4.1877 memreq 26
+Job36 joining input queue at 238.2
+Job37 int_arr 0.16279 cpuper 11.6101 diskper 4.40943 memreq 26
+Job37 joining input queue at 238.363
+CPU completed CPU service to Job19 at 238.846
+Job19 start Disk service at: 238.846 for period: 0.0287576
+Job20 start CPU service at: 238.846 for period = 3.0025
+Disk completion disk burst of Job19 at: 238.875
+CPU completed CPU service to Job20 at 241.849
+Job20 start Disk service at: 241.849 for period: 0.00306783
+Job11 start CPU service at: 241.849 for period = 4.83612
+Disk completion disk burst of Job20 at: 241.852
+CPU completed CPU service to Job11 at 246.685
+Job11 start Disk service at: 246.685 for period: 0.00617161
+Job12 start CPU service at: 246.685 for period = 0
+CPU completed CPU service to Job12 at 246.685
+Job14 start CPU service at: 246.685 for period = 9.62698
+Disk completion disk burst of Job11 at: 246.691
+Job12 start Disk service at: 246.691 for period: 0.0223359
+Disk completion disk burst of Job12 at: 246.713
+Job38 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job38 joining input queue at 248.406
+CPU completed CPU service to Job14 at 256.312
+Job14 start Disk service at: 256.312 for period: 0.0197389
+Job15 start CPU service at: 256.312 for period = 1.51286
+Disk completion disk burst of Job14 at: 256.332
+CPU completed CPU service to Job15 at 257.825
+Job15 start Disk service at: 257.825 for period: 0.00424143
+Job21 start CPU service at: 257.825 for period = 8.04822
+Disk completion disk burst of Job15 at: 257.829
+Job39 int_arr 11.3321 cpuper 0.242993 diskper 5.41319 memreq 32
+Job39 joining input queue at 259.739
+Job40 int_arr 0.536258 cpuper 14.3964 diskper 12.1187 memreq 60
+Job40 joining input queue at 260.275
+CPU completed CPU service to Job21 at 265.873
+Job21 start Disk service at: 265.873 for period: 0.47474
+Job16 start CPU service at: 265.873 for period = 2.57812
+Job41 int_arr 5.67084 cpuper 47.7811 diskper 44.228 memreq 20
+Job41 joining input queue at 265.946
+Disk completion disk burst of Job21 at: 266.348
+CPU completed CPU service to Job16 at 268.451
+Job16 start Disk service at: 268.451 for period: 0.405011
+Job13 start CPU service at: 268.451 for period = 4.70409
+Disk completion disk burst of Job16 at: 268.856
+CPU completed CPU service to Job13 at 273.155
+Job13 start Disk service at: 273.155 for period: 0.046928
+Job17 start CPU service at: 273.155 for period = 1.51618
+Disk completion disk burst of Job13 at: 273.202
+CPU completed CPU service to Job17 at 274.671
+Job17 start Disk service at: 274.671 for period: 1.06617
+Job18 start CPU service at: 274.671 for period = 2.12357
+Job42 int_arr 9.21615 cpuper 5.26441 diskper 5.21176 memreq 11
+Job42 joining input queue at 275.162
+Disk completion disk burst of Job17 at: 275.738
+CPU completed CPU service to Job18 at 276.795
+Job18 start Disk service at: 276.795 for period: 0.0239467
+Job19 start CPU service at: 276.795 for period = 4.74397
+Disk completion disk burst of Job18 at: 276.819
+Job43 int_arr 1.6688 cpuper 4.37852 diskper 2.4045 memreq 15
+Job43 joining input queue at 276.831
+CPU completed CPU service to Job19 at 281.539
+Job19 start Disk service at: 281.539 for period: 0.0317473
+Job20 start CPU service at: 281.539 for period = 5.44717
+Disk completion disk burst of Job19 at: 281.571
+Job44 int_arr 8.08124 cpuper 18.0304 diskper 6.62978 memreq 29
+Job44 joining input queue at 284.912
+CPU completed CPU service to Job20 at 286.986
+Job20 start Disk service at: 286.986 for period: 0.00817798
+Job11 start CPU service at: 286.986 for period = 2.24535
+Disk completion disk burst of Job20 at: 286.994
+Job45 int_arr 2.25902 cpuper 17.9177 diskper 1.29939 memreq 37
+Job45 joining input queue at 287.171
+CPU completed CPU service to Job11 at 289.231
+Job11 start Disk service at: 289.231 for period: 0.00863898
+Job12 start CPU service at: 289.231 for period = 0
+CPU completed CPU service to Job12 at 289.231
+Job14 start CPU service at: 289.231 for period = 1.87951
+Disk completion disk burst of Job11 at: 289.24
+Job12 start Disk service at: 289.24 for period: 0.0201906
+Disk completion disk burst of Job12 at: 289.26
+Job46 int_arr 3.35527 cpuper 5.75449 diskper 5.72577 memreq 48
+Job46 joining input queue at 290.526
+CPU completed CPU service to Job14 at 291.111
+Job14 start Disk service at: 291.111 for period: 0.0313647
+Job15 start CPU service at: 291.111 for period = 8.67214
+Disk completion disk burst of Job14 at: 291.142
+Job47 int_arr 3.31501 cpuper 4.40317 diskper 0.415102 memreq 58
+Job47 joining input queue at 293.841
+CPU completed CPU service to Job15 at 299.783
+Job15 start Disk service at: 299.783 for period: 0.00311938
+Job21 start CPU service at: 299.783 for period = 1.16021
+Disk completion disk burst of Job15 at: 299.786
+CPU completed CPU service to Job21 at 300.943
+Job21 start Disk service at: 300.943 for period: 0.0381274
+Job16 start CPU service at: 300.943 for period = 2.37543
+Disk completion disk burst of Job21 at: 300.981
+CPU completed CPU service to Job16 at 303.319
+Job16 start Disk service at: 303.319 for period: 0.690008
+Job13 start CPU service at: 303.319 for period = 0
+CPU completed CPU service to Job13 at 303.319
+Job17 start CPU service at: 303.319 for period = 0.412844
+CPU completed CPU service to Job17 at 303.732
+Job18 start CPU service at: 303.732 for period = 3.18109
+Disk completion disk burst of Job16 at: 304.009
+Job13 start Disk service at: 304.009 for period: 0.372367
+Disk completion disk burst of Job13 at: 304.381
+Job17 start Disk service at: 304.381 for period: 1.26577
+Disk completion disk burst of Job17 at: 305.647
+CPU completed CPU service to Job18 at 306.913
+Job18 start Disk service at: 306.913 for period: 0.0170616
+Job19 start CPU service at: 306.913 for period = 3.95003
+Disk completion disk burst of Job18 at: 306.93
+Job48 int_arr 13.3968 cpuper 4.5831 diskper 2.93221 memreq 33
+Job48 joining input queue at 307.238
+Job49 int_arr 0.726845 cpuper 26.084 diskper 0.543059 memreq 10
+Job49 joining input queue at 307.965
+CPU completed CPU service to Job19 at 310.863
+Job19 start Disk service at: 310.863 for period: 0.0117927
+Job20 start CPU service at: 310.863 for period = 4.01584
+Disk completion disk burst of Job19 at: 310.875
+CPU completed CPU service to Job20 at 314.879
+Job20 start Disk service at: 314.879 for period: 0.0132564
+Job11 start CPU service at: 314.879 for period = 0
+CPU completed CPU service to Job11 at 314.879
+Job12 start CPU service at: 314.879 for period = 0
+CPU completed CPU service to Job12 at 314.879
+Job14 start CPU service at: 314.879 for period = 0
+CPU completed CPU service to Job14 at 314.879
+Job15 start CPU service at: 314.879 for period = 5.38352
+Disk completion disk burst of Job20 at: 314.892
+Job11 start Disk service at: 314.892 for period: 0.026972
+Disk completion disk burst of Job11 at: 314.919
+Job11 terminating at: 314.919 sojourn time: 246.678 wait time: 223.743
+Job12 start Disk service at: 314.919 for period: 0.0161072
+Disk completion disk burst of Job12 at: 314.935
+Job12 terminating at: 314.935 sojourn time: 245.25 wait time: 222.315
+Job14 start Disk service at: 314.935 for period: 0.00856507
+Disk completion disk burst of Job14 at: 314.943
+CPU completed CPU service to Job15 at 320.262
+Job15 start Disk service at: 320.262 for period: 0.0292495
+Job21 start CPU service at: 320.262 for period = 9.86018
+Disk completion disk burst of Job15 at: 320.291
+CPU completed CPU service to Job21 at 330.122
+Job21 start Disk service at: 330.122 for period: 0.171071
+Job16 start CPU service at: 330.122 for period = 1.17838
+Disk completion disk burst of Job21 at: 330.293
+CPU completed CPU service to Job16 at 331.301
+Job16 start Disk service at: 331.301 for period: 0.141183
+Job13 start CPU service at: 331.301 for period = 0
+CPU completed CPU service to Job13 at 331.301
+Job17 start CPU service at: 331.301 for period = 1.95324
+Disk completion disk burst of Job16 at: 331.442
+Job13 start Disk service at: 331.442 for period: 2.47876
+CPU completed CPU service to Job17 at 333.254
+Job18 start CPU service at: 333.254 for period = 1.41411
+Disk completion disk burst of Job13 at: 333.921
+Job17 start Disk service at: 333.921 for period: 0.0461021
+Disk completion disk burst of Job17 at: 333.967
+CPU completed CPU service to Job18 at 334.668
+Job18 start Disk service at: 334.668 for period: 0.00609613
+Job19 start CPU service at: 334.668 for period = 6.5951
+Disk completion disk burst of Job18 at: 334.674
+Job50 int_arr 29.3392 cpuper 19.0493 diskper 3.67052 memreq 48
+Job50 joining input queue at 337.304
+CPU completed CPU service to Job19 at 341.263
+Job19 start Disk service at: 341.263 for period: 0
+Job20 start CPU service at: 341.263 for period = 4.16539
+Disk completion disk burst of Job19 at: 341.263
+Job19 terminating at: 341.263 sojourn time: 257.47 wait time: 234.534
+Job51 int_arr 5.31386 cpuper 20.1173 diskper 4.1877 memreq 26
+Job51 joining input queue at 342.618
+CPU completed CPU service to Job20 at 345.429
+Job20 start Disk service at: 345.429 for period: 0.0169696
+Job14 start CPU service at: 345.429 for period = 0
+CPU completed CPU service to Job14 at 345.429
+Job15 start CPU service at: 345.429 for period = 0.81351
+Disk completion disk burst of Job20 at: 345.445
+Job14 start Disk service at: 345.445 for period: 0.00860219
+Disk completion disk burst of Job14 at: 345.454
+Job14 terminating at: 345.454 sojourn time: 274.278 wait time: 251.342
+Job22 acquired 40 memory at 345.454 wait 244.021
+Job52 int_arr 2.92626 cpuper 1.93491 diskper 15.1343 memreq 24
+Job52 joining input queue at 345.544
+CPU completed CPU service to Job15 at 346.242
+Job15 start Disk service at: 346.242 for period: 0.00447168
+Job21 start CPU service at: 346.242 for period = 4.96501
+Disk completion disk burst of Job15 at: 346.246
+CPU completed CPU service to Job21 at 351.207
+Job21 start Disk service at: 351.207 for period: 0.171071
+Job16 start CPU service at: 351.207 for period = 0
+CPU completed CPU service to Job16 at 351.207
+Job13 start CPU service at: 351.207 for period = 0
+CPU completed CPU service to Job13 at 351.207
+Job17 start CPU service at: 351.207 for period = 0.638317
+Disk completion disk burst of Job21 at: 351.378
+Job16 start Disk service at: 351.378 for period: 0.449775
+Disk completion disk burst of Job16 at: 351.828
+Job16 terminating at: 351.828 sojourn time: 275.065 wait time: 265.032
+Job13 start Disk service at: 351.828 for period: 0.543517
+CPU completed CPU service to Job17 at 351.845
+Job18 start CPU service at: 351.845 for period = 7.03536
+Disk completion disk burst of Job13 at: 352.371
+Job13 terminating at: 352.371 sojourn time: 282.639 wait time: 251.158
+Job17 start Disk service at: 352.371 for period: 0
+Job23 acquired 55 memory at 352.371 wait 243.569
+Disk completion disk burst of Job17 at: 352.371
+Job24 acquired 35 memory at 352.371 wait 243.078
+Job17 terminating at: 352.371 sojourn time: 271.466 wait time: 261.433
+Job25 acquired 34 memory at 352.371 wait 233.318
+CPU completed CPU service to Job18 at 358.881
+Job18 start Disk service at: 358.881 for period: 0.0190971
+Job20 start CPU service at: 358.881 for period = 6.23231
+Disk completion disk burst of Job18 at: 358.9
+Job18 terminating at: 358.9 sojourn time: 276.55 wait time: 253.615
+Job53 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job53 joining input queue at 361.565
+CPU completed CPU service to Job20 at 365.113
+Job20 start Disk service at: 365.113 for period: 0.0188337
+Job22 start CPU service at: 365.113 for period = 0.0310095
+Disk completion disk burst of Job20 at: 365.132
+CPU completed CPU service to Job22 at 365.144
+Job22 start Disk service at: 365.144 for period: 1.65314
+Job15 start CPU service at: 365.144 for period = 0
+CPU completed CPU service to Job15 at 365.144
+Job21 start CPU service at: 365.144 for period = 0
+CPU completed CPU service to Job21 at 365.144
+Job23 start CPU service at: 365.144 for period = 1.30679
+CPU completed CPU service to Job23 at 366.451
+Job24 start CPU service at: 366.451 for period = 2.26547
+Disk completion disk burst of Job22 at: 366.797
+Job15 start Disk service at: 366.797 for period: 0.0065122
+Disk completion disk burst of Job15 at: 366.804
+Job15 terminating at: 366.804 sojourn time: 294.183 wait time: 271.248
+Job21 start Disk service at: 366.804 for period: 0.154517
+Job27 acquired 40 memory at 366.804 wait 217.216
+Disk completion disk burst of Job21 at: 366.958
+Job23 start Disk service at: 366.958 for period: 0.737381
+Disk completion disk burst of Job23 at: 367.696
+CPU completed CPU service to Job24 at 368.716
+Job24 start Disk service at: 368.716 for period: 0.348388
+Job25 start CPU service at: 368.716 for period = 11.6379
+Disk completion disk burst of Job24 at: 369.065
+Job54 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job54 joining input queue at 376.078
+CPU completed CPU service to Job25 at 380.354
+Job25 start Disk service at: 380.354 for period: 2.46512
+Job20 start CPU service at: 380.354 for period = 0
+CPU completed CPU service to Job20 at 380.354
+Job22 start CPU service at: 380.354 for period = 0.00467494
+CPU completed CPU service to Job22 at 380.359
+Job27 start CPU service at: 380.359 for period = 0.0301139
+CPU completed CPU service to Job27 at 380.389
+Job21 start CPU service at: 380.389 for period = 0
+CPU completed CPU service to Job21 at 380.389
+Job23 start CPU service at: 380.389 for period = 1.52715
+CPU completed CPU service to Job23 at 381.916
+Job24 start CPU service at: 381.916 for period = 2.09982
+Disk completion disk burst of Job25 at: 382.819
+Job20 start Disk service at: 382.819 for period: 0.00628594
+Disk completion disk burst of Job20 at: 382.826
+Job22 start Disk service at: 382.826 for period: 8.2489
+CPU completed CPU service to Job24 at 384.016
+Job25 start CPU service at: 384.016 for period = 8.59311
+Job55 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job55 joining input queue at 390.592
+Job56 int_arr 0.16279 cpuper 11.6101 diskper 4.40943 memreq 26
+Job56 joining input queue at 390.754
+Disk completion disk burst of Job22 at: 391.075
+Job27 start Disk service at: 391.075 for period: 9.60266
+CPU completed CPU service to Job25 at 392.609
+Job20 start CPU service at: 392.609 for period = 0
+CPU completed CPU service to Job20 at 392.609
+Job22 start CPU service at: 392.609 for period = 0.00320727
+CPU completed CPU service to Job22 at 392.612
+Disk completion disk burst of Job27 at: 400.677
+Job21 start Disk service at: 400.677 for period: 0.528433
+Job27 start CPU service at: 400.677 for period = 0.00645213
+CPU completed CPU service to Job27 at 400.684
+Job57 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job57 joining input queue at 400.798
+Disk completion disk burst of Job21 at: 401.206
+Job23 start Disk service at: 401.206 for period: 0.906042
+Job21 start CPU service at: 401.206 for period = 0
+CPU completed CPU service to Job21 at 401.206
+Disk completion disk burst of Job23 at: 402.112
+Job24 start Disk service at: 402.112 for period: 0.667579
+Job23 start CPU service at: 402.112 for period = 1.2586
+Disk completion disk burst of Job24 at: 402.779
+Job25 start Disk service at: 402.779 for period: 0.626166
+CPU completed CPU service to Job23 at 403.37
+Job24 start CPU service at: 403.37 for period = 0.510193
+Disk completion disk burst of Job25 at: 403.405
+Job20 start Disk service at: 403.405 for period: 0.00570621
+Disk completion disk burst of Job20 at: 403.411
+Job20 terminating at: 403.411 sojourn time: 318.174 wait time: 295.238
+Job22 start Disk service at: 403.411 for period: 11.2158
+CPU completed CPU service to Job24 at 403.88
+Job25 start CPU service at: 403.88 for period = 8.13573
+Job58 int_arr 6.85096 cpuper 1.97584 diskper 5.29594 memreq 32
+Job58 joining input queue at 407.649
+CPU completed CPU service to Job25 at 412.016
+Disk completion disk burst of Job22 at: 414.627
+Job27 start Disk service at: 414.627 for period: 6.28888
+Job22 start CPU service at: 414.627 for period = 0.0300138
+CPU completed CPU service to Job22 at 414.657
+Disk completion disk burst of Job27 at: 420.916
+Job21 start Disk service at: 420.916 for period: 0.154517
+Job27 start CPU service at: 420.916 for period = 0.0301139
+CPU completed CPU service to Job27 at 420.946
+Disk completion disk burst of Job21 at: 421.07
+Job23 start Disk service at: 421.07 for period: 0.156057
+Job21 start CPU service at: 421.07 for period = 0
+CPU completed CPU service to Job21 at 421.07
+Disk completion disk burst of Job23 at: 421.226
+Job24 start Disk service at: 421.226 for period: 0.997628
+Job23 start CPU service at: 421.226 for period = 0.400806
+CPU completed CPU service to Job23 at 421.627
+Job59 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job59 joining input queue at 422.162
+Disk completion disk burst of Job24 at: 422.224
+Job25 start Disk service at: 422.224 for period: 3.16888
+Job24 start CPU service at: 422.224 for period = 3.6749
+Job60 int_arr 2.77911 cpuper 5.76277 diskper 0.245299 memreq 41
+Job60 joining input queue at 424.941
+Disk completion disk burst of Job25 at: 425.393
+Job22 start Disk service at: 425.393 for period: 3.02358
+CPU completed CPU service to Job24 at 425.899
+Job25 start CPU service at: 425.899 for period = 0
+CPU completed CPU service to Job25 at 425.899
+Disk completion disk burst of Job22 at: 428.416
+Job27 start Disk service at: 428.416 for period: 1.0244
+Job22 start CPU service at: 428.416 for period = 0.00667834
+CPU completed CPU service to Job22 at 428.423
+Disk completion disk burst of Job27 at: 429.441
+Job21 start Disk service at: 429.441 for period: 0.213257
+Job27 start CPU service at: 429.441 for period = 0.00890404
+CPU completed CPU service to Job27 at 429.45
+Disk completion disk burst of Job21 at: 429.654
+Job23 start Disk service at: 429.654 for period: 0.0512996
+Job21 start CPU service at: 429.654 for period = 0
+CPU completed CPU service to Job21 at 429.654
+Disk completion disk burst of Job23 at: 429.705
+Job24 start Disk service at: 429.705 for period: 0.437452
+Job23 start CPU service at: 429.705 for period = 0.116522
+CPU completed CPU service to Job23 at 429.822
+Disk completion disk burst of Job24 at: 430.143
+Job25 start Disk service at: 430.143 for period: 2.89252
+Job24 start CPU service at: 430.143 for period = 0.146163
+CPU completed CPU service to Job24 at 430.289
+Disk completion disk burst of Job25 at: 433.035
+Job22 start Disk service at: 433.035 for period: 0
+Disk completion disk burst of Job22 at: 433.035
+Job25 start CPU service at: 433.035 for period = 0
+Job22 terminating at: 433.035 sojourn time: 331.603 wait time: 307.386
+Job27 start Disk service at: 433.035 for period: 1.41628
+CPU completed CPU service to Job25 at 433.035
+Disk completion disk burst of Job27 at: 434.452
+Job21 start Disk service at: 434.452 for period: 0.592481
+Job27 start CPU service at: 434.452 for period = 0
+CPU completed CPU service to Job27 at 434.452
+Job61 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job61 joining input queue at 434.985
+Job62 int_arr 0.0479793 cpuper 25.2387 diskper 6.24227 memreq 57
+Job62 joining input queue at 435.033
+Disk completion disk burst of Job21 at: 435.044
+Job21 terminating at: 435.044 sojourn time: 348.125 wait time: 321.593
+Job23 start Disk service at: 435.044 for period: 0
+Job26 acquired 55 memory at 435.044 wait 299.97
+Disk completion disk burst of Job23 at: 435.044
+Job26 start CPU service at: 435.044 for period = 2.6774
+Job23 terminating at: 435.044 sojourn time: 326.241 wait time: 319.781
+Job24 start Disk service at: 435.044 for period: 0.282931
+Job28 acquired 59 memory at 435.044 wait 272.463
+Job29 acquired 14 memory at 435.044 wait 266.942
+Disk completion disk burst of Job24 at: 435.327
+Job25 start Disk service at: 435.327 for period: 0.31026
+Disk completion disk burst of Job25 at: 435.637
+Job25 terminating at: 435.637 sojourn time: 316.584 wait time: 278.754
+Job27 start Disk service at: 435.637 for period: 1.34462
+Job63 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job63 joining input queue at 436.715
+Disk completion disk burst of Job27 at: 436.982
+CPU completed CPU service to Job26 at 437.722
+Job26 start Disk service at: 437.722 for period: 2.85743
+Job28 start CPU service at: 437.722 for period = 1.94217
+CPU completed CPU service to Job28 at 439.664
+Job29 start CPU service at: 439.664 for period = 0.295791
+CPU completed CPU service to Job29 at 439.959
+Job24 start CPU service at: 439.959 for period = 0
+CPU completed CPU service to Job24 at 439.959
+Job27 start CPU service at: 439.959 for period = 0
+CPU completed CPU service to Job27 at 439.959
+Disk completion disk burst of Job26 at: 440.579
+Job28 start Disk service at: 440.579 for period: 2.26985
+Job26 start CPU service at: 440.579 for period = 1.70004
+Job64 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job64 joining input queue at 440.858
+CPU completed CPU service to Job26 at 442.279
+Job65 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job65 joining input queue at 442.54
+Disk completion disk burst of Job28 at: 442.849
+Job29 start Disk service at: 442.849 for period: 0.762212
+Job28 start CPU service at: 442.849 for period = 2.31477
+Disk completion disk burst of Job29 at: 443.611
+Job24 start Disk service at: 443.611 for period: 0.752752
+Disk completion disk burst of Job24 at: 444.364
+Job27 start Disk service at: 444.364 for period: 4.46455
+CPU completed CPU service to Job28 at 445.164
+Job29 start CPU service at: 445.164 for period = 1.82531
+Job66 int_arr 3.00502 cpuper 8.37116 diskper 19.2426 memreq 33
+Job66 joining input queue at 445.545
+CPU completed CPU service to Job29 at 446.989
+Job24 start CPU service at: 446.989 for period = 0
+CPU completed CPU service to Job24 at 446.989
+Disk completion disk burst of Job27 at: 448.828
+Job27 terminating at: 448.828 sojourn time: 299.241 wait time: 275.024
+Job26 start Disk service at: 448.828 for period: 0.941855
+Job30 acquired 58 memory at 448.828 wait 267.822
+Job30 start CPU service at: 448.828 for period = 4.42784
+Disk completion disk burst of Job26 at: 449.77
+Job28 start Disk service at: 449.77 for period: 0.548312
+Disk completion disk burst of Job28 at: 450.318
+Job29 start Disk service at: 450.318 for period: 1.24983
+Disk completion disk burst of Job29 at: 451.568
+Job24 start Disk service at: 451.568 for period: 0.230128
+Disk completion disk burst of Job24 at: 451.798
+CPU completed CPU service to Job30 at 453.256
+Job30 start Disk service at: 453.256 for period: 0.535753
+Job26 start CPU service at: 453.256 for period = 1.70004
+Disk completion disk burst of Job30 at: 453.792
+CPU completed CPU service to Job26 at 454.956
+Job26 start Disk service at: 454.956 for period: 2.84794
+Job28 start CPU service at: 454.956 for period = 0.292799
+CPU completed CPU service to Job28 at 455.249
+Job29 start CPU service at: 455.249 for period = 1.72098
+Job67 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job67 joining input queue at 455.588
+CPU completed CPU service to Job29 at 456.97
+Job24 start CPU service at: 456.97 for period = 0
+CPU completed CPU service to Job24 at 456.97
+Job30 start CPU service at: 456.97 for period = 3.26939
+Disk completion disk burst of Job26 at: 457.804
+Job28 start Disk service at: 457.804 for period: 3.9153
+CPU completed CPU service to Job30 at 460.239
+Job26 start CPU service at: 460.239 for period = 0.448531
+CPU completed CPU service to Job26 at 460.688
+Disk completion disk burst of Job28 at: 461.719
+Job29 start Disk service at: 461.719 for period: 0.504101
+Job28 start CPU service at: 461.719 for period = 0.184195
+CPU completed CPU service to Job28 at 461.904
+Disk completion disk burst of Job29 at: 462.224
+Job24 start Disk service at: 462.224 for period: 0.414883
+Job29 start CPU service at: 462.224 for period = 0.477466
+Disk completion disk burst of Job24 at: 462.638
+Job24 terminating at: 462.638 sojourn time: 353.345 wait time: 340.516
+Job30 start Disk service at: 462.638 for period: 0.443603
+Job31 acquired 45 memory at 462.638 wait 278.04
+CPU completed CPU service to Job29 at 462.701
+Job31 start CPU service at: 462.701 for period = 5.32975
+Disk completion disk burst of Job30 at: 463.082
+Job26 start Disk service at: 463.082 for period: 0.491118
+Disk completion disk burst of Job26 at: 463.573
+Job28 start Disk service at: 463.573 for period: 1.27373
+Disk completion disk burst of Job28 at: 464.847
+Job28 terminating at: 464.847 sojourn time: 302.265 wait time: 289.524
+Job29 start Disk service at: 464.847 for period: 0
+Job32 acquired 55 memory at 464.847 wait 264.227
+Disk completion disk burst of Job29 at: 464.847
+Job33 acquired 18 memory at 464.847 wait 259.468
+Job29 terminating at: 464.847 sojourn time: 296.745 wait time: 289.909
+CPU completed CPU service to Job31 at 468.031
+Job31 start Disk service at: 468.031 for period: 1.88671
+Job30 start CPU service at: 468.031 for period = 3.09537
+Job68 int_arr 12.9939 cpuper 4.73394 diskper 8.00719 memreq 59
+Job68 joining input queue at 468.582
+Disk completion disk burst of Job31 at: 469.917
+CPU completed CPU service to Job30 at 471.126
+Job30 start Disk service at: 471.126 for period: 0.492332
+Job26 start CPU service at: 471.126 for period = 0
+CPU completed CPU service to Job26 at 471.126
+Job32 start CPU service at: 471.126 for period = 0.40364
+CPU completed CPU service to Job32 at 471.53
+Job33 start CPU service at: 471.53 for period = 1.05582
+Disk completion disk burst of Job30 at: 471.618
+Job26 start Disk service at: 471.618 for period: 0.0336301
+Disk completion disk burst of Job26 at: 471.652
+Job26 terminating at: 471.652 sojourn time: 336.578 wait time: 322.88
+Job32 start Disk service at: 471.652 for period: 2.37592
+Job35 acquired 40 memory at 471.652 wait 238.766
+CPU completed CPU service to Job33 at 472.586
+Job31 start CPU service at: 472.586 for period = 5.32975
+Disk completion disk burst of Job32 at: 474.028
+Job33 start Disk service at: 474.028 for period: 1.5742
+Disk completion disk burst of Job33 at: 475.602
+CPU completed CPU service to Job31 at 477.915
+Job31 start Disk service at: 477.915 for period: 3.306
+Job30 start CPU service at: 477.915 for period = 0
+CPU completed CPU service to Job30 at 477.915
+Job35 start CPU service at: 477.915 for period = 0.0214262
+CPU completed CPU service to Job35 at 477.937
+Job32 start CPU service at: 477.937 for period = 1.70004
+CPU completed CPU service to Job32 at 479.637
+Job33 start CPU service at: 479.637 for period = 1.05231
+CPU completed CPU service to Job33 at 480.689
+Disk completion disk burst of Job31 at: 481.221
+Job30 start Disk service at: 481.221 for period: 0.116894
+Job31 start CPU service at: 481.221 for period = 2.33146
+Disk completion disk burst of Job30 at: 481.338
+Job35 start Disk service at: 481.338 for period: 2.0356
+Job69 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job69 joining input queue at 483.096
+Disk completion disk burst of Job35 at: 483.374
+Job32 start Disk service at: 483.374 for period: 2.1726
+CPU completed CPU service to Job31 at 483.553
+Job30 start CPU service at: 483.553 for period = 0
+CPU completed CPU service to Job30 at 483.553
+Job35 start CPU service at: 483.553 for period = 0.0137704
+CPU completed CPU service to Job35 at 483.567
+Disk completion disk burst of Job32 at: 485.546
+Job33 start Disk service at: 485.546 for period: 7.69828
+Job32 start CPU service at: 485.546 for period = 2.7577
+Job70 int_arr 3.00502 cpuper 8.37116 diskper 19.2426 memreq 33
+Job70 joining input queue at 486.101
+CPU completed CPU service to Job32 at 488.304
+Disk completion disk burst of Job33 at: 493.245
+Job31 start Disk service at: 493.245 for period: 1.46289
+Job33 start CPU service at: 493.245 for period = 0.348014
+CPU completed CPU service to Job33 at 493.593
+Disk completion disk burst of Job31 at: 494.708
+Job31 terminating at: 494.708 sojourn time: 310.109 wait time: 290.463
+Job30 start Disk service at: 494.708 for period: 0.0801963
+Job34 acquired 59 memory at 494.708 wait 276.335
+Job34 start CPU service at: 494.708 for period = 1.94217
+Disk completion disk burst of Job30 at: 494.788
+Job35 start Disk service at: 494.788 for period: 1.65314
+Job71 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job71 joining input queue at 496.144
+Job72 int_arr 0.0479793 cpuper 25.2387 diskper 6.24227 memreq 57
+Job72 joining input queue at 496.192
+Disk completion disk burst of Job35 at: 496.441
+Job32 start Disk service at: 496.441 for period: 2.37592
+CPU completed CPU service to Job34 at 496.65
+Job30 start CPU service at: 496.65 for period = 0
+CPU completed CPU service to Job30 at 496.65
+Job35 start CPU service at: 496.65 for period = 0.00657166
+CPU completed CPU service to Job35 at 496.656
+Job73 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job73 joining input queue at 497.874
+Disk completion disk burst of Job32 at: 498.817
+Job33 start Disk service at: 498.817 for period: 7.69828
+Job32 start CPU service at: 498.817 for period = 1.66463
+CPU completed CPU service to Job32 at 500.481
+Job74 int_arr 2.77911 cpuper 5.76277 diskper 0.245299 memreq 41
+Job74 joining input queue at 500.654
+Disk completion disk burst of Job33 at: 506.515
+Job34 start Disk service at: 506.515 for period: 3.185
+Job33 start CPU service at: 506.515 for period = 0.193894
+CPU completed CPU service to Job33 at 506.709
+Disk completion disk burst of Job34 at: 509.7
+Job30 start Disk service at: 509.7 for period: 0.0801963
+Job34 start CPU service at: 509.7 for period = 1.00134
+Disk completion disk burst of Job30 at: 509.78
+Job35 start Disk service at: 509.78 for period: 2.0608
+Job75 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job75 joining input queue at 510.697
+CPU completed CPU service to Job34 at 510.701
+Job30 start CPU service at: 510.701 for period = 0
+CPU completed CPU service to Job30 at 510.701
+Disk completion disk burst of Job35 at: 511.841
+Job32 start Disk service at: 511.841 for period: 0.247525
+Job35 start CPU service at: 511.841 for period = 0.0122123
+CPU completed CPU service to Job35 at 511.853
+Disk completion disk burst of Job32 at: 512.089
+Job32 terminating at: 512.089 sojourn time: 311.469 wait time: 297.771
+Job33 start Disk service at: 512.089 for period: 6.01792
+Job36 acquired 26 memory at 512.089 wait 273.889
+Job37 acquired 26 memory at 512.089 wait 273.726
+Job36 start CPU service at: 512.089 for period = 8.25344
+Job76 int_arr 6.85096 cpuper 1.97584 diskper 5.29594 memreq 32
+Job76 joining input queue at 517.548
+Disk completion disk burst of Job33 at: 518.107
+Job33 terminating at: 518.107 sojourn time: 312.727 wait time: 287.089
+Job34 start Disk service at: 518.107 for period: 2.08589
+Job38 acquired 38 memory at 518.107 wait 269.7
+Disk completion disk burst of Job34 at: 520.192
+Job30 start Disk service at: 520.192 for period: 0.140962
+Disk completion disk burst of Job30 at: 520.333
+Job30 terminating at: 520.333 sojourn time: 339.327 wait time: 326.645
+Job35 start Disk service at: 520.333 for period: 1.49317
+Job39 acquired 32 memory at 520.333 wait 260.595
+CPU completed CPU service to Job36 at 520.342
+Job37 start CPU service at: 520.342 for period = 4.76322
+Disk completion disk burst of Job35 at: 521.827
+Job36 start Disk service at: 521.827 for period: 0.286763
+Disk completion disk burst of Job36 at: 522.113
+CPU completed CPU service to Job37 at 525.105
+Job37 start Disk service at: 525.105 for period: 2.19027
+Job38 start CPU service at: 525.105 for period = 0.0430837
+CPU completed CPU service to Job38 at 525.148
+Job34 start CPU service at: 525.148 for period = 1.34196
+CPU completed CPU service to Job34 at 526.49
+Job39 start CPU service at: 526.49 for period = 0.0633002
+CPU completed CPU service to Job39 at 526.554
+Job35 start CPU service at: 526.554 for period = 0.0216032
+CPU completed CPU service to Job35 at 526.575
+Job36 start CPU service at: 526.575 for period = 1.24427
+Disk completion disk burst of Job37 at: 527.296
+Job38 start Disk service at: 527.296 for period: 3.3142
+CPU completed CPU service to Job36 at 527.82
+Job37 start CPU service at: 527.82 for period = 0.978959
+CPU completed CPU service to Job37 at 528.798
+Disk completion disk burst of Job38 at: 530.61
+Job34 start Disk service at: 530.61 for period: 2.65262
+Job38 start CPU service at: 530.61 for period = 0.186772
+CPU completed CPU service to Job38 at 530.797
+Job77 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job77 joining input queue at 532.061
+Disk completion disk burst of Job34 at: 533.262
+Job39 start Disk service at: 533.262 for period: 0.986216
+Job34 start CPU service at: 533.262 for period = 0.44846
+CPU completed CPU service to Job34 at 533.711
+Disk completion disk burst of Job39 at: 534.249
+Job35 start Disk service at: 534.249 for period: 10.2014
+Job39 start CPU service at: 534.249 for period = 0.0306933
+CPU completed CPU service to Job39 at 534.279
+Disk completion disk burst of Job35 at: 544.45
+Job36 start Disk service at: 544.45 for period: 1.95764
+Job35 start CPU service at: 544.45 for period = 0
+CPU completed CPU service to Job35 at 544.45
+Job78 int_arr 12.7701 cpuper 4.37805 diskper 5.51222 memreq 29
+Job78 joining input queue at 544.831
+Disk completion disk burst of Job36 at: 546.408
+Job37 start Disk service at: 546.408 for period: 0.932703
+Job36 start CPU service at: 546.408 for period = 1.71729
+Disk completion disk burst of Job37 at: 547.34
+Job38 start Disk service at: 547.34 for period: 1.62717
+Job79 int_arr 2.74197 cpuper 2.63051 diskper 14.7063 memreq 17
+Job79 joining input queue at 547.573
+CPU completed CPU service to Job36 at 548.125
+Job37 start CPU service at: 548.125 for period = 3.54883
+Job80 int_arr 1.25423 cpuper 5.53666 diskper 17.0757 memreq 40
+Job80 joining input queue at 548.828
+Disk completion disk burst of Job38 at: 548.968
+Job34 start Disk service at: 548.968 for period: 0.0836851
+Disk completion disk burst of Job34 at: 549.051
+Job34 terminating at: 549.051 sojourn time: 330.678 wait time: 317.937
+Job39 start Disk service at: 549.051 for period: 2.51489
+Job40 acquired 60 memory at 549.051 wait 288.776
+Job41 acquired 20 memory at 549.051 wait 283.106
+Job42 acquired 11 memory at 549.051 wait 273.889
+Disk completion disk burst of Job39 at: 551.566
+Job35 start Disk service at: 551.566 for period: 3.45188
+CPU completed CPU service to Job37 at 551.674
+Job38 start CPU service at: 551.674 for period = 0.317353
+CPU completed CPU service to Job38 at 551.991
+Job40 start CPU service at: 551.991 for period = 0.985828
+CPU completed CPU service to Job40 at 552.977
+Job41 start CPU service at: 552.977 for period = 23.7341
+Disk completion disk burst of Job35 at: 555.018
+Job36 start Disk service at: 555.018 for period: 0.233245
+Disk completion disk burst of Job36 at: 555.251
+Job37 start Disk service at: 555.251 for period: 1.24997
+Disk completion disk burst of Job37 at: 556.501
+Job38 start Disk service at: 556.501 for period: 2.16697
+Job81 int_arr 8.24643 cpuper 6.95813 diskper 22.2461 memreq 52
+Job81 joining input queue at 557.074
+Disk completion disk burst of Job38 at: 558.668
+Job40 start Disk service at: 558.668 for period: 4.01468
+Job82 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job82 joining input queue at 558.756
+Disk completion disk burst of Job40 at: 562.683
+Job83 int_arr 5.31386 cpuper 20.1173 diskper 4.1877 memreq 26
+Job83 joining input queue at 564.07
+Job84 int_arr 0.16279 cpuper 11.6101 diskper 4.40943 memreq 26
+Job84 joining input queue at 564.233
+Job85 int_arr 10.0436 cpuper 0.773529 diskper 8.31843 memreq 38
+Job85 joining input queue at 574.277
+Job86 int_arr 1.6698 cpuper 15.3748 diskper 27.1334 memreq 37
+Job86 joining input queue at 575.946
+CPU completed CPU service to Job41 at 576.711
+Job41 start Disk service at: 576.711 for period: 4.68267
+Job42 start CPU service at: 576.711 for period = 2.57717
+CPU completed CPU service to Job42 at 579.288
+Job39 start CPU service at: 579.288 for period = 0.0742753
+CPU completed CPU service to Job39 at 579.362
+Job35 start CPU service at: 579.362 for period = 0
+CPU completed CPU service to Job35 at 579.362
+Job36 start CPU service at: 579.362 for period = 5.49247
+Disk completion disk burst of Job41 at: 581.394
+Job42 start Disk service at: 581.394 for period: 0.344863
+Disk completion disk burst of Job42 at: 581.739
+Job39 start Disk service at: 581.739 for period: 0.317571
+Disk completion disk burst of Job39 at: 582.056
+Job35 start Disk service at: 582.056 for period: 3.24537
+CPU completed CPU service to Job36 at 584.855
+Job37 start CPU service at: 584.855 for period = 2.31906
+Disk completion disk burst of Job35 at: 585.302
+Job35 terminating at: 585.302 sojourn time: 352.415 wait time: 328.198
+Job36 start Disk service at: 585.302 for period: 0.598783
+Job43 acquired 15 memory at 585.302 wait 308.471
+Disk completion disk burst of Job36 at: 585.9
+CPU completed CPU service to Job37 at 587.174
+Job37 start Disk service at: 587.174 for period: 0.0364869
+Job38 start CPU service at: 587.174 for period = 0.22632
+Disk completion disk burst of Job37 at: 587.211
+Job37 terminating at: 587.211 sojourn time: 348.848 wait time: 332.828
+Job44 acquired 29 memory at 587.211 wait 302.299
+CPU completed CPU service to Job38 at 587.4
+Job38 start Disk service at: 587.4 for period: 0.569624
+Job40 start CPU service at: 587.4 for period = 5.90636
+Disk completion disk burst of Job38 at: 587.97
+Job87 int_arr 12.9041 cpuper 10.7926 diskper 1.88994 memreq 58
+Job87 joining input queue at 588.85
+CPU completed CPU service to Job40 at 593.307
+Job40 start Disk service at: 593.307 for period: 3.15695
+Job41 start CPU service at: 593.307 for period = 18.9735
+Disk completion disk burst of Job40 at: 596.464
+Job88 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job88 joining input queue at 603.364
+CPU completed CPU service to Job41 at 612.28
+Job41 start Disk service at: 612.28 for period: 10.679
+Job42 start CPU service at: 612.28 for period = 0.457716
+CPU completed CPU service to Job42 at 612.738
+Job39 start CPU service at: 612.738 for period = 0.0747243
+CPU completed CPU service to Job39 at 612.813
+Job43 start CPU service at: 612.813 for period = 1.32638
+CPU completed CPU service to Job43 at 614.139
+Job36 start CPU service at: 614.139 for period = 3.40981
+CPU completed CPU service to Job36 at 617.549
+Job44 start CPU service at: 617.549 for period = 3.28491
+Job89 int_arr 15.2561 cpuper 2.61177 diskper 19.5799 memreq 43
+Job89 joining input queue at 618.62
+CPU completed CPU service to Job44 at 620.834
+Job38 start CPU service at: 620.834 for period = 0
+CPU completed CPU service to Job38 at 620.834
+Job40 start CPU service at: 620.834 for period = 4.94422
+Job90 int_arr 2.92626 cpuper 1.93491 diskper 15.1343 memreq 24
+Job90 joining input queue at 621.546
+Disk completion disk burst of Job41 at: 622.959
+Job42 start Disk service at: 622.959 for period: 0.444896
+Job91 int_arr 1.6698 cpuper 15.3748 diskper 27.1334 memreq 37
+Job91 joining input queue at 623.216
+Disk completion disk burst of Job42 at: 623.404
+Job39 start Disk service at: 623.404 for period: 1.59451
+Disk completion disk burst of Job39 at: 624.999
+Job39 terminating at: 624.999 sojourn time: 365.26 wait time: 359.604
+Job43 start Disk service at: 624.999 for period: 0.734978
+Job45 acquired 37 memory at 624.999 wait 337.828
+Disk completion disk burst of Job43 at: 625.734
+Job36 start Disk service at: 625.734 for period: 0.676622
+CPU completed CPU service to Job40 at 625.778
+Job41 start CPU service at: 625.778 for period = 5.07353
+Disk completion disk burst of Job36 at: 626.41
+Job44 start Disk service at: 626.41 for period: 0.45399
+Disk completion disk burst of Job44 at: 626.864
+Job38 start Disk service at: 626.864 for period: 0.640474
+Disk completion disk burst of Job38 at: 627.505
+Job38 terminating at: 627.505 sojourn time: 379.098 wait time: 370.006
+Job40 start Disk service at: 627.505 for period: 0.674983
+Job46 acquired 48 memory at 627.505 wait 336.979
+Disk completion disk burst of Job40 at: 628.18
+Job92 int_arr 6.85096 cpuper 1.97584 diskper 5.29594 memreq 32
+Job92 joining input queue at 630.067
+CPU completed CPU service to Job41 at 630.852
+Job41 start Disk service at: 630.852 for period: 17.6211
+Job42 start CPU service at: 630.852 for period = 2.15981
+CPU completed CPU service to Job42 at 633.011
+Job45 start CPU service at: 633.011 for period = 1.22696
+Job93 int_arr 4.1426 cpuper 7.49797 diskper 2.53482 memreq 42
+Job93 joining input queue at 634.209
+CPU completed CPU service to Job45 at 634.238
+Job43 start CPU service at: 634.238 for period = 1.73868
+Job94 int_arr 0.0479793 cpuper 25.2387 diskper 6.24227 memreq 57
+Job94 joining input queue at 634.257
+CPU completed CPU service to Job43 at 635.977
+Job36 start CPU service at: 635.977 for period = 0
+CPU completed CPU service to Job36 at 635.977
+Job44 start CPU service at: 635.977 for period = 1.56765
+CPU completed CPU service to Job44 at 637.545
+Job46 start CPU service at: 637.545 for period = 1.96626
+CPU completed CPU service to Job46 at 639.511
+Job40 start CPU service at: 639.511 for period = 2.56
+CPU completed CPU service to Job40 at 642.071
+Disk completion disk burst of Job41 at: 648.473
+Job42 start Disk service at: 648.473 for period: 2.54841
+Job41 start CPU service at: 648.473 for period = 0
+CPU completed CPU service to Job41 at 648.473
+Job95 int_arr 15.2561 cpuper 2.61177 diskper 19.5799 memreq 43
+Job95 joining input queue at 649.513
+Disk completion disk burst of Job42 at: 651.021
+Job45 start Disk service at: 651.021 for period: 0.304992
+Job42 start CPU service at: 651.021 for period = 0.0697145
+CPU completed CPU service to Job42 at 651.091
+Disk completion disk burst of Job45 at: 651.326
+Job43 start Disk service at: 651.326 for period: 0.95643
+Job45 start CPU service at: 651.326 for period = 2.35304
+Disk completion disk burst of Job43 at: 652.283
+Job36 start Disk service at: 652.283 for period: 0.177698
+Job96 int_arr 2.92626 cpuper 1.93491 diskper 15.1343 memreq 24
+Job96 joining input queue at 652.44
+Disk completion disk burst of Job36 at: 652.46
+Job44 start Disk service at: 652.46 for period: 2.04823
+CPU completed CPU service to Job45 at 653.679
+Job43 start CPU service at: 653.679 for period = 0.463579
+CPU completed CPU service to Job43 at 654.143
+Job36 start CPU service at: 654.143 for period = 0
+CPU completed CPU service to Job36 at 654.143
+Disk completion disk burst of Job44 at: 654.508
+Job46 start Disk service at: 654.508 for period: 1.75019
+Job44 start CPU service at: 654.508 for period = 2.91323
+Disk completion disk burst of Job46 at: 656.259
+Job40 start Disk service at: 656.259 for period: 3.30868
+CPU completed CPU service to Job44 at 657.422
+Job46 start CPU service at: 657.422 for period = 0.380776
+CPU completed CPU service to Job46 at 657.802
+Job97 int_arr 6.27996 cpuper 20.3284 diskper 10.3234 memreq 57
+Job97 joining input queue at 658.72
+Disk completion disk burst of Job40 at: 659.567
+Job41 start Disk service at: 659.567 for period: 7.34859
+Job40 start CPU service at: 659.567 for period = 0
+CPU completed CPU service to Job40 at 659.567
+Disk completion disk burst of Job41 at: 666.916
+Job42 start Disk service at: 666.916 for period: 1.19835
+Job41 start CPU service at: 666.916 for period = 0
+CPU completed CPU service to Job41 at 666.916
+Disk completion disk burst of Job42 at: 668.114
+Job45 start Disk service at: 668.114 for period: 0.0116555
+Job42 start CPU service at: 668.114 for period = 0
+CPU completed CPU service to Job42 at 668.114
+Disk completion disk burst of Job45 at: 668.126
+Job43 start Disk service at: 668.126 for period: 0.45693
+Job45 start CPU service at: 668.126 for period = 6.16088
+Disk completion disk burst of Job43 at: 668.583
+Job36 start Disk service at: 668.583 for period: 0.256948
+Disk completion disk burst of Job36 at: 668.84
+Job36 terminating at: 668.84 sojourn time: 430.64 wait time: 406.335
+Job44 start Disk service at: 668.84 for period: 2.0973
+Disk completion disk burst of Job44 at: 670.937
+Job46 start Disk service at: 670.937 for period: 1.78253
+Disk completion disk burst of Job46 at: 672.72
+Job40 start Disk service at: 672.72 for period: 0.963425
+Disk completion disk burst of Job40 at: 673.683
+Job40 terminating at: 673.683 sojourn time: 413.408 wait time: 386.893
+Job41 start Disk service at: 673.683 for period: 3.89651
+Job47 acquired 58 memory at 673.683 wait 379.842
+Job48 acquired 33 memory at 673.683 wait 366.445
+CPU completed CPU service to Job45 at 674.287
+Job43 start CPU service at: 674.287 for period = 0.849882
+Job98 int_arr 15.642 cpuper 4.60984 diskper 0.80806 memreq 28
+Job98 joining input queue at 674.362
+CPU completed CPU service to Job43 at 675.137
+Job44 start CPU service at: 675.137 for period = 4.69694
+Disk completion disk burst of Job41 at: 677.58
+Job41 terminating at: 677.58 sojourn time: 411.634 wait time: 319.625
+Job42 start Disk service at: 677.58 for period: 0.675241
+Job49 acquired 10 memory at 677.58 wait 369.615
+Disk completion disk burst of Job42 at: 678.255
+Job42 terminating at: 678.255 sojourn time: 403.093 wait time: 392.617
+Job45 start Disk service at: 678.255 for period: 0.0803687
+Disk completion disk burst of Job45 at: 678.335
+Job43 start Disk service at: 678.335 for period: 0.256158
+Disk completion disk burst of Job43 at: 678.591
+Job43 terminating at: 678.591 sojourn time: 401.761 wait time: 394.978
+CPU completed CPU service to Job44 at 679.834
+Job44 start Disk service at: 679.834 for period: 0.559022
+Job46 start CPU service at: 679.834 for period = 2.36087
+Disk completion disk burst of Job44 at: 680.393
+CPU completed CPU service to Job46 at 682.194
+Job46 start Disk service at: 682.194 for period: 0.392086
+Job47 start CPU service at: 682.194 for period = 2.18716
+Disk completion disk burst of Job46 at: 682.587
+CPU completed CPU service to Job47 at 684.382
+Job47 start Disk service at: 684.382 for period: 0.0231202
+Job48 start CPU service at: 684.382 for period = 1.2992
+Disk completion disk burst of Job47 at: 684.405
+CPU completed CPU service to Job48 at 685.681
+Job48 start Disk service at: 685.681 for period: 0.763847
+Job49 start CPU service at: 685.681 for period = 10.3578
+Disk completion disk burst of Job48 at: 686.445
+Job99 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job99 joining input queue at 688.875
+CPU completed CPU service to Job49 at 696.039
+Job49 start Disk service at: 696.039 for period: 0.131124
+Job45 start CPU service at: 696.039 for period = 1.55786
+Disk completion disk burst of Job49 at: 696.17
+CPU completed CPU service to Job45 at 697.596
+Job45 start Disk service at: 697.596 for period: 0.443991
+Job44 start CPU service at: 697.596 for period = 5.46191
+Disk completion disk burst of Job45 at: 698.04
+CPU completed CPU service to Job44 at 703.058
+Job44 start Disk service at: 703.058 for period: 1.47124
+Job46 start CPU service at: 703.058 for period = 1.04658
+CPU completed CPU service to Job46 at 704.105
+Job47 start CPU service at: 704.105 for period = 1.4745
+Job100 int_arr 15.2561 cpuper 2.61177 diskper 19.5799 memreq 43
+Job100 joining input queue at 704.131
+Disk completion disk burst of Job44 at: 704.53
+Job46 start Disk service at: 704.53 for period: 1.80097
+Job101 int_arr 1.22824 cpuper 15.8222 diskper 0.739897 memreq 10
+Job101 joining input queue at 705.359
+CPU completed CPU service to Job47 at 705.579
+Job48 start CPU service at: 705.579 for period = 0.391231
+CPU completed CPU service to Job48 at 705.971
+Job49 start CPU service at: 705.971 for period = 5.10229
+Disk completion disk burst of Job46 at: 706.331
+Job46 terminating at: 706.331 sojourn time: 415.804 wait time: 404.324
+Job47 start Disk service at: 706.331 for period: 0.174786
+Job50 acquired 48 memory at 706.331 wait 369.027
+Job51 acquired 26 memory at 706.331 wait 363.713
+Disk completion disk burst of Job47 at: 706.505
+Job48 start Disk service at: 706.505 for period: 0.905889
+Job102 int_arr 1.6698 cpuper 15.3748 diskper 27.1334 memreq 37
+Job102 joining input queue at 707.029
+Disk completion disk burst of Job48 at: 707.411
+CPU completed CPU service to Job49 at 711.073
+Job49 start Disk service at: 711.073 for period: 0.148267
+Job45 start CPU service at: 711.073 for period = 6.619
+Disk completion disk burst of Job49 at: 711.221
+CPU completed CPU service to Job45 at 717.692
+Job45 start Disk service at: 717.692 for period: 0.088979
+Job44 start CPU service at: 717.692 for period = 0.10571
+Disk completion disk burst of Job45 at: 717.781
+CPU completed CPU service to Job44 at 717.798
+Job44 start Disk service at: 717.798 for period: 0
+Job50 start CPU service at: 717.798 for period = 5.40002
+Disk completion disk burst of Job44 at: 717.798
+Job44 terminating at: 717.798 sojourn time: 432.886 wait time: 408.226
+Job52 acquired 24 memory at 717.798 wait 372.254
+Job103 int_arr 11.3321 cpuper 0.242993 diskper 5.41319 memreq 32
+Job103 joining input queue at 718.361
+Job104 int_arr 4.75958 cpuper 2.65004 diskper 22.9887 memreq 18
+Job104 joining input queue at 723.121
+CPU completed CPU service to Job50 at 723.198
+Job50 start Disk service at: 723.198 for period: 1.25418
+Job51 start CPU service at: 723.198 for period = 8.25344
+Disk completion disk burst of Job50 at: 724.452
+CPU completed CPU service to Job51 at 731.451
+Job51 start Disk service at: 731.451 for period: 0.286763
+Job47 start CPU service at: 731.451 for period = 0.741507
+Disk completion disk burst of Job51 at: 731.738
+CPU completed CPU service to Job47 at 732.193
+Job47 start Disk service at: 732.193 for period: 0.0231202
+Job48 start CPU service at: 732.193 for period = 1.2992
+Disk completion disk burst of Job47 at: 732.216
+CPU completed CPU service to Job48 at 733.492
+Job48 start Disk service at: 733.492 for period: 0.763847
+Job49 start CPU service at: 733.492 for period = 10.3578
+Disk completion disk burst of Job48 at: 734.256
+Job105 int_arr 12.9939 cpuper 4.73394 diskper 8.00719 memreq 59
+Job105 joining input queue at 736.115
+CPU completed CPU service to Job49 at 743.85
+Job49 start Disk service at: 743.85 for period: 0.131124
+Job45 start CPU service at: 743.85 for period = 0
+CPU completed CPU service to Job45 at 743.85
+Job52 start CPU service at: 743.85 for period = 0.661141
+Disk completion disk burst of Job49 at: 743.981
+Job45 start Disk service at: 743.981 for period: 0.369407
+Disk completion disk burst of Job45 at: 744.35
+Job45 terminating at: 744.35 sojourn time: 457.179 wait time: 437.962
+Job53 acquired 55 memory at 744.35 wait 382.785
+CPU completed CPU service to Job52 at 744.511
+Job52 start Disk service at: 744.511 for period: 7.40025
+Job50 start CPU service at: 744.511 for period = 7.81527
+Job106 int_arr 15.2561 cpuper 2.61177 diskper 19.5799 memreq 43
+Job106 joining input queue at 751.371
+Disk completion disk burst of Job52 at: 751.911
+CPU completed CPU service to Job50 at 752.326
+Job50 start Disk service at: 752.326 for period: 0.956178
+Job51 start CPU service at: 752.326 for period = 7.98843
+Disk completion disk burst of Job50 at: 753.282
+CPU completed CPU service to Job51 at 760.315
+Job51 start Disk service at: 760.315 for period: 0.259014
+Job47 start CPU service at: 760.315 for period = 0
+CPU completed CPU service to Job47 at 760.315
+Job48 start CPU service at: 760.315 for period = 0.386447
+Disk completion disk burst of Job51 at: 760.574
+Job47 start Disk service at: 760.574 for period: 0.137515
+CPU completed CPU service to Job48 at 760.701
+Job49 start CPU service at: 760.701 for period = 0.266181
+Disk completion disk burst of Job47 at: 760.711
+Job48 start Disk service at: 760.711 for period: 0.254942
+Disk completion disk burst of Job48 at: 760.966
+CPU completed CPU service to Job49 at 760.967
+Job49 start Disk service at: 760.967 for period: 0.132543
+Job53 start CPU service at: 760.967 for period = 1.97692
+Disk completion disk burst of Job49 at: 761.1
+Job49 terminating at: 761.1 sojourn time: 453.135 wait time: 426.508
+CPU completed CPU service to Job53 at 762.944
+Job53 start Disk service at: 762.944 for period: 3.5069
+Job52 start CPU service at: 762.944 for period = 0.793827
+CPU completed CPU service to Job52 at 763.738
+Job50 start CPU service at: 763.738 for period = 1.30444
+CPU completed CPU service to Job50 at 765.042
+Job51 start CPU service at: 765.042 for period = 3.87541
+Job107 int_arr 14.5132 cpuper 0.0755839 diskper 24.1414 memreq 40
+Job107 joining input queue at 765.884
+Disk completion disk burst of Job53 at: 766.451
+Job52 start Disk service at: 766.451 for period: 0.936068
+Disk completion disk burst of Job52 at: 767.387
+Job50 start Disk service at: 767.387 for period: 1.46016
+Disk completion disk burst of Job50 at: 768.847
+CPU completed CPU service to Job51 at 768.918
+Job51 start Disk service at: 768.918 for period: 0.353107
+Job47 start CPU service at: 768.918 for period = 0
+CPU completed CPU service to Job47 at 768.918
+Job48 start CPU service at: 768.918 for period = 1.10661
+Disk completion disk burst of Job51 at: 769.271
+Job47 start Disk service at: 769.271 for period: 0.0360911
+Disk completion disk burst of Job47 at: 769.307
+CPU completed CPU service to Job48 at 770.024
+Job48 start Disk service at: 770.024 for period: 0.243687
+Job53 start CPU service at: 770.024 for period = 1.97692
+Disk completion disk burst of Job48 at: 770.268
+CPU completed CPU service to Job53 at 772.001
+Job53 start Disk service at: 772.001 for period: 3.5069
+Job52 start CPU service at: 772.001 for period = 0.352516
+CPU completed CPU service to Job52 at 772.354
+Job50 start CPU service at: 772.354 for period = 4.52953
+Disk completion disk burst of Job53 at: 775.508
+Job52 start Disk service at: 775.508 for period: 6.39529
+CPU completed CPU service to Job50 at 776.883
+Job51 start CPU service at: 776.883 for period = 0
+CPU completed CPU service to Job51 at 776.883
+Job47 start CPU service at: 776.883 for period = 0
+CPU completed CPU service to Job47 at 776.883
+Job48 start CPU service at: 776.883 for period = 0.10041
+CPU completed CPU service to Job48 at 776.984
+Job53 start CPU service at: 776.984 for period = 2.24125
+CPU completed CPU service to Job53 at 779.225
+Disk completion disk burst of Job52 at: 781.903
+Job50 start Disk service at: 781.903 for period: 0
+Disk completion disk burst of Job50 at: 781.903
+Job52 start CPU service at: 781.903 for period = 0.127423
+Job50 terminating at: 781.903 sojourn time: 444.6 wait time: 421.88
+Job51 start Disk service at: 781.903 for period: 0.177698
+Job54 acquired 40 memory at 781.903 wait 405.825
+Job108 int_arr 16.0211 cpuper 6.52601 diskper 7.17197 memreq 55
+Job108 joining input queue at 781.905
+CPU completed CPU service to Job52 at 782.031
+Job54 start CPU service at: 782.031 for period = 0.0310095
+CPU completed CPU service to Job54 at 782.062
+Disk completion disk burst of Job51 at: 782.081
+Job47 start Disk service at: 782.081 for period: 0.0204695
+Job51 start CPU service at: 782.081 for period = 0
+CPU completed CPU service to Job51 at 782.081
+Disk completion disk burst of Job47 at: 782.102
+Job47 terminating at: 782.102 sojourn time: 488.26 wait time: 483.442
+Job48 start Disk service at: 782.102 for period: 0
+Job55 acquired 40 memory at 782.102 wait 391.51
+Disk completion disk burst of Job48 at: 782.102
+Job56 acquired 26 memory at 782.102 wait 391.347
+Job55 start CPU service at: 782.102 for period = 0.0310095
+Job48 terminating at: 782.102 sojourn time: 474.864 wait time: 467.348
+Job53 start Disk service at: 782.102 for period: 0.158164
+Job57 acquired 38 memory at 782.102 wait 381.304
+CPU completed CPU service to Job55 at 782.133
+Job56 start CPU service at: 782.133 for period = 4.76322
+Disk completion disk burst of Job53 at: 782.26
+Job52 start Disk service at: 782.26 for period: 0.402654
+Disk completion disk burst of Job52 at: 782.662
+Job52 terminating at: 782.662 sojourn time: 437.118 wait time: 420.049
+Job54 start Disk service at: 782.662 for period: 11.9916
+CPU completed CPU service to Job56 at 786.896
+Job57 start CPU service at: 786.896 for period = 0.317353
+CPU completed CPU service to Job57 at 787.213
+Job53 start CPU service at: 787.213 for period = 0.330923
+CPU completed CPU service to Job53 at 787.544
+Job109 int_arr 6.27996 cpuper 20.3284 diskper 10.3234 memreq 57
+Job109 joining input queue at 788.185
+Job110 int_arr 0.0479793 cpuper 25.2387 diskper 6.24227 memreq 57
+Job110 joining input queue at 788.233
+Job111 int_arr 1.6822 cpuper 24.0336 diskper 2.49822 memreq 37
+Job111 joining input queue at 789.915
+Job112 int_arr 3.00502 cpuper 8.37116 diskper 19.2426 memreq 33
+Job112 joining input queue at 792.92
+Disk completion disk burst of Job54 at: 794.654
+Job51 start Disk service at: 794.654 for period: 1.7696
+Job54 start CPU service at: 794.654 for period = 0.00954726
+CPU completed CPU service to Job54 at 794.664
+Disk completion disk burst of Job51 at: 796.424
+Job55 start Disk service at: 796.424 for period: 11.2855
+Job51 start CPU service at: 796.424 for period = 0
+CPU completed CPU service to Job51 at 796.424
+Job113 int_arr 3.65811 cpuper 0.256449 diskper 11.1053 memreq 34
+Job113 joining input queue at 796.578
+Job114 int_arr 2.74197 cpuper 2.63051 diskper 14.7063 memreq 17
+Job114 joining input queue at 799.32
+Job115 int_arr 6.27996 cpuper 20.3284 diskper 10.3234 memreq 57
+Job115 joining input queue at 805.6
+Arrivals  terminating 
+Disk completion disk burst of Job55 at: 807.709
+Job56 start Disk service at: 807.709 for period: 1.36227
+Job55 start CPU service at: 807.709 for period = 0.00800251
+CPU completed CPU service to Job55 at 807.717
+Disk completion disk burst of Job56 at: 809.071
+Job57 start Disk service at: 809.071 for period: 4.07225
+Job56 start CPU service at: 809.071 for period = 3.54883
+CPU completed CPU service to Job56 at 812.62
+Disk completion disk burst of Job57 at: 813.144
+Job53 start Disk service at: 813.144 for period: 0
+Disk completion disk burst of Job53 at: 813.144
+Job57 start CPU service at: 813.144 for period = 0.211191
+Job53 terminating at: 813.144 sojourn time: 451.579 wait time: 437.881
+Job54 start Disk service at: 813.144 for period: 1.59744
+Job59 acquired 40 memory at 813.144 wait 390.982
+Job58 acquired 32 memory at 813.144 wait 405.495
+CPU completed CPU service to Job57 at 813.355
+Job59 start CPU service at: 813.355 for period = 0.0310095
+CPU completed CPU service to Job59 at 813.386
+Job58 start CPU service at: 813.386 for period = 0.135301
+CPU completed CPU service to Job58 at 813.521
+Disk completion disk burst of Job54 at: 814.741
+Job51 start Disk service at: 814.741 for period: 1.34152
+Job54 start CPU service at: 814.741 for period = 0.00420984
+CPU completed CPU service to Job54 at 814.745
+Disk completion disk burst of Job51 at: 816.083
+Job51 terminating at: 816.083 sojourn time: 473.465 wait time: 449.16
+Job55 start Disk service at: 816.083 for period: 6.84352
+Disk completion disk burst of Job55 at: 822.926
+Job56 start Disk service at: 822.926 for period: 1.80904
+Job55 start CPU service at: 822.926 for period = 0.00517578
+CPU completed CPU service to Job55 at 822.931
+Disk completion disk burst of Job56 at: 824.735
+Job57 start Disk service at: 824.735 for period: 4.13197
+Job56 start CPU service at: 824.735 for period = 0.646652
+CPU completed CPU service to Job56 at 825.382
+Disk completion disk burst of Job57 at: 828.867
+Job59 start Disk service at: 828.867 for period: 6.84352
+Job57 start CPU service at: 828.867 for period = 0.201506
+CPU completed CPU service to Job57 at 829.069
+Disk completion disk burst of Job59 at: 835.711
+Job58 start Disk service at: 835.711 for period: 2.10298
+Job59 start CPU service at: 835.711 for period = 0.00467494
+CPU completed CPU service to Job59 at 835.715
+Disk completion disk burst of Job58 at: 837.814
+Job54 start Disk service at: 837.814 for period: 9.61833
+Job58 start CPU service at: 837.814 for period = 0.166603
+CPU completed CPU service to Job58 at 837.98
+Disk completion disk burst of Job54 at: 847.432
+Job55 start Disk service at: 847.432 for period: 6.01239
+Job54 start CPU service at: 847.432 for period = 0.0182501
+CPU completed CPU service to Job54 at 847.45
+Disk completion disk burst of Job55 at: 853.444
+Job56 start Disk service at: 853.444 for period: 0.383379
+Job55 start CPU service at: 853.444 for period = 0.0258264
+CPU completed CPU service to Job55 at 853.47
+Disk completion disk burst of Job56 at: 853.828
+Job57 start Disk service at: 853.828 for period: 0.114208
+Job56 start CPU service at: 853.828 for period = 2.65137
+Disk completion disk burst of Job57 at: 853.942
+Job59 start Disk service at: 853.942 for period: 4.39826
+CPU completed CPU service to Job56 at 856.479
+Job57 start CPU service at: 856.479 for period = 0.0434796
+CPU completed CPU service to Job57 at 856.523
+Disk completion disk burst of Job59 at: 858.34
+Job58 start Disk service at: 858.34 for period: 2.23791
+Job59 start CPU service at: 858.34 for period = 0.00954726
+CPU completed CPU service to Job59 at 858.35
+Disk completion disk burst of Job58 at: 860.578
+Job54 start Disk service at: 860.578 for period: 0.934002
+Job58 start CPU service at: 860.578 for period = 0.463767
+CPU completed CPU service to Job58 at 861.042
+Disk completion disk burst of Job54 at: 861.512
+Job55 start Disk service at: 861.512 for period: 0
+Disk completion disk burst of Job55 at: 861.512
+Job54 start CPU service at: 861.512 for period = 0.0125672
+Job56 start Disk service at: 861.512 for period: 0.579066
+CPU completed CPU service to Job54 at 861.525
+Job55 start CPU service at: 861.525 for period = 0.00320727
+CPU completed CPU service to Job55 at 861.528
+Disk completion disk burst of Job56 at: 862.091
+Job57 start Disk service at: 862.091 for period: 0
+Disk completion disk burst of Job57 at: 862.091
+Job56 start CPU service at: 862.091 for period = 0
+Job57 terminating at: 862.091 sojourn time: 461.293 wait time: 452.201
+Job59 start Disk service at: 862.091 for period: 4.72229
+CPU completed CPU service to Job56 at 862.091
+Job60 acquired 41 memory at 862.091 wait 437.15
+Job60 start CPU service at: 862.091 for period = 2.36427
+CPU completed CPU service to Job60 at 864.455
+Disk completion disk burst of Job59 at: 866.813
+Job58 start Disk service at: 866.813 for period: 0.362652
+Job59 start CPU service at: 866.813 for period = 0.0303522
+CPU completed CPU service to Job59 at 866.844
+Disk completion disk burst of Job58 at: 867.176
+Job54 start Disk service at: 867.176 for period: 0
+Disk completion disk burst of Job54 at: 867.176
+Job58 start CPU service at: 867.176 for period = 0.560105
+Job54 terminating at: 867.176 sojourn time: 491.098 wait time: 466.881
+Job55 start Disk service at: 867.176 for period: 0
+Job61 acquired 38 memory at 867.176 wait 432.191
+Disk completion disk burst of Job55 at: 867.176
+Job56 start Disk service at: 867.176 for period: 0.27568
+Disk completion disk burst of Job56 at: 867.452
+Job56 terminating at: 867.452 sojourn time: 476.698 wait time: 460.678
+Job60 start Disk service at: 867.452 for period: 0.015172
+Job62 acquired 57 memory at 867.452 wait 432.419
+Disk completion disk burst of Job60 at: 867.467
+Job59 start Disk service at: 867.467 for period: 8.17732
+CPU completed CPU service to Job58 at 867.736
+Job61 start CPU service at: 867.736 for period = 0.317353
+CPU completed CPU service to Job61 at 868.054
+Job55 start CPU service at: 868.054 for period = 0.00236244
+CPU completed CPU service to Job55 at 868.056
+Job62 start CPU service at: 868.056 for period = 12.5367
+Disk completion disk burst of Job59 at: 875.644
+Job59 terminating at: 875.644 sojourn time: 453.482 wait time: 429.265
+Job58 start Disk service at: 875.644 for period: 0.294971
+Job63 acquired 37 memory at 875.644 wait 438.929
+Disk completion disk burst of Job58 at: 875.939
+Job61 start Disk service at: 875.939 for period: 2.35808
+Disk completion disk burst of Job61 at: 878.297
+Job55 start Disk service at: 878.297 for period: 0
+Disk completion disk burst of Job55 at: 878.297
+Job55 terminating at: 878.297 sojourn time: 487.706 wait time: 463.489
+Job64 acquired 42 memory at 878.297 wait 437.44
+CPU completed CPU service to Job62 at 880.593
+Job62 start Disk service at: 880.593 for period: 2.47876
+Job60 start CPU service at: 880.593 for period = 2.36427
+CPU completed CPU service to Job60 at 882.957
+Job63 start CPU service at: 882.957 for period = 1.64576
+Disk completion disk burst of Job62 at: 883.071
+Job60 start Disk service at: 883.071 for period: 0.121846
+Disk completion disk burst of Job60 at: 883.193
+CPU completed CPU service to Job63 at 884.603
+Job63 start Disk service at: 884.603 for period: 0.139144
+Job58 start CPU service at: 884.603 for period = 0.560105
+Disk completion disk burst of Job63 at: 884.742
+CPU completed CPU service to Job58 at 885.163
+Job58 start Disk service at: 885.163 for period: 0.297431
+Job61 start CPU service at: 885.163 for period = 0.307163
+Disk completion disk burst of Job58 at: 885.46
+CPU completed CPU service to Job61 at 885.47
+Job61 start Disk service at: 885.47 for period: 0.514503
+Job64 start CPU service at: 885.47 for period = 2.98731
+Disk completion disk burst of Job61 at: 885.984
+CPU completed CPU service to Job64 at 888.457
+Job64 start Disk service at: 888.457 for period: 0.213736
+Job62 start CPU service at: 888.457 for period = 8.36106
+Disk completion disk burst of Job64 at: 888.671
+CPU completed CPU service to Job62 at 896.818
+Job62 start Disk service at: 896.818 for period: 1.50722
+Job60 start CPU service at: 896.818 for period = 0.501046
+CPU completed CPU service to Job60 at 897.319
+Job63 start CPU service at: 897.319 for period = 8.21208
+Disk completion disk burst of Job62 at: 898.326
+Job60 start Disk service at: 898.326 for period: 0.0743082
+Disk completion disk burst of Job60 at: 898.4
+CPU completed CPU service to Job63 at 905.531
+Job63 start Disk service at: 905.531 for period: 1.22156
+Job58 start CPU service at: 905.531 for period = 0.0899628
+CPU completed CPU service to Job58 at 905.621
+Job61 start CPU service at: 905.621 for period = 0.149013
+CPU completed CPU service to Job61 at 905.77
+Job64 start CPU service at: 905.77 for period = 3.16842
+Disk completion disk burst of Job63 at: 906.753
+Job58 start Disk service at: 906.753 for period: 0
+Disk completion disk burst of Job58 at: 906.753
+Job58 terminating at: 906.753 sojourn time: 499.104 wait time: 491.832
+Job61 start Disk service at: 906.753 for period: 3.88865
+Job65 acquired 37 memory at 906.753 wait 464.213
+CPU completed CPU service to Job64 at 908.939
+Job62 start CPU service at: 908.939 for period = 4.34097
+Disk completion disk burst of Job61 at: 910.642
+Job64 start Disk service at: 910.642 for period: 0.173578
+Disk completion disk burst of Job64 at: 910.815
+CPU completed CPU service to Job62 at 913.28
+Job62 start Disk service at: 913.28 for period: 2.25628
+Job60 start CPU service at: 913.28 for period = 0.320972
+CPU completed CPU service to Job60 at 913.601
+Job63 start CPU service at: 913.601 for period = 6.81297
+Disk completion disk burst of Job62 at: 915.536
+Job62 terminating at: 915.536 sojourn time: 480.503 wait time: 449.022
+Job60 start Disk service at: 915.536 for period: 0.0339729
+Job66 acquired 33 memory at 915.536 wait 469.991
+Disk completion disk burst of Job60 at: 915.57
+CPU completed CPU service to Job63 at 920.414
+Job63 start Disk service at: 920.414 for period: 0.992023
+Job65 start CPU service at: 920.414 for period = 9.86018
+Disk completion disk burst of Job63 at: 921.406
+CPU completed CPU service to Job65 at 930.274
+Job65 start Disk service at: 930.274 for period: 0.171071
+Job61 start CPU service at: 930.274 for period = 0
+CPU completed CPU service to Job61 at 930.274
+Job64 start CPU service at: 930.274 for period = 0.417619
+Disk completion disk burst of Job65 at: 930.445
+Job61 start Disk service at: 930.445 for period: 1.55719
+CPU completed CPU service to Job64 at 930.692
+Job66 start CPU service at: 930.692 for period = 2.1807
+Disk completion disk burst of Job61 at: 932.002
+Job61 terminating at: 932.002 sojourn time: 497.017 wait time: 487.925
+Job64 start Disk service at: 932.002 for period: 1.00656
+Job67 acquired 38 memory at 932.002 wait 476.414
+CPU completed CPU service to Job66 at 932.872
+Job60 start CPU service at: 932.872 for period = 0.212212
+Disk completion disk burst of Job64 at: 933.009
+Job66 start Disk service at: 933.009 for period: 1.31768
+CPU completed CPU service to Job60 at 933.084
+Job63 start CPU service at: 933.084 for period = 7.36282
+Disk completion disk burst of Job66 at: 934.326
+Job60 start Disk service at: 934.326 for period: 0
+Disk completion disk burst of Job60 at: 934.326
+Job60 terminating at: 934.326 sojourn time: 509.385 wait time: 503.377
+Job68 acquired 59 memory at 934.326 wait 465.744
+CPU completed CPU service to Job63 at 940.447
+Job63 start Disk service at: 940.447 for period: 0.145487
+Job65 start CPU service at: 940.447 for period = 9.86018
+Disk completion disk burst of Job63 at: 940.593
+Job63 terminating at: 940.593 sojourn time: 503.878 wait time: 477.346
+Job69 acquired 40 memory at 940.593 wait 457.497
+CPU completed CPU service to Job65 at 950.307
+Job65 start Disk service at: 950.307 for period: 0.171071
+Job67 start CPU service at: 950.307 for period = 0.317353
+Disk completion disk burst of Job65 at: 950.479
+CPU completed CPU service to Job67 at 950.625
+Job67 start Disk service at: 950.625 for period: 0.569624
+Job64 start CPU service at: 950.625 for period = 0.924619
+Disk completion disk burst of Job67 at: 951.194
+CPU completed CPU service to Job64 at 951.549
+Job64 start Disk service at: 951.549 for period: 0.141183
+Job66 start CPU service at: 951.549 for period = 2.37303
+Disk completion disk burst of Job64 at: 951.691
+CPU completed CPU service to Job66 at 953.922
+Job66 start Disk service at: 953.922 for period: 5.01274
+Job68 start CPU service at: 953.922 for period = 1.87981
+CPU completed CPU service to Job68 at 955.802
+Job69 start CPU service at: 955.802 for period = 0.00467494
+CPU completed CPU service to Job69 at 955.807
+Job65 start CPU service at: 955.807 for period = 4.31326
+Disk completion disk burst of Job66 at: 958.935
+Job68 start Disk service at: 958.935 for period: 0.675165
+Disk completion disk burst of Job68 at: 959.61
+Job69 start Disk service at: 959.61 for period: 7.99754
+CPU completed CPU service to Job65 at 960.12
+Job67 start CPU service at: 960.12 for period = 0.186772
+CPU completed CPU service to Job67 at 960.307
+Job64 start CPU service at: 960.307 for period = 0
+CPU completed CPU service to Job64 at 960.307
+Job66 start CPU service at: 960.307 for period = 2.86035
+CPU completed CPU service to Job66 at 963.167
+Job68 start CPU service at: 963.167 for period = 1.43405
+CPU completed CPU service to Job68 at 964.601
+Disk completion disk burst of Job69 at: 967.608
+Job65 start Disk service at: 967.608 for period: 1.22156
+Job69 start CPU service at: 967.608 for period = 0.0137704
+CPU completed CPU service to Job69 at 967.622
+Disk completion disk burst of Job65 at: 968.829
+Job67 start Disk service at: 968.829 for period: 2.78562
+Job65 start CPU service at: 968.829 for period = 0
+CPU completed CPU service to Job65 at 968.829
+Disk completion disk burst of Job67 at: 971.615
+Job64 start Disk service at: 971.615 for period: 0.320182
+Job67 start CPU service at: 971.615 for period = 0.269404
+CPU completed CPU service to Job67 at 971.885
+Disk completion disk burst of Job64 at: 971.935
+Job66 start Disk service at: 971.935 for period: 4.5166
+Job64 start CPU service at: 971.935 for period = 0
+CPU completed CPU service to Job64 at 971.935
+Disk completion disk burst of Job66 at: 976.452
+Job68 start Disk service at: 976.452 for period: 3.185
+Job66 start CPU service at: 976.452 for period = 0.957076
+CPU completed CPU service to Job66 at 977.409
+Disk completion disk burst of Job68 at: 979.637
+Job69 start Disk service at: 979.637 for period: 1.0244
+Job68 start CPU service at: 979.637 for period = 1.00134
+CPU completed CPU service to Job68 at 980.638
+Disk completion disk burst of Job69 at: 980.661
+Job65 start Disk service at: 980.661 for period: 0.213257
+Job69 start CPU service at: 980.661 for period = 0.0147849
+CPU completed CPU service to Job69 at 980.676
+Disk completion disk burst of Job65 at: 980.875
+Job67 start Disk service at: 980.875 for period: 3.50263
+Job65 start CPU service at: 980.875 for period = 0
+CPU completed CPU service to Job65 at 980.875
+Disk completion disk burst of Job67 at: 984.377
+Job64 start Disk service at: 984.377 for period: 0.268376
+Job67 start CPU service at: 984.377 for period = 0
+CPU completed CPU service to Job67 at 984.377
+Disk completion disk burst of Job64 at: 984.646
+Job66 start Disk service at: 984.646 for period: 5.88186
+Job64 start CPU service at: 984.646 for period = 0
+CPU completed CPU service to Job64 at 984.646
+Disk completion disk burst of Job66 at: 990.527
+Job68 start Disk service at: 990.527 for period: 2.18614
+Job66 start CPU service at: 990.527 for period = 0
+CPU completed CPU service to Job66 at 990.527
+Disk completion disk burst of Job68 at: 992.714
+Job69 start Disk service at: 992.714 for period: 1.41628
+Job68 start CPU service at: 992.714 for period = 0.418736
+CPU completed CPU service to Job68 at 993.132
+Disk completion disk burst of Job69 at: 994.13
+Job65 start Disk service at: 994.13 for period: 0.721255
+Job69 start CPU service at: 994.13 for period = 0.0108074
+CPU completed CPU service to Job69 at 994.141
+Disk completion disk burst of Job65 at: 994.851
+Job65 terminating at: 994.851 sojourn time: 552.311 wait time: 525.779
+Job67 start Disk service at: 994.851 for period: 1.38213
+Job70 acquired 33 memory at 994.851 wait 508.751
+Job70 start CPU service at: 994.851 for period = 3.4344
+Disk completion disk burst of Job67 at: 996.233
+Job64 start Disk service at: 996.233 for period: 0.173578
+Disk completion disk burst of Job64 at: 996.407
+Job66 start Disk service at: 996.407 for period: 2.51374
+CPU completed CPU service to Job70 at 998.285
+Job67 start CPU service at: 998.285 for period = 0
+CPU completed CPU service to Job67 at 998.285
+Job64 start CPU service at: 998.285 for period = 0
+CPU completed CPU service to Job64 at 998.285
+Disk completion disk burst of Job66 at: 998.921
+Job66 terminating at: 998.921 sojourn time: 553.376 wait time: 525.762
+Job68 start Disk service at: 998.921 for period: 1.96088
+Job71 acquired 38 memory at 998.921 wait 502.776
+Job71 start CPU service at: 998.921 for period = 0.317353
+CPU completed CPU service to Job71 at 999.238
+Disk completion disk burst of Job68 at: 1000.88
+Job68 terminating at: 1000.88 sojourn time: 532.299 wait time: 519.558
+Job69 start Disk service at: 1000.88 for period: 1.65314
+Job72 acquired 57 memory at 1000.88 wait 504.689
+Job72 start CPU service at: 1000.88 for period = 10.3546
+Disk completion disk burst of Job69 at: 1002.53
+Job70 start Disk service at: 1002.53 for period: 1.31768
+Disk completion disk burst of Job70 at: 1003.85
+Job67 start Disk service at: 1003.85 for period: 0.0784336
+Disk completion disk burst of Job67 at: 1003.93
+Job67 terminating at: 1003.93 sojourn time: 548.342 wait time: 539.25
+Job64 start Disk service at: 1003.93 for period: 0.141183
+Job73 acquired 37 memory at 1003.93 wait 506.056
+Disk completion disk burst of Job64 at: 1004.07
+Job71 start Disk service at: 1004.07 for period: 2.35808
+Disk completion disk burst of Job71 at: 1006.43
+CPU completed CPU service to Job72 at 1011.24
+Job72 start Disk service at: 1011.24 for period: 1.62612
+Job69 start CPU service at: 1011.24 for period = 0.0310095
+CPU completed CPU service to Job69 at 1011.27
+Job70 start CPU service at: 1011.27 for period = 0.573235
+CPU completed CPU service to Job70 at 1011.84
+Job73 start CPU service at: 1011.84 for period = 11.9381
+Disk completion disk burst of Job72 at: 1012.86
+Job69 start Disk service at: 1012.86 for period: 1.34462
+Disk completion disk burst of Job69 at: 1014.21
+Job70 start Disk service at: 1014.21 for period: 5.45483
+Disk completion disk burst of Job70 at: 1019.66
+CPU completed CPU service to Job73 at 1023.78
+Job73 start Disk service at: 1023.78 for period: 0.65079
+Job64 start CPU service at: 1023.78 for period = 0
+CPU completed CPU service to Job64 at 1023.78
+Job71 start CPU service at: 1023.78 for period = 0.0478435
+CPU completed CPU service to Job71 at 1023.83
+Job72 start CPU service at: 1023.83 for period = 10.0555
+Disk completion disk burst of Job73 at: 1024.43
+Job64 start Disk service at: 1024.43 for period: 0.0964452
+Disk completion disk burst of Job64 at: 1024.53
+Job64 terminating at: 1024.53 sojourn time: 583.668 wait time: 573.635
+Job71 start Disk service at: 1024.53 for period: 2.75572
+Job74 acquired 41 memory at 1024.53 wait 523.872
+Disk completion disk burst of Job71 at: 1027.28
+CPU completed CPU service to Job72 at 1033.88
+Job72 start Disk service at: 1033.88 for period: 1.50722
+Job69 start CPU service at: 1033.88 for period = 0.000536604
+CPU completed CPU service to Job69 at 1033.88
+Job70 start CPU service at: 1033.88 for period = 0.573235
+CPU completed CPU service to Job70 at 1034.46
+Job73 start CPU service at: 1034.46 for period = 11.9381
+Disk completion disk burst of Job72 at: 1035.39
+Job69 start Disk service at: 1035.39 for period: 1.34462
+Disk completion disk burst of Job69 at: 1036.73
+Job70 start Disk service at: 1036.73 for period: 5.45483
+Disk completion disk burst of Job70 at: 1042.19
+CPU completed CPU service to Job73 at 1046.39
+Job73 start Disk service at: 1046.39 for period: 0.65079
+Job74 start CPU service at: 1046.39 for period = 2.28835
+Disk completion disk burst of Job73 at: 1047.04
+CPU completed CPU service to Job74 at 1048.68
+Job74 start Disk service at: 1048.68 for period: 0.015172
+Job71 start CPU service at: 1048.68 for period = 0.308187
+Disk completion disk burst of Job74 at: 1048.7
+CPU completed CPU service to Job71 at 1048.99
+Job71 start Disk service at: 1048.99 for period: 0.701409
+Job72 start CPU service at: 1048.99 for period = 4.82861
+Disk completion disk burst of Job71 at: 1049.69
+CPU completed CPU service to Job72 at 1053.82
+Job72 start Disk service at: 1053.82 for period: 1.50722
+Job69 start CPU service at: 1053.82 for period = 0
+CPU completed CPU service to Job69 at 1053.82
+Job70 start CPU service at: 1053.82 for period = 2.86035
+Disk completion disk burst of Job72 at: 1055.33
+Job69 start Disk service at: 1055.33 for period: 7.31312
+CPU completed CPU service to Job70 at 1056.68
+Job73 start CPU service at: 1056.68 for period = 0.157443
+CPU completed CPU service to Job73 at 1056.84
+Job74 start CPU service at: 1056.84 for period = 1.04991
+CPU completed CPU service to Job74 at 1057.89
+Job71 start CPU service at: 1057.89 for period = 0.100146
+CPU completed CPU service to Job71 at 1057.99
+Job72 start CPU service at: 1057.99 for period = 0
+CPU completed CPU service to Job72 at 1057.99
+Disk completion disk burst of Job69 at: 1062.64
+Job70 start Disk service at: 1062.64 for period: 2.4306
+Job69 start CPU service at: 1062.64 for period = 0
+CPU completed CPU service to Job69 at 1062.64
+Disk completion disk burst of Job70 at: 1065.07
+Job73 start Disk service at: 1065.07 for period: 0.586377
+Job70 start CPU service at: 1065.07 for period = 0.929933
+Disk completion disk burst of Job73 at: 1065.66
+Job74 start Disk service at: 1065.66 for period: 0.0975721
+Disk completion disk burst of Job74 at: 1065.75
+Job71 start Disk service at: 1065.75 for period: 1.09241
+CPU completed CPU service to Job70 at 1066
+Job73 start CPU service at: 1066 for period = 0
+CPU completed CPU service to Job73 at 1066
+Job74 start CPU service at: 1066 for period = 1.21897
+Disk completion disk burst of Job71 at: 1066.85
+Job72 start Disk service at: 1066.85 for period: 0.532864
+CPU completed CPU service to Job74 at 1067.22
+Job71 start CPU service at: 1067.22 for period = 0
+CPU completed CPU service to Job71 at 1067.22
+Disk completion disk burst of Job72 at: 1067.38
+Job69 start Disk service at: 1067.38 for period: 2.04767
+Job72 start CPU service at: 1067.38 for period = 0
+CPU completed CPU service to Job72 at 1067.38
+Disk completion disk burst of Job69 at: 1069.43
+Job69 terminating at: 1069.43 sojourn time: 586.331 wait time: 562.114
+Job70 start Disk service at: 1069.43 for period: 2.03733
+Job75 acquired 38 memory at 1069.43 wait 558.729
+Job75 start CPU service at: 1069.43 for period = 0.317353
+CPU completed CPU service to Job75 at 1069.74
+Disk completion disk burst of Job70 at: 1071.46
+Job73 start Disk service at: 1071.46 for period: 0.171071
+Job70 start CPU service at: 1071.46 for period = 0
+CPU completed CPU service to Job70 at 1071.46
+Disk completion disk burst of Job73 at: 1071.63
+Job74 start Disk service at: 1071.63 for period: 0.0136626
+Job73 start CPU service at: 1071.63 for period = 0
+CPU completed CPU service to Job73 at 1071.63
+Disk completion disk burst of Job74 at: 1071.65
+Job71 start Disk service at: 1071.65 for period: 1.41081
+Job74 start CPU service at: 1071.65 for period = 1.20554
+CPU completed CPU service to Job74 at 1072.85
+Disk completion disk burst of Job71 at: 1073.06
+Job71 terminating at: 1073.06 sojourn time: 576.915 wait time: 567.823
+Job72 start Disk service at: 1073.06 for period: 0.38609
+Job76 acquired 32 memory at 1073.06 wait 555.511
+Job76 start CPU service at: 1073.06 for period = 0.810622
+Disk completion disk burst of Job72 at: 1073.45
+Job75 start Disk service at: 1073.45 for period: 0.569624
+CPU completed CPU service to Job76 at 1073.87
+Job72 start CPU service at: 1073.87 for period = 0
+CPU completed CPU service to Job72 at 1073.87
+Disk completion disk burst of Job75 at: 1074.02
+Job70 start Disk service at: 1074.02 for period: 1.07177
+Job75 start CPU service at: 1074.02 for period = 0.219277
+CPU completed CPU service to Job75 at 1074.23
+Disk completion disk burst of Job70 at: 1075.09
+Job73 start Disk service at: 1075.09 for period: 0.439186
+Job70 start CPU service at: 1075.09 for period = 0
+CPU completed CPU service to Job70 at 1075.09
+Disk completion disk burst of Job73 at: 1075.53
+Job73 terminating at: 1075.53 sojourn time: 577.652 wait time: 551.12
+Job74 start Disk service at: 1075.53 for period: 0.015172
+Job77 acquired 40 memory at 1075.53 wait 543.465
+Job77 start CPU service at: 1075.53 for period = 0.0310095
+Disk completion disk burst of Job74 at: 1075.54
+Job76 start Disk service at: 1075.54 for period: 0.362652
+CPU completed CPU service to Job77 at 1075.56
+Job74 start CPU service at: 1075.56 for period = 0
+CPU completed CPU service to Job74 at 1075.56
+Disk completion disk burst of Job76 at: 1075.9
+Job72 start Disk service at: 1075.9 for period: 0.347679
+Job76 start CPU service at: 1075.9 for period = 0.560105
+Disk completion disk burst of Job72 at: 1076.25
+Job75 start Disk service at: 1076.25 for period: 2.16697
+CPU completed CPU service to Job76 at 1076.46
+Job72 start CPU service at: 1076.46 for period = 0
+CPU completed CPU service to Job72 at 1076.46
+Disk completion disk burst of Job75 at: 1078.42
+Job70 start Disk service at: 1078.42 for period: 1.19017
+Job75 start CPU service at: 1078.42 for period = 0.236899
+CPU completed CPU service to Job75 at 1078.66
+Disk completion disk burst of Job70 at: 1079.61
+Job77 start Disk service at: 1079.61 for period: 2.0356
+Job70 start CPU service at: 1079.61 for period = 0
+CPU completed CPU service to Job70 at 1079.61
+Disk completion disk burst of Job77 at: 1081.64
+Job74 start Disk service at: 1081.64 for period: 0.0592287
+Job77 start CPU service at: 1081.64 for period = 0.00657166
+CPU completed CPU service to Job77 at 1081.65
+Disk completion disk burst of Job74 at: 1081.7
+Job76 start Disk service at: 1081.7 for period: 1.80958
+Job74 start CPU service at: 1081.7 for period = 0
+CPU completed CPU service to Job74 at 1081.7
+Disk completion disk burst of Job76 at: 1083.51
+Job72 start Disk service at: 1083.51 for period: 0.335062
+Job76 start CPU service at: 1083.51 for period = 0.359974
+Disk completion disk burst of Job72 at: 1083.85
+Job72 terminating at: 1083.85 sojourn time: 587.656 wait time: 556.175
+Job75 start Disk service at: 1083.85 for period: 2.78562
+Job78 acquired 29 memory at 1083.85 wait 539.017
+Job79 acquired 17 memory at 1083.85 wait 536.275
+CPU completed CPU service to Job76 at 1083.87
+Job78 start CPU service at: 1083.87 for period = 1.79617
+CPU completed CPU service to Job78 at 1085.67
+Job79 start CPU service at: 1085.67 for period = 0.180131
+CPU completed CPU service to Job79 at 1085.85
+Disk completion disk burst of Job75 at: 1086.63
+Job70 start Disk service at: 1086.63 for period: 0.285405
+Job75 start CPU service at: 1086.63 for period = 0
+CPU completed CPU service to Job75 at 1086.63
+Disk completion disk burst of Job70 at: 1086.92
+Job70 terminating at: 1086.92 sojourn time: 600.819 wait time: 573.205
+Job77 start Disk service at: 1086.92 for period: 6.84352
+Job80 acquired 40 memory at 1086.92 wait 538.092
+Job80 start CPU service at: 1086.92 for period = 2.27151
+CPU completed CPU service to Job80 at 1089.19
+Disk completion disk burst of Job77 at: 1093.76
+Job74 start Disk service at: 1093.76 for period: 0.0167975
+Job77 start CPU service at: 1093.76 for period = 0.0375444
+Disk completion disk burst of Job74 at: 1093.78
+Job76 start Disk service at: 1093.78 for period: 0.294971
+CPU completed CPU service to Job77 at 1093.8
+Job74 start CPU service at: 1093.8 for period = 0
+CPU completed CPU service to Job74 at 1093.8
+Disk completion disk burst of Job76 at: 1094.07
+Job78 start Disk service at: 1094.07 for period: 1.43594
+Job76 start CPU service at: 1094.07 for period = 0.245142
+CPU completed CPU service to Job76 at 1094.32
+Disk completion disk burst of Job78 at: 1095.51
+Job79 start Disk service at: 1095.51 for period: 0.9096
+Job78 start CPU service at: 1095.51 for period = 1.74429
+Disk completion disk burst of Job79 at: 1096.42
+Job75 start Disk service at: 1096.42 for period: 0.701409
+Disk completion disk burst of Job75 at: 1097.12
+Job80 start Disk service at: 1097.12 for period: 5.65684
+CPU completed CPU service to Job78 at 1097.25
+Job79 start CPU service at: 1097.25 for period = 0.63515
+CPU completed CPU service to Job79 at 1097.89
+Job75 start CPU service at: 1097.89 for period = 0
+CPU completed CPU service to Job75 at 1097.89
+Disk completion disk burst of Job80 at: 1102.78
+Job77 start Disk service at: 1102.78 for period: 8.2489
+Job80 start CPU service at: 1102.78 for period = 1.67721
+CPU completed CPU service to Job80 at 1104.46
+Disk completion disk burst of Job77 at: 1111.03
+Job74 start Disk service at: 1111.03 for period: 0.0276946
+Job77 start CPU service at: 1111.03 for period = 0.00045834
+CPU completed CPU service to Job77 at 1111.03
+Disk completion disk burst of Job74 at: 1111.05
+Job74 terminating at: 1111.05 sojourn time: 610.401 wait time: 604.393
+Job76 start Disk service at: 1111.05 for period: 1.77347
+Job81 acquired 52 memory at 1111.05 wait 553.981
+Job81 start CPU service at: 1111.05 for period = 2.85468
+Disk completion disk burst of Job76 at: 1112.83
+Job78 start Disk service at: 1112.83 for period: 0.377462
+Disk completion disk burst of Job78 at: 1113.21
+Job79 start Disk service at: 1113.21 for period: 7.30499
+CPU completed CPU service to Job81 at 1113.91
+Job76 start CPU service at: 1113.91 for period = 0
+CPU completed CPU service to Job76 at 1113.91
+Job78 start CPU service at: 1113.91 for period = 0.837598
+CPU completed CPU service to Job78 at 1114.75
+Disk completion disk burst of Job79 at: 1120.51
+Job75 start Disk service at: 1120.51 for period: 2.09481
+Job79 start CPU service at: 1120.51 for period = 1.04456
+CPU completed CPU service to Job79 at 1121.56
+Disk completion disk burst of Job75 at: 1122.61
+Job75 terminating at: 1122.61 sojourn time: 611.909 wait time: 602.817
+Job80 start Disk service at: 1122.61 for period: 1.05615
+Job82 acquired 37 memory at 1122.61 wait 563.849
+Job82 start CPU service at: 1122.61 for period = 9.86018
+Disk completion disk burst of Job80 at: 1123.66
+Job77 start Disk service at: 1123.66 for period: 1.65314
+Disk completion disk burst of Job77 at: 1125.31
+Job81 start Disk service at: 1125.31 for period: 11.0502
+CPU completed CPU service to Job82 at 1132.47
+Job80 start CPU service at: 1132.47 for period = 0.308379
+CPU completed CPU service to Job80 at 1132.77
+Job77 start CPU service at: 1132.77 for period = 0
+CPU completed CPU service to Job77 at 1132.77
+Disk completion disk burst of Job81 at: 1136.37
+Job76 start Disk service at: 1136.37 for period: 1.05527
+Job81 start CPU service at: 1136.37 for period = 2.76302
+Disk completion disk burst of Job76 at: 1137.42
+Job76 terminating at: 1137.42 sojourn time: 619.872 wait time: 612.601
+Job78 start Disk service at: 1137.42 for period: 0.340936
+Job83 acquired 26 memory at 1137.42 wait 573.35
+Disk completion disk burst of Job78 at: 1137.76
+Job79 start Disk service at: 1137.76 for period: 5.85924
+CPU completed CPU service to Job81 at 1139.13
+Job83 start CPU service at: 1139.13 for period = 8.25344
+Disk completion disk burst of Job79 at: 1143.62
+Job82 start Disk service at: 1143.62 for period: 0.171071
+Disk completion disk burst of Job82 at: 1143.79
+Job80 start Disk service at: 1143.79 for period: 8.48194
+CPU completed CPU service to Job83 at 1147.38
+Job78 start CPU service at: 1147.38 for period = 0
+CPU completed CPU service to Job78 at 1147.38
+Job79 start CPU service at: 1147.38 for period = 0.745689
+CPU completed CPU service to Job79 at 1148.13
+Job82 start CPU service at: 1148.13 for period = 6.26081
+Disk completion disk burst of Job80 at: 1152.27
+Job77 start Disk service at: 1152.27 for period: 5.36023
+CPU completed CPU service to Job82 at 1154.39
+Job80 start CPU service at: 1154.39 for period = 0.342448
+CPU completed CPU service to Job80 at 1154.73
+Disk completion disk burst of Job77 at: 1157.63
+Job77 terminating at: 1157.63 sojourn time: 625.573 wait time: 601.356
+Job81 start Disk service at: 1157.63 for period: 8.86323
+Job84 acquired 26 memory at 1157.63 wait 593.401
+Job84 start CPU service at: 1157.63 for period = 4.76322
+CPU completed CPU service to Job84 at 1162.4
+Disk completion disk burst of Job81 at: 1166.5
+Job83 start Disk service at: 1166.5 for period: 0.286763
+Job81 start CPU service at: 1166.5 for period = 1.34042
+Disk completion disk burst of Job83 at: 1166.78
+Job78 start Disk service at: 1166.78 for period: 0.307017
+Disk completion disk burst of Job78 at: 1167.09
+Job79 start Disk service at: 1167.09 for period: 0.632491
+Disk completion disk burst of Job79 at: 1167.72
+Job82 start Disk service at: 1167.72 for period: 0.65079
+CPU completed CPU service to Job81 at 1167.84
+Job83 start CPU service at: 1167.84 for period = 7.98843
+Disk completion disk burst of Job82 at: 1168.37
+Job80 start Disk service at: 1168.37 for period: 1.05615
+Disk completion disk burst of Job80 at: 1169.43
+Job84 start Disk service at: 1169.43 for period: 1.75679
+Disk completion disk burst of Job84 at: 1171.19
+Job81 start Disk service at: 1171.19 for period: 1.87579
+Disk completion disk burst of Job81 at: 1173.06
+CPU completed CPU service to Job83 at 1175.83
+Job83 start Disk service at: 1175.83 for period: 1.3873
+Job78 start CPU service at: 1175.83 for period = 0
+CPU completed CPU service to Job78 at 1175.83
+Job79 start CPU service at: 1175.83 for period = 0.0249867
+CPU completed CPU service to Job79 at 1175.85
+Job82 start CPU service at: 1175.85 for period = 7.91263
+Disk completion disk burst of Job83 at: 1177.21
+Job78 start Disk service at: 1177.21 for period: 1.66981
+Disk completion disk burst of Job78 at: 1178.88
+Job79 start Disk service at: 1178.88 for period: 0
+Disk completion disk burst of Job79 at: 1178.88
+Job79 terminating at: 1178.88 sojourn time: 631.31 wait time: 613.973
+Job85 acquired 38 memory at 1178.88 wait 604.607
+CPU completed CPU service to Job82 at 1183.76
+Job82 start Disk service at: 1183.76 for period: 0.455144
+Job80 start CPU service at: 1183.76 for period = 0.937116
+Disk completion disk burst of Job82 at: 1184.22
+CPU completed CPU service to Job80 at 1184.7
+Job80 start Disk service at: 1184.7 for period: 0.824662
+Job84 start CPU service at: 1184.7 for period = 5.767
+Disk completion disk burst of Job80 at: 1185.53
+Job80 terminating at: 1185.53 sojourn time: 636.698 wait time: 614.085
+Job86 acquired 37 memory at 1185.53 wait 609.579
+CPU completed CPU service to Job84 at 1190.47
+Job84 start Disk service at: 1190.47 for period: 0.245595
+Job81 start CPU service at: 1190.47 for period = 0
+CPU completed CPU service to Job81 at 1190.47
+Job83 start CPU service at: 1190.47 for period = 1.37758
+Disk completion disk burst of Job84 at: 1190.71
+Job81 start Disk service at: 1190.71 for period: 0.456919
+Disk completion disk burst of Job81 at: 1191.17
+Job81 terminating at: 1191.17 sojourn time: 634.096 wait time: 604.892
+Job87 acquired 58 memory at 1191.17 wait 602.32
+CPU completed CPU service to Job83 at 1191.85
+Job83 start Disk service at: 1191.85 for period: 0.233245
+Job78 start CPU service at: 1191.85 for period = 0
+CPU completed CPU service to Job78 at 1191.85
+Job85 start CPU service at: 1191.85 for period = 0.0529692
+CPU completed CPU service to Job85 at 1191.9
+Job82 start CPU service at: 1191.9 for period = 0
+CPU completed CPU service to Job82 at 1191.9
+Job86 start CPU service at: 1191.9 for period = 0.856338
+Disk completion disk burst of Job83 at: 1192.08
+Job78 start Disk service at: 1192.08 for period: 1.38105
+CPU completed CPU service to Job86 at 1192.75
+Job84 start CPU service at: 1192.75 for period = 1.07984
+Disk completion disk burst of Job78 at: 1193.46
+Job78 terminating at: 1193.46 sojourn time: 648.628 wait time: 638.738
+Job85 start Disk service at: 1193.46 for period: 3.30319
+CPU completed CPU service to Job84 at 1193.83
+Job87 start CPU service at: 1193.83 for period = 4.42784
+Disk completion disk burst of Job85 at: 1196.76
+Job82 start Disk service at: 1196.76 for period: 0.171071
+Disk completion disk burst of Job82 at: 1196.93
+Job86 start Disk service at: 1196.93 for period: 13.4778
+CPU completed CPU service to Job87 at 1198.26
+Job83 start CPU service at: 1198.26 for period = 1.12048
+CPU completed CPU service to Job83 at 1199.38
+Job85 start CPU service at: 1199.38 for period = 0.219277
+CPU completed CPU service to Job85 at 1199.6
+Job82 start CPU service at: 1199.6 for period = 0
+CPU completed CPU service to Job82 at 1199.6
+Disk completion disk burst of Job86 at: 1210.41
+Job84 start Disk service at: 1210.41 for period: 1.75095
+Job86 start CPU service at: 1210.41 for period = 0.950945
+CPU completed CPU service to Job86 at 1211.36
+Disk completion disk burst of Job84 at: 1212.16
+Job87 start Disk service at: 1212.16 for period: 0.752982
+Job84 start CPU service at: 1212.16 for period = 0
+CPU completed CPU service to Job84 at 1212.16
+Disk completion disk burst of Job87 at: 1212.92
+Job83 start Disk service at: 1212.92 for period: 1.3873
+Job87 start CPU service at: 1212.92 for period = 2.60592
+Disk completion disk burst of Job83 at: 1214.3
+Job85 start Disk service at: 1214.3 for period: 0.723248
+Disk completion disk burst of Job85 at: 1215.03
+Job82 start Disk service at: 1215.03 for period: 0.853619
+CPU completed CPU service to Job87 at 1215.52
+Job83 start CPU service at: 1215.52 for period = 1.37735
+Disk completion disk burst of Job82 at: 1215.88
+Job86 start Disk service at: 1215.88 for period: 13.2675
+CPU completed CPU service to Job83 at 1216.9
+Job85 start CPU service at: 1216.9 for period = 0.140927
+CPU completed CPU service to Job85 at 1217.04
+Job82 start CPU service at: 1217.04 for period = 0
+CPU completed CPU service to Job82 at 1217.04
+Disk completion disk burst of Job86 at: 1229.15
+Job84 start Disk service at: 1229.15 for period: 0.656094
+Job86 start CPU service at: 1229.15 for period = 1.94204
+Disk completion disk burst of Job84 at: 1229.8
+Job84 terminating at: 1229.8 sojourn time: 665.57 wait time: 649.551
+Job87 start Disk service at: 1229.8 for period: 0.883497
+Job88 acquired 40 memory at 1229.8 wait 626.44
+Disk completion disk burst of Job87 at: 1230.69
+Job83 start Disk service at: 1230.69 for period: 0.893098
+CPU completed CPU service to Job86 at 1231.09
+Job88 start CPU service at: 1231.09 for period = 0.0310095
+CPU completed CPU service to Job88 at 1231.12
+Job87 start CPU service at: 1231.12 for period = 0.739049
+Disk completion disk burst of Job83 at: 1231.58
+Job83 terminating at: 1231.58 sojourn time: 667.51 wait time: 643.205
+Job85 start Disk service at: 1231.58 for period: 4.13197
+Job89 acquired 43 memory at 1231.58 wait 612.96
+CPU completed CPU service to Job87 at 1231.86
+Job89 start CPU service at: 1231.86 for period = 1.07152
+CPU completed CPU service to Job89 at 1232.93
+Disk completion disk burst of Job85 at: 1235.71
+Job82 start Disk service at: 1235.71 for period: 0.171071
+Job85 start CPU service at: 1235.71 for period = 0.360355
+Disk completion disk burst of Job82 at: 1235.88
+Job86 start Disk service at: 1235.88 for period: 0.388064
+CPU completed CPU service to Job85 at 1236.07
+Job82 start CPU service at: 1236.07 for period = 0
+CPU completed CPU service to Job82 at 1236.07
+Disk completion disk burst of Job86 at: 1236.27
+Job88 start Disk service at: 1236.27 for period: 6.28888
+Job86 start CPU service at: 1236.27 for period = 6.10522
+CPU completed CPU service to Job86 at 1242.38
+Disk completion disk burst of Job88 at: 1242.56
+Job87 start Disk service at: 1242.56 for period: 0.116894
+Job88 start CPU service at: 1242.56 for period = 0.0301139
+CPU completed CPU service to Job88 at 1242.59
+Disk completion disk burst of Job87 at: 1242.68
+Job89 start Disk service at: 1242.68 for period: 1.65097
+Job87 start CPU service at: 1242.68 for period = 3.01979
+Disk completion disk burst of Job89 at: 1244.33
+Job85 start Disk service at: 1244.33 for period: 0.160025
+Disk completion disk burst of Job85 at: 1244.49
+Job85 terminating at: 1244.49 sojourn time: 670.211 wait time: 661.119
+Job82 start Disk service at: 1244.49 for period: 0.0254491
+Job90 acquired 24 memory at 1244.49 wait 622.942
+Disk completion disk burst of Job82 at: 1244.51
+Job82 terminating at: 1244.51 sojourn time: 685.757 wait time: 659.225
+Job86 start Disk service at: 1244.51 for period: 0
+Job91 acquired 37 memory at 1244.51 wait 621.298
+Disk completion disk burst of Job86 at: 1244.51
+Job88 start Disk service at: 1244.51 for period: 7.31312
+CPU completed CPU service to Job87 at 1245.7
+Job89 start CPU service at: 1245.7 for period = 1.07152
+CPU completed CPU service to Job89 at 1246.77
+Job90 start CPU service at: 1246.77 for period = 0.132497
+CPU completed CPU service to Job90 at 1246.9
+Job91 start CPU service at: 1246.9 for period = 7.63703
+Disk completion disk burst of Job88 at: 1251.83
+Job87 start Disk service at: 1251.83 for period: 0.105265
+Disk completion disk burst of Job87 at: 1251.93
+Job89 start Disk service at: 1251.93 for period: 5.55044
+CPU completed CPU service to Job91 at 1254.54
+Job86 start CPU service at: 1254.54 for period = 4.00516
+Disk completion disk burst of Job89 at: 1257.48
+Job90 start Disk service at: 1257.48 for period: 6.0097
+CPU completed CPU service to Job86 at 1258.54
+Job88 start CPU service at: 1258.54 for period = 0.00467494
+CPU completed CPU service to Job88 at 1258.55
+Job87 start CPU service at: 1258.55 for period = 0
+CPU completed CPU service to Job87 at 1258.55
+Job89 start CPU service at: 1258.55 for period = 0.220224
+CPU completed CPU service to Job89 at 1258.77
+Disk completion disk burst of Job90 at: 1263.49
+Job91 start Disk service at: 1263.49 for period: 8.98874
+Job90 start CPU service at: 1263.49 for period = 0.467192
+CPU completed CPU service to Job90 at 1263.96
+Disk completion disk burst of Job91 at: 1272.48
+Job86 start Disk service at: 1272.48 for period: 0
+Disk completion disk burst of Job86 at: 1272.48
+Job91 start CPU service at: 1272.48 for period = 5.25343
+Job88 start Disk service at: 1272.48 for period: 7.31312
+CPU completed CPU service to Job91 at 1277.73
+Job86 start CPU service at: 1277.73 for period = 1.51508
+CPU completed CPU service to Job86 at 1279.25
+Disk completion disk burst of Job88 at: 1279.79
+Job87 start Disk service at: 1279.79 for period: 0.0312986
+Job88 start CPU service at: 1279.79 for period = 0.00978558
+CPU completed CPU service to Job88 at 1279.8
+Disk completion disk burst of Job87 at: 1279.82
+Job87 terminating at: 1279.82 sojourn time: 690.975 wait time: 678.292
+Job89 start Disk service at: 1279.82 for period: 8.27388
+Job92 acquired 32 memory at 1279.82 wait 649.758
+Job93 acquired 42 memory at 1279.82 wait 645.616
+Job92 start CPU service at: 1279.82 for period = 0.810622
+CPU completed CPU service to Job92 at 1280.64
+Job93 start CPU service at: 1280.64 for period = 0.513441
+CPU completed CPU service to Job93 at 1281.15
+Disk completion disk burst of Job89 at: 1288.1
+Job90 start Disk service at: 1288.1 for period: 7.51756
+Job89 start CPU service at: 1288.1 for period = 0.145469
+CPU completed CPU service to Job89 at 1288.24
+Disk completion disk burst of Job90 at: 1295.62
+Job91 start Disk service at: 1295.62 for period: 7.69169
+Job90 start CPU service at: 1295.62 for period = 0.504047
+CPU completed CPU service to Job90 at 1296.12
+Disk completion disk burst of Job91 at: 1303.31
+Job86 start Disk service at: 1303.31 for period: 0
+Disk completion disk burst of Job86 at: 1303.31
+Job91 start CPU service at: 1303.31 for period = 0.950945
+Job86 terminating at: 1303.31 sojourn time: 727.362 wait time: 684.854
+Job88 start Disk service at: 1303.31 for period: 3.22627
+CPU completed CPU service to Job91 at 1304.26
+Disk completion disk burst of Job88 at: 1306.53
+Job88 terminating at: 1306.53 sojourn time: 703.171 wait time: 678.954
+Job92 start Disk service at: 1306.53 for period: 2.17274
+Job94 acquired 57 memory at 1306.53 wait 672.277
+Job94 start CPU service at: 1306.53 for period = 10.3546
+Disk completion disk burst of Job92 at: 1308.71
+Job93 start Disk service at: 1308.71 for period: 0.173578
+Disk completion disk burst of Job93 at: 1308.88
+Job89 start Disk service at: 1308.88 for period: 4.1046
+Disk completion disk burst of Job89 at: 1312.99
+Job90 start Disk service at: 1312.99 for period: 0.842941
+Disk completion disk burst of Job90 at: 1313.83
+Job91 start Disk service at: 1313.83 for period: 7.69169
+CPU completed CPU service to Job94 at 1316.89
+Job92 start CPU service at: 1316.89 for period = 0.514711
+CPU completed CPU service to Job92 at 1317.4
+Job93 start CPU service at: 1317.4 for period = 2.97739
+CPU completed CPU service to Job93 at 1320.38
+Job89 start CPU service at: 1320.38 for period = 0.103035
+CPU completed CPU service to Job89 at 1320.48
+Job90 start CPU service at: 1320.48 for period = 0.770898
+CPU completed CPU service to Job90 at 1321.25
+Disk completion disk burst of Job91 at: 1321.52
+Job94 start Disk service at: 1321.52 for period: 0.526347
+Job91 start CPU service at: 1321.52 for period = 1.53338
+Disk completion disk burst of Job94 at: 1322.05
+Job92 start Disk service at: 1322.05 for period: 1.27873
+CPU completed CPU service to Job91 at 1323.05
+Job94 start CPU service at: 1323.05 for period = 2.19439
+Disk completion disk burst of Job92 at: 1323.32
+Job93 start Disk service at: 1323.32 for period: 0.866126
+Disk completion disk burst of Job93 at: 1324.19
+Job89 start Disk service at: 1324.19 for period: 0
+Disk completion disk burst of Job89 at: 1324.19
+Job89 terminating at: 1324.19 sojourn time: 705.571 wait time: 683.38
+Job90 start Disk service at: 1324.19 for period: 0.764055
+Job95 acquired 43 memory at 1324.19 wait 674.678
+Disk completion disk burst of Job90 at: 1324.96
+Job91 start Disk service at: 1324.96 for period: 2.76131
+CPU completed CPU service to Job94 at 1325.25
+Job92 start CPU service at: 1325.25 for period = 0.65051
+CPU completed CPU service to Job92 at 1325.9
+Job93 start CPU service at: 1325.9 for period = 0.513441
+CPU completed CPU service to Job93 at 1326.41
+Job95 start CPU service at: 1326.41 for period = 1.29733
+CPU completed CPU service to Job95 at 1327.71
+Job90 start CPU service at: 1327.71 for period = 0.0602716
+Disk completion disk burst of Job91 at: 1327.72
+Job91 terminating at: 1327.72 sojourn time: 704.501 wait time: 661.992
+Job94 start Disk service at: 1327.72 for period: 1.76954
+Job96 acquired 24 memory at 1327.72 wait 675.277
+CPU completed CPU service to Job90 at 1327.77
+Job96 start CPU service at: 1327.77 for period = 0.793827
+CPU completed CPU service to Job96 at 1328.56
+Disk completion disk burst of Job94 at: 1329.49
+Job92 start Disk service at: 1329.49 for period: 0.362652
+Job94 start CPU service at: 1329.49 for period = 12.5367
+Disk completion disk burst of Job92 at: 1329.85
+Job93 start Disk service at: 1329.85 for period: 0.141183
+Disk completion disk burst of Job93 at: 1329.99
+Job95 start Disk service at: 1329.99 for period: 5.55044
+Disk completion disk burst of Job95 at: 1335.54
+Job90 start Disk service at: 1335.54 for period: 0
+Disk completion disk burst of Job90 at: 1335.54
+Job90 terminating at: 1335.54 sojourn time: 713.994 wait time: 696.925
+Job96 start Disk service at: 1335.54 for period: 6.0097
+Job97 acquired 57 memory at 1335.54 wait 676.821
+Disk completion disk burst of Job96 at: 1341.55
+CPU completed CPU service to Job94 at 1342.02
+Job94 start Disk service at: 1342.02 for period: 0.38609
+Job92 start CPU service at: 1342.02 for period = 0
+CPU completed CPU service to Job92 at 1342.02
+Job93 start CPU service at: 1342.02 for period = 0.513441
+Disk completion disk burst of Job94 at: 1342.41
+Job92 start Disk service at: 1342.41 for period: 1.48181
+CPU completed CPU service to Job93 at 1342.54
+Job95 start CPU service at: 1342.54 for period = 0.145469
+CPU completed CPU service to Job95 at 1342.68
+Job97 start CPU service at: 1342.68 for period = 5.76262
+Disk completion disk burst of Job92 at: 1343.89
+Job92 terminating at: 1343.89 sojourn time: 713.824 wait time: 706.552
+Job93 start Disk service at: 1343.89 for period: 0.660325
+Job98 acquired 28 memory at 1343.89 wait 669.529
+Disk completion disk burst of Job93 at: 1344.55
+Job95 start Disk service at: 1344.55 for period: 7.77504
+CPU completed CPU service to Job97 at 1348.44
+Job96 start CPU service at: 1348.44 for period = 0.793827
+CPU completed CPU service to Job96 at 1349.24
+Job94 start CPU service at: 1349.24 for period = 0.153047
+CPU completed CPU service to Job94 at 1349.39
+Job98 start CPU service at: 1349.39 for period = 2.28982
+CPU completed CPU service to Job98 at 1351.68
+Job93 start CPU service at: 1351.68 for period = 0.417619
+CPU completed CPU service to Job93 at 1352.1
+Disk completion disk burst of Job95 at: 1352.33
+Job97 start Disk service at: 1352.33 for period: 2.92643
+Job95 start CPU service at: 1352.33 for period = 0.680372
+CPU completed CPU service to Job95 at 1353.01
+Disk completion disk burst of Job97 at: 1355.25
+Job96 start Disk service at: 1355.25 for period: 6.0097
+Job97 start CPU service at: 1355.25 for period = 1.25733
+CPU completed CPU service to Job97 at 1356.51
+Disk completion disk burst of Job96 at: 1361.26
+Job94 start Disk service at: 1361.26 for period: 2.48702
+Job96 start CPU service at: 1361.26 for period = 0.163151
+CPU completed CPU service to Job96 at 1361.43
+Disk completion disk burst of Job94 at: 1363.75
+Job98 start Disk service at: 1363.75 for period: 0.267694
+Job94 start CPU service at: 1363.75 for period = 0
+CPU completed CPU service to Job94 at 1363.75
+Disk completion disk burst of Job98 at: 1364.02
+Job93 start Disk service at: 1364.02 for period: 0.22039
+Job98 start CPU service at: 1364.02 for period = 1.57514
+Disk completion disk burst of Job93 at: 1364.24
+Job95 start Disk service at: 1364.24 for period: 5.93131
+CPU completed CPU service to Job98 at 1365.59
+Job93 start CPU service at: 1365.59 for period = 2.56264
+CPU completed CPU service to Job93 at 1368.15
+Disk completion disk burst of Job95 at: 1370.17
+Job97 start Disk service at: 1370.17 for period: 1.88079
+Job95 start CPU service at: 1370.17 for period = 0.488599
+CPU completed CPU service to Job95 at 1370.66
+Disk completion disk burst of Job97 at: 1372.05
+Job96 start Disk service at: 1372.05 for period: 3.11485
+Job97 start CPU service at: 1372.05 for period = 2.56775
+CPU completed CPU service to Job97 at 1374.62
+Disk completion disk burst of Job96 at: 1375.16
+Job94 start Disk service at: 1375.16 for period: 1.07327
+Job96 start CPU service at: 1375.16 for period = 0.184102
+CPU completed CPU service to Job96 at 1375.35
+Disk completion disk burst of Job94 at: 1376.24
+Job94 terminating at: 1376.24 sojourn time: 741.98 wait time: 710.499
+Job98 start Disk service at: 1376.24 for period: 0.277516
+Job99 acquired 40 memory at 1376.24 wait 687.363
+Job99 start CPU service at: 1376.24 for period = 0.0310095
+CPU completed CPU service to Job99 at 1376.27
+Disk completion disk burst of Job98 at: 1376.51
+Job93 start Disk service at: 1376.51 for period: 0.173578
+Job98 start CPU service at: 1376.51 for period = 0.744877
+Disk completion disk burst of Job93 at: 1376.69
+Job95 start Disk service at: 1376.69 for period: 0.323107
+Disk completion disk burst of Job95 at: 1377.01
+Job95 terminating at: 1377.01 sojourn time: 727.498 wait time: 705.307
+Job97 start Disk service at: 1377.01 for period: 2.92643
+Job100 acquired 43 memory at 1377.01 wait 672.881
+Job101 acquired 10 memory at 1377.01 wait 671.652
+CPU completed CPU service to Job98 at 1377.26
+Job93 start CPU service at: 1377.26 for period = 0
+CPU completed CPU service to Job93 at 1377.26
+Job100 start CPU service at: 1377.26 for period = 0.178847
+CPU completed CPU service to Job100 at 1377.44
+Job101 start CPU service at: 1377.44 for period = 7.85926
+Disk completion disk burst of Job97 at: 1379.94
+Job96 start Disk service at: 1379.94 for period: 0
+Disk completion disk burst of Job96 at: 1379.94
+Job96 terminating at: 1379.94 sojourn time: 727.498 wait time: 710.429
+Job99 start Disk service at: 1379.94 for period: 6.84352
+CPU completed CPU service to Job101 at 1385.3
+Job97 start CPU service at: 1385.3 for period = 8.34005
+Disk completion disk burst of Job99 at: 1386.78
+Job98 start Disk service at: 1386.78 for period: 0.0553338
+Disk completion disk burst of Job98 at: 1386.84
+Job93 start Disk service at: 1386.84 for period: 0.299639
+Disk completion disk burst of Job93 at: 1387.14
+Job93 terminating at: 1387.14 sojourn time: 752.927 wait time: 742.894
+Job100 start Disk service at: 1387.14 for period: 1.09055
+Job102 acquired 37 memory at 1387.14 wait 680.108
+Job103 acquired 32 memory at 1387.14 wait 668.775
+Disk completion disk burst of Job100 at: 1388.23
+Job101 start Disk service at: 1388.23 for period: 0.209743
+Disk completion disk burst of Job101 at: 1388.44
+CPU completed CPU service to Job97 at 1393.64
+Job97 start Disk service at: 1393.64 for period: 2.58971
+Job99 start CPU service at: 1393.64 for period = 0.0310095
+CPU completed CPU service to Job99 at 1393.67
+Job98 start CPU service at: 1393.67 for period = 0
+CPU completed CPU service to Job98 at 1393.67
+Job102 start CPU service at: 1393.67 for period = 7.63703
+Disk completion disk burst of Job97 at: 1396.23
+Job99 start Disk service at: 1396.23 for period: 1.34462
+Disk completion disk burst of Job99 at: 1397.57
+Job98 start Disk service at: 1397.57 for period: 0.207517
+Disk completion disk burst of Job98 at: 1397.78
+Job98 terminating at: 1397.78 sojourn time: 723.418 wait time: 718
+Job104 acquired 18 memory at 1397.78 wait 674.659
+CPU completed CPU service to Job102 at 1401.31
+Job102 start Disk service at: 1401.31 for period: 7.06831
+Job103 start CPU service at: 1401.31 for period = 0.0996919
+CPU completed CPU service to Job103 at 1401.41
+Job100 start CPU service at: 1401.41 for period = 0.178847
+CPU completed CPU service to Job100 at 1401.58
+Job101 start CPU service at: 1401.58 for period = 7.85926
+Disk completion disk burst of Job102 at: 1408.37
+Job103 start Disk service at: 1408.37 for period: 0.301501
+Disk completion disk burst of Job103 at: 1408.68
+Job100 start Disk service at: 1408.68 for period: 5.55044
+CPU completed CPU service to Job101 at 1409.44
+Job97 start CPU service at: 1409.44 for period = 2.40064
+CPU completed CPU service to Job97 at 1411.84
+Job99 start CPU service at: 1411.84 for period = 0.0135649
+CPU completed CPU service to Job99 at 1411.86
+Job104 start CPU service at: 1411.86 for period = 0.163907
+CPU completed CPU service to Job104 at 1412.02
+Job102 start CPU service at: 1412.02 for period = 6.12557
+Disk completion disk burst of Job100 at: 1414.23
+Job101 start Disk service at: 1414.23 for period: 0.062388
+Disk completion disk burst of Job101 at: 1414.29
+Job97 start Disk service at: 1414.29 for period: 0
+Disk completion disk burst of Job97 at: 1414.29
+Job97 terminating at: 1414.29 sojourn time: 755.569 wait time: 724.917
+Job99 start Disk service at: 1414.29 for period: 5.82905
+Job105 acquired 59 memory at 1414.29 wait 678.174
+CPU completed CPU service to Job102 at 1418.15
+Job103 start CPU service at: 1418.15 for period = 0.0996919
+CPU completed CPU service to Job103 at 1418.25
+Job100 start CPU service at: 1418.25 for period = 0.178847
+CPU completed CPU service to Job100 at 1418.43
+Job101 start CPU service at: 1418.43 for period = 0.10365
+CPU completed CPU service to Job101 at 1418.53
+Job105 start CPU service at: 1418.53 for period = 0.263669
+CPU completed CPU service to Job105 at 1418.79
+Disk completion disk burst of Job99 at: 1420.12
+Job104 start Disk service at: 1420.12 for period: 6.51675
+Job99 start CPU service at: 1420.12 for period = 0
+CPU completed CPU service to Job99 at 1420.12
+Disk completion disk burst of Job104 at: 1426.63
+Job102 start Disk service at: 1426.63 for period: 10.7745
+Job104 start CPU service at: 1426.63 for period = 0.163907
+CPU completed CPU service to Job104 at 1426.8
+Disk completion disk burst of Job102 at: 1437.41
+Job103 start Disk service at: 1437.41 for period: 2.1567
+Job102 start CPU service at: 1437.41 for period = 1.2964
+CPU completed CPU service to Job102 at 1438.71
+Disk completion disk burst of Job103 at: 1439.57
+Job100 start Disk service at: 1439.57 for period: 6.48641
+Job103 start CPU service at: 1439.57 for period = 0.0436094
+CPU completed CPU service to Job103 at 1439.61
+Disk completion disk burst of Job100 at: 1446.05
+Job101 start Disk service at: 1446.05 for period: 0.0643305
+Job100 start CPU service at: 1446.05 for period = 0.892419
+Disk completion disk burst of Job101 at: 1446.12
+Job105 start Disk service at: 1446.12 for period: 2.42561
+CPU completed CPU service to Job100 at 1446.94
+Job101 start CPU service at: 1446.94 for period = 0
+CPU completed CPU service to Job101 at 1446.94
+Disk completion disk burst of Job105 at: 1448.54
+Job99 start Disk service at: 1448.54 for period: 4.39826
+Job105 start CPU service at: 1448.54 for period = 1.58527
+CPU completed CPU service to Job105 at 1450.13
+Disk completion disk burst of Job99 at: 1452.94
+Job104 start Disk service at: 1452.94 for period: 9.71433
+Job99 start CPU service at: 1452.94 for period = 0
+CPU completed CPU service to Job99 at 1452.94
+Disk completion disk burst of Job104 at: 1462.65
+Job102 start Disk service at: 1462.65 for period: 9.29062
+Job104 start CPU service at: 1462.65 for period = 0.622013
+CPU completed CPU service to Job104 at 1463.28
+Disk completion disk burst of Job102 at: 1471.95
+Job103 start Disk service at: 1471.95 for period: 1.85907
+Job102 start CPU service at: 1471.95 for period = 0.315787
+CPU completed CPU service to Job102 at 1472.26
+Disk completion disk burst of Job103 at: 1473.8
+Job100 start Disk service at: 1473.8 for period: 2.57132
+Job103 start CPU service at: 1473.8 for period = 0
+CPU completed CPU service to Job103 at 1473.8
+Disk completion disk burst of Job100 at: 1476.38
+Job101 start Disk service at: 1476.38 for period: 0.156506
+Job100 start CPU service at: 1476.38 for period = 0.222951
+Disk completion disk burst of Job101 at: 1476.53
+Job105 start Disk service at: 1476.53 for period: 1.56628
+CPU completed CPU service to Job100 at 1476.6
+Job101 start CPU service at: 1476.6 for period = 0
+CPU completed CPU service to Job101 at 1476.6
+Disk completion disk burst of Job105 at: 1478.1
+Job99 start Disk service at: 1478.1 for period: 5.72595
+Job105 start CPU service at: 1478.1 for period = 0.50121
+CPU completed CPU service to Job105 at 1478.6
+Disk completion disk burst of Job99 at: 1483.82
+Job99 terminating at: 1483.82 sojourn time: 794.95 wait time: 770.733
+Job104 start Disk service at: 1483.82 for period: 6.7576
+Job106 acquired 43 memory at 1483.82 wait 732.454
+Job106 start CPU service at: 1483.82 for period = 1.07152
+CPU completed CPU service to Job106 at 1484.9
+Disk completion disk burst of Job104 at: 1490.58
+Job102 start Disk service at: 1490.58 for period: 0
+Disk completion disk burst of Job102 at: 1490.58
+Job104 start CPU service at: 1490.58 for period = 1.31634
+Job102 terminating at: 1490.58 sojourn time: 783.553 wait time: 741.045
+Job103 start Disk service at: 1490.58 for period: 0.301501
+Job107 acquired 40 memory at 1490.58 wait 724.698
+Disk completion disk burst of Job103 at: 1490.88
+Job100 start Disk service at: 1490.88 for period: 3.88118
+CPU completed CPU service to Job104 at 1491.9
+Job107 start CPU service at: 1491.9 for period = 0.0310095
+CPU completed CPU service to Job107 at 1491.93
+Job103 start CPU service at: 1491.93 for period = 0
+CPU completed CPU service to Job103 at 1491.93
+Disk completion disk burst of Job100 at: 1494.76
+Job101 start Disk service at: 1494.76 for period: 0.246929
+Job100 start CPU service at: 1494.76 for period = 0.145469
+CPU completed CPU service to Job100 at 1494.91
+Disk completion disk burst of Job101 at: 1495.01
+Job101 terminating at: 1495.01 sojourn time: 789.652 wait time: 773.09
+Job105 start Disk service at: 1495.01 for period: 2.26985
+Disk completion disk burst of Job105 at: 1497.28
+Job106 start Disk service at: 1497.28 for period: 5.1006
+Job105 start CPU service at: 1497.28 for period = 1.87981
+CPU completed CPU service to Job105 at 1499.16
+Disk completion disk burst of Job106 at: 1502.38
+Job104 start Disk service at: 1502.38 for period: 0
+Disk completion disk burst of Job104 at: 1502.38
+Job106 start CPU service at: 1502.38 for period = 1.04057
+Job107 start Disk service at: 1502.38 for period: 2.0356
+CPU completed CPU service to Job106 at 1503.42
+Job104 start CPU service at: 1503.42 for period = 0.383871
+CPU completed CPU service to Job104 at 1503.81
+Disk completion disk burst of Job107 at: 1504.42
+Job103 start Disk service at: 1504.42 for period: 0.794409
+Job107 start CPU service at: 1504.42 for period = 0.00657166
+CPU completed CPU service to Job107 at 1504.42
+Disk completion disk burst of Job103 at: 1505.21
+Job103 terminating at: 1505.21 sojourn time: 786.851 wait time: 781.195
+Job100 start Disk service at: 1505.21 for period: 0
+Disk completion disk burst of Job100 at: 1505.21
+Job105 start Disk service at: 1505.21 for period: 1.74545
+Job100 start CPU service at: 1505.21 for period = 0.81439
+CPU completed CPU service to Job100 at 1506.03
+Disk completion disk burst of Job105 at: 1506.96
+Job106 start Disk service at: 1506.96 for period: 3.56722
+Job105 start CPU service at: 1506.96 for period = 0.50398
+CPU completed CPU service to Job105 at 1507.46
+Disk completion disk burst of Job106 at: 1510.52
+Job104 start Disk service at: 1510.52 for period: 0
+Disk completion disk burst of Job104 at: 1510.52
+Job106 start CPU service at: 1510.52 for period = 0.329902
+Job104 terminating at: 1510.52 sojourn time: 787.404 wait time: 761.765
+Job107 start Disk service at: 1510.52 for period: 11.2855
+Job108 acquired 55 memory at 1510.52 wait 728.62
+CPU completed CPU service to Job106 at 1510.85
+Job108 start CPU service at: 1510.85 for period = 1.53178
+CPU completed CPU service to Job108 at 1512.39
+Disk completion disk burst of Job107 at: 1521.81
+Job100 start Disk service at: 1521.81 for period: 0
+Disk completion disk burst of Job100 at: 1521.81
+Job107 start CPU service at: 1521.81 for period = 0.0300648
+Job100 terminating at: 1521.81 sojourn time: 817.679 wait time: 795.488
+Job105 start Disk service at: 1521.81 for period: 0
+Job109 acquired 57 memory at 1521.81 wait 733.625
+Disk completion disk burst of Job105 at: 1521.81
+Job105 terminating at: 1521.81 sojourn time: 785.696 wait time: 772.954
+Job106 start Disk service at: 1521.81 for period: 0.83084
+Job110 acquired 57 memory at 1521.81 wait 733.577
+CPU completed CPU service to Job107 at 1521.84
+Job109 start CPU service at: 1521.84 for period = 4.29995
+Disk completion disk burst of Job106 at: 1522.64
+Job108 start Disk service at: 1522.64 for period: 0.612227
+Disk completion disk burst of Job108 at: 1523.25
+Job107 start Disk service at: 1523.25 for period: 4.72229
+CPU completed CPU service to Job109 at 1526.14
+Job110 start CPU service at: 1526.14 for period = 10.6272
+Disk completion disk burst of Job107 at: 1527.98
+Job109 start Disk service at: 1527.98 for period: 3.18934
+Disk completion disk burst of Job109 at: 1531.16
+CPU completed CPU service to Job110 at 1536.77
+Job110 start Disk service at: 1536.77 for period: 0.660906
+Job106 start CPU service at: 1536.77 for period = 0.169775
+CPU completed CPU service to Job106 at 1536.94
+Job108 start CPU service at: 1536.94 for period = 1.99479
+Disk completion disk burst of Job110 at: 1537.43
+Job106 start Disk service at: 1537.43 for period: 3.16359
+CPU completed CPU service to Job108 at 1538.93
+Job107 start CPU service at: 1538.93 for period = 0.00793789
+CPU completed CPU service to Job107 at 1538.94
+Job109 start CPU service at: 1538.94 for period = 1.34513
+CPU completed CPU service to Job109 at 1540.29
+Job110 start CPU service at: 1540.29 for period = 1.48066
+Disk completion disk burst of Job106 at: 1540.59
+Job108 start Disk service at: 1540.59 for period: 2.4017
+CPU completed CPU service to Job110 at 1541.77
+Job106 start CPU service at: 1541.77 for period = 0
+CPU completed CPU service to Job106 at 1541.77
+Disk completion disk burst of Job108 at: 1542.99
+Job107 start Disk service at: 1542.99 for period: 3.45188
+Job108 start CPU service at: 1542.99 for period = 1.08431
+CPU completed CPU service to Job108 at 1544.08
+Disk completion disk burst of Job107 at: 1546.45
+Job109 start Disk service at: 1546.45 for period: 2.12704
+Job107 start CPU service at: 1546.45 for period = 0
+CPU completed CPU service to Job107 at 1546.45
+Disk completion disk burst of Job109 at: 1548.57
+Job110 start Disk service at: 1548.57 for period: 0.0489633
+Job109 start CPU service at: 1548.57 for period = 0.182345
+Disk completion disk burst of Job110 at: 1548.62
+Job106 start Disk service at: 1548.62 for period: 4.28613
+CPU completed CPU service to Job109 at 1548.75
+Job110 start CPU service at: 1548.75 for period = 4.79615
+Disk completion disk burst of Job106 at: 1552.91
+Job108 start Disk service at: 1552.91 for period: 2.46603
+CPU completed CPU service to Job110 at 1553.55
+Job106 start CPU service at: 1553.55 for period = 0
+CPU completed CPU service to Job106 at 1553.55
+Disk completion disk burst of Job108 at: 1555.37
+Job107 start Disk service at: 1555.37 for period: 2.64614
+Job108 start CPU service at: 1555.37 for period = 1.91513
+CPU completed CPU service to Job108 at 1557.29
+Disk completion disk burst of Job107 at: 1558.02
+Job107 terminating at: 1558.02 sojourn time: 792.136 wait time: 767.919
+Job109 start Disk service at: 1558.02 for period: 3.88358
+Job111 acquired 37 memory at 1558.02 wait 768.105
+Job111 start CPU service at: 1558.02 for period = 3.84007
+CPU completed CPU service to Job111 at 1561.86
+Disk completion disk burst of Job109 at: 1561.9
+Job110 start Disk service at: 1561.9 for period: 1.30516
+Job109 start CPU service at: 1561.9 for period = 0.152824
+CPU completed CPU service to Job109 at 1562.06
+Disk completion disk burst of Job110 at: 1563.21
+Job106 start Disk service at: 1563.21 for period: 2.63152
+Job110 start CPU service at: 1563.21 for period = 8.33468
+Disk completion disk burst of Job106 at: 1565.84
+Job106 terminating at: 1565.84 sojourn time: 814.469 wait time: 792.278
+Job108 start Disk service at: 1565.84 for period: 0.666145
+Job112 acquired 33 memory at 1565.84 wait 772.92
+Disk completion disk burst of Job108 at: 1566.51
+Job111 start Disk service at: 1566.51 for period: 0.993845
+Disk completion disk burst of Job111 at: 1567.5
+Job109 start Disk service at: 1567.5 for period: 1.1234
+Disk completion disk burst of Job109 at: 1568.62
+CPU completed CPU service to Job110 at 1571.54
+Job110 start Disk service at: 1571.54 for period: 2.5083
+Job112 start CPU service at: 1571.54 for period = 0.0309555
+CPU completed CPU service to Job112 at 1571.57
+Job108 start CPU service at: 1571.57 for period = 0
+CPU completed CPU service to Job108 at 1571.57
+Job111 start CPU service at: 1571.57 for period = 4.98682
+Disk completion disk burst of Job110 at: 1574.05
+Job112 start Disk service at: 1574.05 for period: 3.18025
+CPU completed CPU service to Job111 at 1576.56
+Job109 start CPU service at: 1576.56 for period = 2.11915
+Disk completion disk burst of Job112 at: 1577.23
+Job108 start Disk service at: 1577.23 for period: 1.02587
+Disk completion disk burst of Job108 at: 1578.26
+Job108 terminating at: 1578.26 sojourn time: 796.353 wait time: 782.655
+Job111 start Disk service at: 1578.26 for period: 0.559444
+Job113 acquired 34 memory at 1578.26 wait 781.679
+Job114 acquired 17 memory at 1578.26 wait 778.937
+CPU completed CPU service to Job109 at 1578.68
+Job110 start CPU service at: 1578.68 for period = 0
+CPU completed CPU service to Job110 at 1578.68
+Job112 start CPU service at: 1578.68 for period = 1.99443
+Disk completion disk burst of Job111 at: 1578.82
+Job109 start Disk service at: 1578.82 for period: 0
+Disk completion disk burst of Job109 at: 1578.82
+Job110 start Disk service at: 1578.82 for period: 0.657134
+Disk completion disk burst of Job110 at: 1579.47
+CPU completed CPU service to Job112 at 1580.67
+Job112 start Disk service at: 1580.67 for period: 8.54934
+Job113 start CPU service at: 1580.67 for period = 0.0248384
+CPU completed CPU service to Job113 at 1580.7
+Job114 start CPU service at: 1580.7 for period = 0.297552
+CPU completed CPU service to Job114 at 1581
+Job111 start CPU service at: 1581 for period = 10.8935
+Disk completion disk burst of Job112 at: 1589.22
+Job113 start Disk service at: 1589.22 for period: 3.5066
+CPU completed CPU service to Job111 at 1591.89
+Job109 start CPU service at: 1591.89 for period = 6.16249
+Disk completion disk burst of Job113 at: 1592.73
+Job114 start Disk service at: 1592.73 for period: 4.36931
+Disk completion disk burst of Job114 at: 1597.1
+Job111 start Disk service at: 1597.1 for period: 0.944926
+Disk completion disk burst of Job111 at: 1598.04
+CPU completed CPU service to Job109 at 1598.05
+Job109 start Disk service at: 1598.05 for period: 0
+Job110 start CPU service at: 1598.05 for period = 0
+Disk completion disk burst of Job109 at: 1598.05
+CPU completed CPU service to Job110 at 1598.05
+Job110 start Disk service at: 1598.05 for period: 1.0618
+Job112 start CPU service at: 1598.05 for period = 2.33782
+Disk completion disk burst of Job110 at: 1599.11
+Job110 terminating at: 1599.11 sojourn time: 810.882 wait time: 779.401
+Job115 acquired 57 memory at 1599.11 wait 793.515
+CPU completed CPU service to Job112 at 1600.39
+Job112 start Disk service at: 1600.39 for period: 6.10965
+Job113 start CPU service at: 1600.39 for period = 0.0874353
+CPU completed CPU service to Job113 at 1600.48
+Job114 start CPU service at: 1600.48 for period = 1.26655
+CPU completed CPU service to Job114 at 1601.74
+Job111 start CPU service at: 1601.74 for period = 4.31321
+CPU completed CPU service to Job111 at 1606.06
+Job109 start CPU service at: 1606.06 for period = 6.0665
+Disk completion disk burst of Job112 at: 1606.5
+Job113 start Disk service at: 1606.5 for period: 4.21229
+Disk completion disk burst of Job113 at: 1610.71
+Job114 start Disk service at: 1610.71 for period: 1.17346
+Disk completion disk burst of Job114 at: 1611.89
+Job111 start Disk service at: 1611.89 for period: 0
+Disk completion disk burst of Job111 at: 1611.89
+Job111 terminating at: 1611.89 sojourn time: 821.971 wait time: 795.439
+CPU completed CPU service to Job109 at 1612.12
+Job109 start Disk service at: 1612.12 for period: 0
+Job115 start CPU service at: 1612.12 for period = 8.35529
+Disk completion disk burst of Job109 at: 1612.12
+Job109 terminating at: 1612.12 sojourn time: 823.94 wait time: 793.288
+CPU completed CPU service to Job115 at 1620.48
+Job115 start Disk service at: 1620.48 for period: 0.445416
+Job112 start CPU service at: 1620.48 for period = 0.404113
+CPU completed CPU service to Job112 at 1620.88
+Job113 start CPU service at: 1620.88 for period = 0.00391389
+CPU completed CPU service to Job113 at 1620.89
+Job114 start CPU service at: 1620.89 for period = 0.833374
+Disk completion disk burst of Job115 at: 1620.93
+Job112 start Disk service at: 1620.93 for period: 1.40338
+CPU completed CPU service to Job114 at 1621.72
+Job115 start CPU service at: 1621.72 for period = 9.23683
+Disk completion disk burst of Job112 at: 1622.33
+Job113 start Disk service at: 1622.33 for period: 0.611466
+Disk completion disk burst of Job113 at: 1622.94
+Job114 start Disk service at: 1622.94 for period: 2.04617
+Disk completion disk burst of Job114 at: 1624.99
+CPU completed CPU service to Job115 at 1630.96
+Job115 start Disk service at: 1630.96 for period: 0.615815
+Job112 start CPU service at: 1630.96 for period = 3.60383
+Disk completion disk burst of Job115 at: 1631.57
+CPU completed CPU service to Job112 at 1634.56
+Job112 start Disk service at: 1634.56 for period: 0
+Job113 start CPU service at: 1634.56 for period = 0.0443063
+Disk completion disk burst of Job112 at: 1634.56
+Job112 terminating at: 1634.56 sojourn time: 841.642 wait time: 814.028
+CPU completed CPU service to Job113 at 1634.61
+Job113 start Disk service at: 1634.61 for period: 2.77492
+Job114 start CPU service at: 1634.61 for period = 0.13613
+CPU completed CPU service to Job114 at 1634.74
+Job115 start CPU service at: 1634.74 for period = 2.73626
+Disk completion disk burst of Job113 at: 1637.38
+Job114 start Disk service at: 1637.38 for period: 3.67244
+CPU completed CPU service to Job115 at 1637.48
+Job113 start CPU service at: 1637.48 for period = 0.00230417
+CPU completed CPU service to Job113 at 1637.48
+Disk completion disk burst of Job114 at: 1641.05
+Job115 start Disk service at: 1641.05 for period: 0.984918
+Job114 start CPU service at: 1641.05 for period = 0.0969099
+CPU completed CPU service to Job114 at 1641.15
+Disk completion disk burst of Job115 at: 1642.04
+Job113 start Disk service at: 1642.04 for period: 0
+Disk completion disk burst of Job113 at: 1642.04
+Job115 start CPU service at: 1642.04 for period = 0
+Job114 start Disk service at: 1642.04 for period: 2.58311
+CPU completed CPU service to Job115 at 1642.04
+Job113 start CPU service at: 1642.04 for period = 0.0470222
+CPU completed CPU service to Job113 at 1642.09
+Disk completion disk burst of Job114 at: 1644.62
+Job115 start Disk service at: 1644.62 for period: 3.67678
+Job114 start CPU service at: 1644.62 for period = 0
+CPU completed CPU service to Job114 at 1644.62
+Disk completion disk burst of Job115 at: 1648.3
+Job113 start Disk service at: 1648.3 for period: 0
+Disk completion disk burst of Job113 at: 1648.3
+Job115 start CPU service at: 1648.3 for period = 0
+Job114 start Disk service at: 1648.3 for period: 0.861823
+CPU completed CPU service to Job115 at 1648.3
+Job113 start CPU service at: 1648.3 for period = 0.0466291
+CPU completed CPU service to Job113 at 1648.34
+Disk completion disk burst of Job114 at: 1649.16
+Job114 terminating at: 1649.16 sojourn time: 849.84 wait time: 832.503
+Job115 start Disk service at: 1649.16 for period: 1.223
+Disk completion disk burst of Job115 at: 1650.38
+Job113 start Disk service at: 1650.38 for period: 0
+Disk completion disk burst of Job113 at: 1650.38
+Job115 start CPU service at: 1650.38 for period = 0
+Job113 terminating at: 1650.38 sojourn time: 853.805 wait time: 842.443
+CPU completed CPU service to Job115 at 1650.38
+Job115 start Disk service at: 1650.38 for period: 1.72136
+Disk completion disk burst of Job115 at: 1652.1
+Job115 start CPU service at: 1652.1 for period = 0
+CPU completed CPU service to Job115 at 1652.1
+Job115 start Disk service at: 1652.1 for period: 1.65607
+Disk completion disk burst of Job115 at: 1653.76
+Job115 terminating at: 1653.76 sojourn time: 848.16 wait time: 817.509
+The proportion of rejected jobs is: 0
+*** End of Simulation
